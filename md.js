@@ -24,23 +24,46 @@
       .replace(/\\([A-Za-z]+)/g, '$1'));
   }
 
+  function parseArray(inner) {
+    var items = [];
+    var re = /\s*(?:"([^"\\]*(?:\\.[^"\\]*)*)"|\x27([^\x27\\]*(?:\\.[^\x27\\]*)*)\x27|([^,]+))\s*(?:,|$)/g;
+    var match;
+    while ((match = re.exec(inner)) !== null) {
+      var val = match[1] !== undefined ? match[1] : (match[2] !== undefined ? match[2] : match[3]);
+      if (val && val.trim()) items.push(val.trim());
+      if (re.lastIndex === match.index) break;
+    }
+    return items;
+  }
+
   function parseFrontmatter(src) {
     var m = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?/.exec(src);
     if (!m) return { meta: {}, body: src };
     var meta = {};
-    m[1].split(/\r?\n/).forEach(function (line) {
+    var lines = m[1].split(/\r?\n/);
+    var currentKey = null;
+
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i];
       var mm = /^([A-Za-z_][\w-]*):\s*(.*)$/.exec(line);
-      if (!mm) return;
-      var v = mm[2].trim();
-      if (v.charAt(0) === '[' && v.charAt(v.length - 1) === ']') {
-        v = v.slice(1, -1).split(',').map(function (x) {
-          return x.trim().replace(/^["']|["']$/g, '');
-        }).filter(Boolean);
-      } else {
-        v = v.replace(/^["']|["']$/g, '');
+      if (mm) {
+        currentKey = mm[1];
+        var v = mm[2].trim();
+        if (!v) {
+          meta[currentKey] = [];
+        } else if (v.charAt(0) === '[' && v.charAt(v.length - 1) === ']') {
+          meta[currentKey] = parseArray(v.slice(1, -1));
+          currentKey = null;
+        } else {
+          meta[currentKey] = v.replace(/^["\x27]|["\x27]$/g, '');
+          currentKey = null;
+        }
+      } else if (currentKey && /^\s*-\s+(.*)$/.test(line)) {
+        var item = /^\s*-\s+(.*)$/.exec(line)[1].trim().replace(/^["\x27]|["\x27]$/g, '');
+        if (!Array.isArray(meta[currentKey])) meta[currentKey] = [];
+        meta[currentKey].push(item);
       }
-      meta[mm[1]] = v;
-    });
+    }
     return { meta: meta, body: src.slice(m[0].length) };
   }
 

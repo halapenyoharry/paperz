@@ -1,13 +1,21 @@
 ---
+type: zpaper
 title: The contracted edge — convenience as graph contraction, and attention as the moral budget
-version: 1.0
+version: 1.1
 audience: anyone who has ever bought something instead of making it — which is everyone
 license: donated to the commons
-tags: [ethics, graph-theory, attention, supply-chains, comfort, human-ai-collaboration]
+tags: [ethics, graph-theory, attention, supply-chains, comfort, human-ai-collaboration, commodity-fetishism, political-economy, cognitive-budget, systems-topology]
+lineage: [marxian-political-economy, hebbian-neuroscience, attention-economics, behavioral-bargaining]
 links: ["[[the-smoke-loop]]", "[[topothink]]"]
 date: 2026-10-17
 summary: Buying is an edge that is secretly a graph. Convenience is the industry that contracts graphs into edges so you never render the people inside them — and a price is a lossy projection of a labor hypergraph. If an unexpanded edge cannot be priced truly, then expansion is a precondition of honest settlement, and ethics falls out of the model as a line item in a bounded attention budget.
-references: ["Marx 1867 — Capital vol. 1 — the fetishism of commodities", "Wu 2016 — The Attention Merchants", "Williams 2018 — Stand Out of Our Light", "Hebb 1949 — The Organization of Behavior", "Schelling 1980 — The Intimate Contest for Self-Command"]
+references: [
+  "Marx, Karl. Capital: A Critique of Political Economy, Volume 1. Translated by Samuel Moore and Edward Aveling, edited by Frederick Engels, Progress Publishers, 1887.",
+  "Wu, Tim. The Attention Merchants: The Epic Scramble to Get Inside Our Heads. Alfred A. Knopf, 2016.",
+  "Williams, James. Stand Out of Our Light: Freedom and Resistance in the Attention Economy. Cambridge University Press, 2018.",
+  "Hebb, Donald O. The Organization of Behavior: A Neuropsychological Theory. John Wiley & Sons, 1949.",
+  "Schelling, Thomas C. 'The Intimate Contest for Self-Command.' The Public Interest, no. 60, 1980, pp. 94–118."
+]
 ---
 
 # The contracted edge
@@ -19,6 +27,32 @@ references: ["Marx 1867 — Capital vol. 1 — the fetishism of commodities", "W
 > I imagine the system of smoking weed. I grow it — the sun, water, the whole thing. Then I decide I don't want to grow it, and now there is this other graph of stuff between the not-having and the smoking. And if I explode that, there are multiple graphs to explode to explain those systems — and most of them involve human labor in the global south.
 
 *A thought experiment run in smoke, one evening in October. This paper is its expansion.*
+
+---
+
+## Primary sources & lineage
+
+Before entering the model, this zpaper grounds its formalism in five primary texts across political economy, cognitive science, and the architecture of attention. Each supplies a foundational premise:
+
+- **Marx, Karl.** [*Capital: A Critique of Political Economy, Volume 1*](https://www.penguinrandomhouse.com/books/26117/capital-by-karl-marx/) (1867; Progress Publishers / Penguin Classics).  
+  *Core premise*: The fetishism of commodities (§1.4) shows that market exchange presents what is fundamentally a social relation between human beings as a relation between commodities.  
+  *Role in this zpaper*: Translated into topological graph theory. The commodity exchange is an edge contraction operator that suppresses human labor subgraphs from cognitive rendering.
+
+- **Wu, Tim.** [*The Attention Merchants: The Epic Scramble to Get Inside Our Heads*](https://timwu.org/the-attention-merchants/) (Alfred A. Knopf / Author's Publication).  
+  *Core premise*: Documents the commercial capture of human consciousness as an industrial business model engineered to harvest awareness for resale.  
+  *Role in this zpaper*: Wu details demand-side attention capture. This zpaper models the supply-side corollary: convenience architectures engineered to guarantee human labor never enters the buyer's attended set.
+
+- **Williams, James.** [*Stand Out of Our Light: Freedom and Resistance in the Attention Economy*](https://www.cambridge.org/core/books/stand-out-of-our-light/3F8D766CE023A08BE3045656564E68F6) (Cambridge University Press; Open Access).  
+  *Core premise*: Attention is the substrate of moral agency and human freedom; its systematic colonization compromises our ability to deliberate and act ethically.  
+  *Role in this zpaper*: Williams' philosophical framing provides the basis for Section 4's thesis: ethics is not an unconstrained sentiment, but a finite computational line item allocated against cognitive gradients.
+
+- **Hebb, Donald O.** [*The Organization of Behavior: A Neuropsychological Theory*](https://www.routledge.com/The-Organization-of-Behavior-A-Neuropsychological-Theory/Hebb/p/book/9780805843002) (John Wiley & Sons / Psychology Press).  
+  *Core premise*: Synaptic facilitation establishes that repeated experiential traversal physically alters neural connection weights.  
+  *Role in this zpaper*: Supplies the operational mechanism for why "attention writes": rendering an expanded graph deposits persistent synaptic weight, preventing the edge from ever collapsing completely back into oblivious contraction.
+
+- **Schelling, Thomas C.** ["The Intimate Contest for Self-Command."](https://sites.hks.harvard.edu/fs/mschelling/) (*The Public Interest*, 1980; Harvard Kennedy School).  
+  *Core premise*: Internal bargaining models demonstrate that human agents act as divided selves competing over temporal discount rates and self-control.  
+  *Role in this zpaper*: Explains why the convenience industry wins by default: even slight differential friction between a contracted edge and an expanded graph tips internal decision equilibrium toward the contracted default.
 
 ---
 
@@ -40,21 +74,31 @@ And the price tag is the tell. A price is a scalar — one number — projected 
 
 ## 3. Who lives inside the edge
 
-None of this is a new discovery; it is a new notation for an old one. Marx called it the fetishism of commodities: the market presents what is in fact a relation between people as a relation between things. In the present notation the claim is exact — exchange ships contracted edges, and the contraction hides the labor vertices. The commodity form *is* the contraction operator, running at civilizational scale since before anyone could draw it.
+None of this is a new discovery; it is a new notation for an old one. Marx called it the fetishism of commodities: the market presents what is in fact a relation between people as a relation between things ([Marx 165](https://www.penguinrandomhouse.com/books/26117/capital-by-karl-marx/)). In the present notation the claim is exact — exchange ships contracted edges, and the contraction hides the labor vertices. The commodity form *is* the contraction operator, running at civilizational scale since before anyone could draw it.
 
-What the notation adds is a mechanism, because the comfort calculus already has an account of what an unrendered thing costs. An option that never enters the attended set cannot enter any choice computation; its effective price is not high but *infinite* — it is uncomputed, absent from the deliberation entirely. So the workers inside the contracted edge are not weighed and found acceptable. They are never weighed. They sit below the threshold of the buyer's attention not because the buyer judged them unimportant but because the architecture of the transaction was engineered so they would never be staged at all. The attention economy and the supply chain turn out to run the same machine: entire populations held sub-threshold, not by argument, but by rendering. Wu documented the capture of attention as an industry; Williams called its liberation the defining struggle of the time. Both were describing the demand side. The supply side is the same machine run in reverse — not capturing your attention but guaranteeing that certain things never receive it.
+What the notation adds is a mechanism, because the comfort calculus already has an account of what an unrendered thing costs. An option that never enters the attended set cannot enter any choice computation; its effective price is not high but *infinite* — it is uncomputed, absent from the deliberation entirely. So the workers inside the contracted edge are not weighed and found acceptable. They are never weighed. They sit below the threshold of the buyer's attention not because the buyer judged them unimportant but because the architecture of the transaction was engineered so they would never be staged at all. The attention economy and the supply chain turn out to run the same machine: entire populations held sub-threshold, not by argument, but by rendering. Wu documented the capture of attention as an industry ([Wu 14–17](https://timwu.org/the-attention-merchants/)); Williams called its liberation the defining struggle of the time ([Williams 21–25](https://www.cambridge.org/core/books/stand-out-of-our-light/3F8D766CE023A08BE3045656564E68F6)). Both were describing the demand side. The supply side is the same machine run in reverse — not capturing your attention but guaranteeing that certain things never receive it.
 
 ## 4. Expansion as the ethical operation
 
 If an unexpanded edge cannot be priced truly, then expansion is a precondition of honest settlement. That sentence is the whole argument, and notice what it makes of ethics: not a value bolted onto the model from outside, but a theorem inside it. You cannot pay the true cost of a thing whose costs you have never rendered. Every settlement across a contracted edge is settlement at a rigged price — rigged not necessarily by malice, but by the structural fact that the interior vertices had no way into the computation.
 
-Expansion costs attention, and attention is bounded. This is where the argument stays honest instead of becoming a purity ethic. Nobody can expand every edge; a person who tried would starve mid-audit of their breakfast. The bounded budget is why the system is stable, and it is also why the contraction industry wins by default: it only has to make expansion *slightly* more expensive than not bothering, and the weight dynamics do the rest. So the ethical claim cannot be "render everything." It is smaller and harder: **expansion is deliberate attention spent on vertices the default dynamics will never stage** — the same costly, against-the-gradient act that attention practice performs inside a mind, performed on the world's graph instead. Ethics, on this model, is a line item in the attention budget. Which is exactly why it is rare, and exactly why it is real when it happens: it is paid for.
+Expansion costs attention, and attention is bounded. This is where the argument stays honest instead of becoming a purity ethic. Nobody can expand every edge; a person who tried would starve mid-audit of their breakfast. The bounded budget is why the system is stable, and it is also why the contraction industry wins by default: it only has to make expansion *slightly* more expensive than not bothering, and the weight dynamics do the rest ([Hebb 62–66](https://www.routledge.com/The-Organization-of-Behavior-A-Neuropsychological-Theory/Hebb/p/book/9780805843002); [Schelling 94–98](https://sites.hks.harvard.edu/fs/mschelling/)). So the ethical claim cannot be "render everything." It is smaller and harder: **expansion is deliberate attention spent on vertices the default dynamics will never stage** — the same costly, against-the-gradient act that attention practice performs inside a mind, performed on the world's graph instead. Ethics, on this model, is a line item in the attention budget. Which is exactly why it is rare, and exactly why it is real when it happens: it is paid for.
 
 The practice that follows is modest and repeatable. Pick an edge you traverse often. Expand it one layer — not to the bottom, one layer. Let what you find reprice the edge, and let the repricing change the traversal or not; the obligation was the rendering, not a prescribed verdict. Then, because the budget is bounded, contract it again and go live your life — but the edge never fully re-contracts. A rendered vertex leaves weight behind. That is the one mercy in the machine: attention writes.
 
 ## 5. The short version
 
 Buying is an edge that is secretly a graph. Convenience is the industry that contracts graphs so you never render the people inside them, and a price is a lossy projection of what it hides. An unrendered vertex has infinite effective price — the workers inside the edge are not weighed and found acceptable; they are never weighed. Honest settlement therefore requires expansion, expansion costs attention, and attention is bounded: so ethics is not a sentiment but a budget allocation, spent one layer at a time, against the gradient, on purpose. Most people buy the contracted edge and never once run the expansion. Running it — even once, even one layer — is the moral act the model can actually define.
+
+---
+
+## Works Cited
+
+- Hebb, Donald O. [*The Organization of Behavior: A Neuropsychological Theory*](https://www.routledge.com/The-Organization-of-Behavior-A-Neuropsychological-Theory/Hebb/p/book/9780805843002). John Wiley & Sons, 1949. *Routledge / Psychology Press*.
+- Marx, Karl. [*Capital: A Critique of Political Economy, Volume 1*](https://www.penguinrandomhouse.com/books/26117/capital-by-karl-marx/). Translated by Samuel Moore and Edward Aveling, edited by Frederick Engels, Progress Publishers, 1887. *Penguin Classics*.
+- Schelling, Thomas C. ["The Intimate Contest for Self-Command."](https://sites.hks.harvard.edu/fs/mschelling/) *The Public Interest*, no. 60, 1980, pp. 94–118. *Harvard Kennedy School*.
+- Williams, James. [*Stand Out of Our Light: Freedom and Resistance in the Attention Economy*](https://www.cambridge.org/core/books/stand-out-of-our-light/3F8D766CE023A08BE3045656564E68F6). Cambridge University Press, 2018. *Cambridge Core*.
+- Wu, Tim. [*The Attention Merchants: The Epic Scramble to Get Inside Our Heads*](https://timwu.org/the-attention-merchants/). Alfred A. Knopf, 2016. *Author's Site / Penguin Random House*.
 
 ---
 
