@@ -4,7 +4,7 @@
 > Zero build step, zero dependencies — pure static files served directly by GitHub Pages.
 
 🌐 **Live Archive**: [https://halapenyoharry.github.io/paperz](https://halapenyoharry.github.io/paperz)  
-📡 **RSS Feed**: [feed.xml](https://halapenyoharry.github.io/paperz/feed.xml)  
+📡 **Feeds**: [RSS 2.0](https://halapenyoharry.github.io/paperz/feed.xml) · [Atom 1.0](https://halapenyoharry.github.io/paperz/atom.xml) · [JSON Feed 1.1](https://halapenyoharry.github.io/paperz/feed.json)  
 🤖 **Agent & Droid Instructions**: [AGENTS.md](AGENTS.md)
 
 ---
@@ -73,8 +73,8 @@ Add an entry to the `papers` array in `papers.json` (newest first):
 }
 ```
 
-### 3. Rebuild the RSS Feed
-Run `node build-feed.js` to update `feed.xml`.
+### 3. Rebuild Multi-Format Feeds
+Run `node build-feed.js` to update `feed.xml` (RSS 2.0), `atom.xml` (Atom 1.0), and `feed.json` (JSON Feed 1.1).
 
 ---
 
@@ -103,18 +103,21 @@ http://localhost:8000/index.dc.html
 
 ## Repository Structure
 
-- `index.dc.html` — Searchable, tag-filtered zpaper index.
+- `index.dc.html` — Searchable, tag-filtered zpaper index with feed links.
 - `paper.dc.html` — In-browser markdown reader (`paper.dc.html?p=slug`).
 - `md.js` — Client-side markdown and YAML frontmatter parser.
 - `papers.json` — The central archive index (metadata, tags, forthcoming tracking).
 - `papers/` — Markdown source files for all published zpapers.
 - `inbox/` — Staging area for drafts in development.
-- `_ds/` — Nocturne design system stylesheets and design tokens.
-- `support.js` — Shared client runtime for `.dc.html` views.
-- `feed.xml` — Full-text RSS 2.0 feed.
-- `build-feed.js` — RSS generator script.
+- `feeds/` — Modular feed generators (`rss.js`, `atom.js`, `jsonfeed.js`).
+- `feed.xml` — RSS 2.0 XML feed.
+- `atom.xml` — Atom 1.0 XML feed.
+- `feed.json` — JSON Feed 1.1 specification.
+- `build-feed.js` — Multi-format feed generator orchestrator.
 - `AGENTS.md` — Guide and protocol for AI agents authoring zpapers.
 - `index.html` — Redirect shim to `index.dc.html`.
+- `_ds/` — Nocturne design system stylesheets and design tokens.
+- `support.js` — Shared client runtime for `.dc.html` views.
 
 ---
 

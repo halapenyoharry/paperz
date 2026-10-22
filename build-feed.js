@@ -1,16 +1,17 @@
 #!/usr/bin/env node
-/* Regenerates feed.xml (RSS 2.0, full text) from papers.json + papers/*.md
-   Usage: node build-feed.js                                  */
+/* Regenerates multi-format feeds (RSS 2.0, Atom 1.0, JSON Feed 1.1) from papers.json + papers/*.md
+   Usage: node build-feed.js                                                              */
 const fs = require('fs');
 const path = require('path');
 const { PZ } = require('./md.js');
+const { generateRss } = require('./feeds/rss.js');
+const { generateAtom } = require('./feeds/atom.js');
+const { generateJsonFeed } = require('./feeds/jsonfeed.js');
 
 const index = JSON.parse(fs.readFileSync('papers.json', 'utf8'));
 const site = index.site || {};
 const base = String(site.url || '').replace(/\/$/, '');
 const published = (index.papers || []).map(p => p.slug);
-
-const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 const items = (index.papers || []).map(p => {
   const src = fs.readFileSync(path.join('papers', p.slug + '.md'), 'utf8');
@@ -27,31 +28,31 @@ const items = (index.papers || []).map(p => {
         : label;
     }
   });
-  const url = `${base}/paper.dc.html?p=${p.slug}`;
-  return `    <item>
-      <title>${esc(p.title + (p.subtitle ? ' — ' + p.subtitle : ''))}</title>
-      <link>${esc(url)}</link>
-      <guid isPermaLink="true">${esc(url)}</guid>
-      <pubDate>${new Date(p.date + 'T12:00:00Z').toUTCString()}</pubDate>
-${(p.tags || []).map(t => `      <category>${esc(t)}</category>`).join('\n')}
-      <description>${esc(p.summary || '')}</description>
-      <content:encoded><![CDATA[${rendered.html}]]></content:encoded>
-    </item>`;
-}).join('\n');
 
-const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>${esc(site.title || 'paperz')}</title>
-    <link>${esc(base)}</link>
-    <description>${esc(site.tagline || '')}</description>
-    <language>en</language>
-    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-    <atom:link href="${esc(base)}/feed.xml" rel="self" type="application/rss+xml"/>
-${items}
-  </channel>
-</rss>
-`;
+  return {
+    slug: p.slug,
+    title: p.title,
+    subtitle: p.subtitle,
+    date: p.date,
+    version: p.version,
+    tags: p.tags,
+    summary: p.summary,
+    url: `${base}/paper.dc.html?p=${p.slug}`,
+    html: rendered.html
+  };
+});
 
-fs.writeFileSync('feed.xml', xml);
-console.log('feed.xml — ' + (index.papers || []).length + ' item(s)');
+// Generate and write each feed format
+const rssXml = generateRss(site, items);
+fs.writeFileSync('feed.xml', rssXml);
+
+const atomXml = generateAtom(site, items);
+fs.writeFileSync('atom.xml', atomXml);
+
+const jsonFeed = generateJsonFeed(site, items);
+fs.writeFileSync('feed.json', jsonFeed);
+
+console.log(`Generated feeds for ${items.length} item(s):`);
+console.log(' - feed.xml  (RSS 2.0)');
+console.log(' - atom.xml  (Atom 1.0)');
+console.log(' - feed.json (JSON Feed 1.1)');

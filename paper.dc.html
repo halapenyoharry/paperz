@@ -13,7 +13,9 @@
 <link rel="stylesheet" href="_ds/nocturne-f58e5f09-aa1c-4b83-9d92-0d9ff9917e86/styles.css">
 <script src="_ds/nocturne-f58e5f09-aa1c-4b83-9d92-0d9ff9917e86/_ds_bundle.js"></script>
 <script src="md.js"></script>
-<link rel="alternate" type="application/rss+xml" title="paperz" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="paperz (RSS 2.0)" href="feed.xml">
+<link rel="alternate" type="application/atom+xml" title="paperz (Atom 1.0)" href="atom.xml">
+<link rel="alternate" type="application/feed+json" title="paperz (JSON Feed 1.1)" href="feed.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;1,14..32,400&display=swap" rel="stylesheet">
@@ -45,7 +47,12 @@
     <nav class="nav" style="max-width:1180px;margin:0 auto;padding:var(--space-3) var(--space-8)">
       <a class="nav-brand" href="index.dc.html" style="font-size:16px;margin-right:0">paperz</a>
       <div style="flex:1 1 auto;min-width:0;font-size:12.5px;color:var(--color-neutral-500);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ shortTitle }}</div>
-      <button class="btn btn-secondary" onClick="{{ print }}" style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-family:var(--font-body)">PDF</button>
+      <div style="display:flex;align-items:center;gap:var(--space-2)">
+        <a class="btn btn-secondary" href="feed.xml" title="RSS 2.0 (XML)" style="font-size:11px;padding:4px 8px;letter-spacing:.05em">RSS</a>
+        <a class="btn btn-secondary" href="atom.xml" title="Atom 1.0 (XML)" style="font-size:11px;padding:4px 8px;letter-spacing:.05em">ATOM</a>
+        <a class="btn btn-secondary" href="feed.json" title="JSON Feed 1.1" style="font-size:11px;padding:4px 8px;letter-spacing:.05em">JSON</a>
+        <button class="btn btn-secondary" onClick="{{ print }}" style="font-size:11px;padding:4px 8px;letter-spacing:.06em;text-transform:uppercase;font-family:var(--font-body)">PDF</button>
+      </div>
     </nav>
   </div>
 
@@ -111,7 +118,7 @@
     <footer style="max-width:74ch;padding:56px 0 0;display:flex;flex-direction:column;gap:var(--space-2)">
       <hr class="hr" style="margin:0 0 var(--space-4)" />
       <div style="font-size:12px;line-height:1.7;color:var(--color-neutral-500)">Ideas generated in collaboration with AI · human thesis, machine drafting · donated to the commons</div>
-      <div style="font-size:12px;line-height:1.7;color:var(--color-neutral-500)">paperz · <a href="index.dc.html">all papers</a> · <a href="feed.xml">RSS</a></div>
+      <div style="font-size:12px;line-height:1.7;color:var(--color-neutral-500)">paperz · <a href="index.dc.html">all papers</a> · Feeds: <a href="feed.xml">RSS 2.0</a> · <a href="atom.xml">Atom 1.0</a> · <a href="feed.json">JSON Feed</a></div>
     </footer>
   </div>
 </div>

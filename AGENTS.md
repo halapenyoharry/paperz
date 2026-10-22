@@ -86,28 +86,38 @@ references: [
    ---
    ```
 
-3. **Primary Sources & Intellectual Lineage (Source Abstract Dossier)**:
-   Immediately following the inception blockquote, provide a structured dossier abstracting the root works that form the basis for the paper's ideas, opinions, evidence, or models:
+3. **The Introduction (Setting the Stage)**:
+   Provide a concise, plain-language introduction to the zpaper. Set the stage, establish the core tension or inquiry, and outline the central thesis in accessible terms before grounding the work in academic lineage:
+   ```markdown
+   ## Introduction
+
+   Every time you buy something instead of making it, you substitute a single smooth transaction for an immense web of human effort. The comfort economy calls this the removal of "friction" — but friction is not an empty nuisance; friction is the visible presence of other people's labor...
+
+   ---
+   ```
+
+4. **Primary Sources & Intellectual Lineage (Source Abstract Dossier)**:
+   Immediately following the simple introduction, provide a structured dossier abstracting the root works that form the basis for the paper's ideas, opinions, evidence, or models:
    ```markdown
    ## Primary sources & lineage
 
-   Before entering the model, this zpaper grounds its formalism in [N] primary texts across [domains]. Each supplies a foundational premise:
+   Before entering the formal model, this zpaper grounds its formalism in [N] primary texts across [domains]. Each supplies a foundational premise:
 
    - **Author, First.** [*Title of Work*](preferred-url) (Year; Publisher / Press).  
      *Core premise*: Concise, high-density abstract of the original work's thesis.  
      *Role in this zpaper*: Concrete statement of how this zpaper translates, formalizes, builds upon, or critiques this premise.
    ```
 
-4. **Numbered Conceptual Sections**:
+5. **Numbered Conceptual Sections**:
    Develop the core thesis through crisp, numbered sections (e.g., `## 1. Two graphs, one joint`, `## 2. Friction is the expanded graph`).
    - Bold core definitions and theorems (`**Friction is the expanded graph.**`).
    - Embed inline MLA citations linking to author-preferred sources: `([Marx 165](https://...))`.
    - Where visual structure aids comprehension, inline clean SVG diagrams styled with Nocturne CSS variables (e.g. `var(--color-accent-300)`, `var(--color-surface)`).
 
-5. **Wikilinks**:
+6. **Wikilinks**:
    Cross-reference other zpapers in the archive using `[[slug]]` notation. Active links resolve dynamically against `papers.json`.
 
-6. **The Short Version**:
+7. **The Short Version**:
    Include an unsparing, punchy one-paragraph distillation before the references:
    ```markdown
    ## 5. The short version
@@ -115,7 +125,7 @@ references: [
    Buying is an edge that is secretly a graph. Convenience is the industry that contracts graphs...
    ```
 
-7. **Works Cited (MLA)**:
+8. **Works Cited (MLA)**:
    A formal, alphabetized MLA bibliographic list linking to author-preferred sources:
    ```markdown
    ---
@@ -126,7 +136,7 @@ references: [
    - Marx, Karl. [*Capital: A Critique of Political Economy, Volume 1*](url). Translated by Samuel Moore and Edward Aveling, Progress Publishers, 1887.
    ```
 
-8. **Contribution Statement & Commons License**:
+9. **Contribution Statement & Commons License**:
    Every zpaper concludes with the canonical three-part attribution block:
    ```markdown
    ---
@@ -172,12 +182,12 @@ Open `papers.json` and prepend the new zpaper object to the beginning of the `"p
 - If this zpaper was previously listed in `"forthcoming"`, remove it from that array.
 - If this zpaper references new, forthcoming zpapers, add them to `"forthcoming"` with a brief `"note"` explaining which zpapers reference them.
 
-### Step 3: Rebuild the RSS Feed
-Run the feed generator to update `feed.xml`:
+### Step 3: Rebuild Multi-Format Feeds
+Run the modular feed generator to update `feed.xml` (RSS 2.0), `atom.xml` (Atom 1.0), and `feed.json` (JSON Feed 1.1):
 ```bash
 node build-feed.js
 ```
-Verify that the output reports the correct number of items.
+Verify that the output reports that all three feed formats were generated.
 
 ### Step 4: Preview Locally
 Verify rendering and links in a local server:
@@ -186,7 +196,7 @@ python3 -m http.server 8000
 ```
 Open `http://localhost:8000/index.dc.html` and check:
 - The zpaper appears in the index with correct tags, date, and summary.
-- The reader page (`paper.dc.html?p=your-paper-slug`) renders headers, source dossier, lists, SVGs, MLA links, and wikilinks properly.
+- The reader page (`paper.dc.html?p=your-paper-slug`) renders headers, introduction, source dossier, lists, SVGs, MLA links, and wikilinks properly.
 
 ### Step 5: Commit and Deploy
-Commit all modified files (`papers/<slug>.md`, `papers.json`, `feed.xml`) and push to `main`. GitHub Pages serves the changes automatically.
+Commit all modified files (`papers/<slug>.md`, `papers.json`, `feed.xml`, `atom.xml`, `feed.json`) and push to `main`. GitHub Pages serves the changes automatically.

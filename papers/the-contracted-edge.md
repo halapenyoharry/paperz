@@ -30,9 +30,17 @@ references: [
 
 ---
 
+## Introduction
+
+Every time you buy something instead of making it, you substitute a single smooth transaction for an immense web of human effort. The comfort economy calls this the removal of "friction" — but friction is not an empty nuisance; friction is the visible presence of other people's labor. 
+
+This zpaper models convenience as **edge contraction** in graph theory. By collapsing multi-layered human supply chains into a frictionless scalar price, modern transactions engineer a structural blindspot: the workers inside the contracted edge are not weighed and found acceptable; they are never staged for deliberation at all. Because human attention is strictly bounded, expanding every edge is impossible — which means ethics cannot be an unconstrained sentiment. In this model, ethics is a deliberate line item in an attention budget, spent one layer at a time to render what convenience contracts out of sight.
+
+---
+
 ## Primary sources & lineage
 
-Before entering the model, this zpaper grounds its formalism in five primary texts across political economy, cognitive science, and the architecture of attention. Each supplies a foundational premise:
+Before entering the formal model, this zpaper grounds its formalism in five primary texts across political economy, cognitive science, and the architecture of attention. Each supplies a foundational premise:
 
 - **Marx, Karl.** [*Capital: A Critique of Political Economy, Volume 1*](https://www.penguinrandomhouse.com/books/26117/capital-by-karl-marx/) (1867; Progress Publishers / Penguin Classics).  
   *Core premise*: The fetishism of commodities (§1.4) shows that market exchange presents what is fundamentally a social relation between human beings as a relation between commodities.  

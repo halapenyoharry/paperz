@@ -12,7 +12,9 @@
 <title>paperz</title>
 <link rel="stylesheet" href="_ds/nocturne-f58e5f09-aa1c-4b83-9d92-0d9ff9917e86/styles.css">
 <script src="_ds/nocturne-f58e5f09-aa1c-4b83-9d92-0d9ff9917e86/_ds_bundle.js"></script>
-<link rel="alternate" type="application/rss+xml" title="paperz" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="paperz (RSS 2.0)" href="feed.xml">
+<link rel="alternate" type="application/atom+xml" title="paperz (Atom 1.0)" href="atom.xml">
+<link rel="alternate" type="application/feed+json" title="paperz (JSON Feed 1.1)" href="feed.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;1,14..32,400&display=swap" rel="stylesheet">
@@ -31,7 +33,12 @@
     <header class="nav" style="padding:var(--space-8) 0 var(--space-6);align-items:baseline;flex-wrap:wrap;background:linear-gradient(to right,transparent,var(--color-divider) 48px,var(--color-divider) calc(100% - 48px),transparent) no-repeat bottom / 100% 1px">
       <div class="nav-brand" style="margin-right:0">paperz</div>
       <div style="flex:1 1 200px;font-size:13px;color:var(--color-neutral-500)">whitepapers on ideas generated with AI</div>
-      <a class="btn btn-secondary" href="feed.xml" style="font-size:12px;letter-spacing:.06em;text-transform:uppercase">RSS</a>
+      <div style="display:flex;align-items:center;gap:var(--space-2)">
+        <span style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-neutral-500);margin-right:2px">Feeds</span>
+        <a class="btn btn-secondary" href="feed.xml" title="RSS 2.0 (XML)" style="font-size:11px;padding:4px 8px;letter-spacing:.05em">RSS</a>
+        <a class="btn btn-secondary" href="atom.xml" title="Atom 1.0 (XML)" style="font-size:11px;padding:4px 8px;letter-spacing:.05em">ATOM</a>
+        <a class="btn btn-secondary" href="feed.json" title="JSON Feed 1.1" style="font-size:11px;padding:4px 8px;letter-spacing:.05em">JSON</a>
+      </div>
     </header>
 
     <div style="display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-4);padding:var(--space-6) 0 var(--space-3)">
@@ -88,9 +95,12 @@
       </section>
     </sc-if>
 
-    <footer style="padding:56px 0 0">
+    <footer style="padding:56px 0 0;display:flex;flex-direction:column;gap:var(--space-2)">
       <hr class="hr" style="margin:0 0 var(--space-6)" />
       <div style="font-size:12px;line-height:1.7;color:var(--color-neutral-500)">Ideas generated in collaboration with AI · donated to the commons</div>
+      <div style="font-size:12px;line-height:1.7;color:var(--color-neutral-500)">
+        Feeds: <a href="feed.xml">RSS 2.0 (XML)</a> · <a href="atom.xml">Atom 1.0 (XML)</a> · <a href="feed.json">JSON Feed 1.1</a>
+      </div>
     </footer>
   </div>
 </div>
