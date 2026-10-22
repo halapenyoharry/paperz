@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="omelette-owns-print" content="1">
+<link rel="stylesheet" href="_ds/nocturne-f58e5f09-aa1c-4b83-9d92-0d9ff9917e86/styles.css">
+<script src="_ds/nocturne-f58e5f09-aa1c-4b83-9d92-0d9ff9917e86/_ds_bundle.js"></script>
+<script src="md.js"></script>
+<link rel="alternate" type="application/rss+xml" title="paperz" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;1,14..32,400&display=swap" rel="stylesheet">
+<style>
+  html { background: var(--color-bg); }
+  body { margin: 0; -webkit-font-smoothing: antialiased; }
+  a { color: var(--color-accent-300); text-decoration: none; }
+  a:hover { color: var(--color-accent-200); }
+  [data-cols] { display: grid; grid-template-columns: 172px minmax(0,1fr) 200px; gap: 52px; align-items: start; }
+  @media (max-width: 1080px) {
+    [data-cols] { grid-template-columns: minmax(0,1fr); gap: 40px; }
+    [data-rail] { position: static !important; max-width: 64ch; }
+  }
+  [data-toc] a { color: var(--color-neutral-500); }
+  [data-toc] a:hover { color: var(--color-text); }
+  @media print {
+    [data-chrome], [data-rail], [data-progress] { display: none !important; }
+    [data-cols] { grid-template-columns: minmax(0,1fr) !important; }
+    html, body { background: var(--color-bg) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    @page { margin: 16mm; }
+  }
+</style>
+</helmet>
+<div style="min-height:100vh;background:var(--color-bg)">
+
+  <div data-progress="1" style="position:fixed;top:0;left:0;height:2px;background:var(--color-accent);z-index:20;width:{{ progress }}"></div>
+
+  <div data-chrome="1" style="position:sticky;top:0;z-index:10;background:color-mix(in srgb, var(--color-bg) 92%, transparent);backdrop-filter:blur(8px);background-image:linear-gradient(to right,transparent,var(--color-divider) 48px,var(--color-divider) calc(100% - 48px),transparent);background-repeat:no-repeat;background-position:bottom;background-size:100% 1px">
+    <nav class="nav" style="max-width:1180px;margin:0 auto;padding:var(--space-3) var(--space-8)">
+      <a class="nav-brand" href="index.dc.html" style="font-size:16px;margin-right:0">paperz</a>
+      <div style="flex:1 1 auto;min-width:0;font-size:12.5px;color:var(--color-neutral-500);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ shortTitle }}</div>
+      <button class="btn btn-secondary" onClick="{{ print }}" style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-family:var(--font-body)">PDF</button>
+    </nav>
+  </div>
+
+  <div style="max-width:1180px;margin:0 auto;padding:0 var(--space-8) 140px">
+
+    <header style="padding:64px 0 var(--space-8);max-width:74ch;background:linear-gradient(to right,transparent,var(--color-divider) 48px,var(--color-divider) calc(100% - 48px),transparent) no-repeat bottom / 100% 1px">
+      <div style="display:flex;flex-wrap:wrap;gap:var(--space-4);align-items:center;font-size:12px;color:var(--color-neutral-500);padding-bottom:var(--space-6)">
+        <span>{{ dateLabel }}</span>
+        <span style="color:var(--color-neutral-700)">/</span>
+        <span>v{{ version }}</span>
+        <sc-for list="{{ tags }}" as="tg" hint-placeholder-count="4">
+          <span class="tag tag-neutral">{{ tg.label }}</span>
+        </sc-for>
+      </div>
+      <h1 style="font-size:clamp(34px,5.4vw,54px);line-height:1.06;margin:0 0 var(--space-4);text-wrap:balance">{{ title }}</h1>
+      <div style="font-size:clamp(18px,2.2vw,22px);line-height:1.35;font-style:italic;color:var(--color-neutral-400);margin:0 0 var(--space-8)">{{ subtitle }}</div>
+      <p style="font-size:16.5px;line-height:1.62;color:var(--color-neutral-400);max-width:62ch;text-wrap:pretty;margin:0">{{ summary }}</p>
+    </header>
+
+    <div data-cols="1" style="padding-top:var(--space-8)">
+
+      <nav data-rail="1" data-toc="1" style="position:sticky;top:88px;display:flex;flex-direction:column;gap:var(--space-3)">
+        <h6 style="color:var(--color-neutral-500);margin:0 0 var(--space-2)">Contents</h6>
+        <sc-for list="{{ toc }}" as="s" hint-placeholder-count="8">
+          <a href="{{ s.href }}" style="font-size:12.5px;line-height:1.45;display:flex;gap:var(--space-2);padding-left:var(--space-3);border-left:1px solid {{ s.mark }};color:{{ s.color }}">
+            <span style="color:var(--color-neutral-500);flex:0 0 auto">{{ s.num }}</span>
+            <span style="min-width:0">{{ s.text }}</span>
+          </a>
+        </sc-for>
+      </nav>
+
+      <article style="min-width:0;max-width:{{ measure }}ch">
+        {{ body }}
+      </article>
+
+      <aside data-rail="1" style="position:sticky;top:88px">
+        <sc-if value="{{ hasRefs }}" hint-placeholder-val="{{ true }}">
+          <div style="display:flex;flex-direction:column;gap:var(--space-3)">
+            <h6 style="color:var(--color-neutral-500);margin:0 0 var(--space-2)">Referenced</h6>
+            <sc-for list="{{ references }}" as="r" hint-placeholder-count="6">
+              <div style="font-size:12.5px;line-height:1.5;color:var(--color-neutral-500);text-wrap:pretty">{{ r.text }}</div>
+            </sc-for>
+          </div>
+        </sc-if>
+      </aside>
+    </div>
+
+    <sc-if value="{{ hasLinks }}" hint-placeholder-val="{{ false }}">
+      <section style="max-width:74ch;padding:56px 0 0">
+        <hr class="hr" style="margin:0 0 var(--space-8)" />
+        <h6 style="color:var(--color-neutral-500);margin:0 0 var(--space-6)">Related</h6>
+        <div style="display:flex;flex-direction:column;gap:var(--space-4)">
+          <sc-for list="{{ links }}" as="l" hint-placeholder-count="3">
+            <a href="{{ l.href }}" style="display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-4);font-size:16px;color:{{ l.color }}">
+              <span>{{ l.title }}</span>
+              <span style="font-size:12px;color:var(--color-neutral-500)">{{ l.note }}</span>
+            </a>
+          </sc-for>
+        </div>
+      </section>
+    </sc-if>
+
+    <footer style="max-width:74ch;padding:56px 0 0;display:flex;flex-direction:column;gap:var(--space-2)">
+      <hr class="hr" style="margin:0 0 var(--space-4)" />
+      <div style="font-size:12px;line-height:1.7;color:var(--color-neutral-500)">Ideas generated in collaboration with AI · human thesis, machine drafting · donated to the commons</div>
+      <div style="font-size:12px;line-height:1.7;color:var(--color-neutral-500)">paperz · <a href="index.dc.html">all papers</a> · <a href="feed.xml">RSS</a></div>
+    </footer>
+  </div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showToc&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Reader&quot;},&quot;showReferences&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Reader&quot;},&quot;measure&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:68,&quot;min&quot;:52,&quot;max&quot;:84,&quot;step&quot;:2,&quot;unit&quot;:&quot;ch&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Reader&quot;}}">
+class Component extends DCLogic {
+  state = { index: null, meta: null, rendered: null, progress: 0, active: '', err: null };
+
+  componentDidMount() {
+    this.onScroll = () => {
+      const h = document.documentElement;
+      const max = h.scrollHeight - h.clientHeight;
+      const pct = max > 0 ? Math.min(1, h.scrollTop / max) : 0;
+      let active = '';
+      const heads = Array.prototype.slice.call(document.querySelectorAll('article h2'));
+      for (let i = 0; i < heads.length; i++) {
+        if (heads[i].getBoundingClientRect().top <= 140) active = heads[i].id;
+      }
+      if (pct !== this.state.progress || active !== this.state.active) this.setState({ progress: pct, active });
+    };
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+
+    const slug = new URLSearchParams(location.search).get('p') || 'squash-the-triangle';
+    this.slug = slug;
+    fetch('papers.json').then(r => r.json())
+      .then(index => {
+        this.setState({ index });
+        return fetch('papers/' + slug + '.md').then(r => {
+          if (!r.ok) { const e = new Error('missing'); e.kind = 'missing'; throw e; }
+          return r.text();
+        });
+      })
+      .then(src => {
+        if (typeof PZ === 'undefined') { const e = new Error('renderer'); e.kind = 'renderer'; throw e; }
+        const parsed = PZ.parseFrontmatter(src);
+        let body = parsed.body;
+        const firstRule = body.indexOf('\n---\n');
+        if (/^\s*#\s/.test(body) && firstRule > -1 && firstRule < 400) body = body.slice(firstRule + 5);
+        const published = ((this.state.index && this.state.index.papers) || []).map(p => p.slug);
+        const rendered = PZ.render(body, {
+          wikilink: s => {
+            const clean = s.replace(/^\[\[|\]\]$/g, '');
+            const label = clean.replace(/-/g, ' ');
+            if (published.indexOf(clean) > -1) {
+              return '<a href="paper.dc.html?p=' + clean + '" style="color:var(--color-accent-300);border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)">' + label + '</a>';
+            }
+            return '<span title="not yet published" style="color:var(--color-neutral-500);border-bottom:1px dotted var(--color-neutral-700)">' + label + '</span>';
+          }
+        });
+        this.setState({ meta: parsed.meta, rendered });
+        document.title = (parsed.meta.title || slug) + ' · paperz';
+      })
+      .catch(e => {
+        console.error('paperz: could not render paper', e);
+        this.setState({ err: e && e.kind ? e.kind : 'fetch' });
+      });
+  }
+
+  componentWillUnmount() {
+    if (this.onScroll) window.removeEventListener('scroll', this.onScroll);
+  }
+
+  fmtDate(s) {
+    const d = new Date(s + 'T12:00:00');
+    return isNaN(d) ? (s || '') : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+  }
+
+  renderVals() {
+    const m = this.state.meta || {};
+    const r = this.state.rendered;
+    const idx = this.state.index || {};
+    const fullTitle = String(m.title || '');
+    const dash = fullTitle.indexOf('—');
+    const title = dash > -1 ? fullTitle.slice(0, dash).trim() : fullTitle;
+    const subtitle = m.subtitle || (dash > -1 ? fullTitle.slice(dash + 1).trim() : '');
+    const tags = [].concat(m.tags || []).filter(t => t !== 'whitepaper');
+    const refs = [].concat(m.references || []);
+    const linkSlugs = [].concat(m.links || []).map(s => String(s).replace(/^\[\[|\]\]$/g, ''));
+    const published = (idx.papers || []);
+    const forthcoming = (idx.forthcoming || []);
+
+    const links = linkSlugs.map(slug => {
+      const p = published.filter(x => x.slug === slug)[0];
+      const f = forthcoming.filter(x => x.slug === slug)[0];
+      return {
+        href: p ? 'paper.dc.html?p=' + slug : 'index.dc.html',
+        title: (p && p.title) || (f && f.title) || slug.replace(/-/g, ' '),
+        note: p ? 'v' + (p.version || '1.0') : (f && f.note) || 'not yet published',
+        color: p ? 'var(--color-accent-300)' : 'var(--color-neutral-400)'
+      };
+    });
+
+    return {
+      title: title || (this.state.err ? 'Paper not found' : ''),
+      shortTitle: title,
+      subtitle,
+      summary: this.state.err
+        ? (this.state.err === 'missing'
+            ? 'No paper at papers/' + (this.slug || '') + '.md. Check the slug in the URL against papers.json.'
+            : this.state.err === 'renderer'
+              ? 'The markdown renderer (md.js) did not load, so the paper could not be formatted. Check that md.js sits next to this page.'
+              : 'Could not load this paper. If you opened the file directly, serve the folder over http instead — e.g. python3 -m http.server. See the console for details.')
+        : (m.summary || ''),
+      dateLabel: this.fmtDate(m.date),
+      version: m.version || '1.0',
+      tags: tags.map(t => ({ label: t })),
+      progress: Math.round(this.state.progress * 1000) / 10 + '%',
+      measure: this.props.measure || 68,
+      toc: this.props.showToc === false ? [] : ((r && r.toc) || []).map(s => ({
+        href: '#' + s.id,
+        num: s.num ? s.num : '·',
+        text: s.text,
+        color: this.state.active === s.id ? 'var(--color-text)' : 'var(--color-neutral-500)',
+        mark: this.state.active === s.id ? 'var(--color-accent)' : 'var(--color-divider)'
+      })),
+      references: this.props.showReferences === false ? [] : refs.map(t => ({ text: t })),
+      hasRefs: this.props.showReferences !== false && refs.length > 0,
+      links,
+      hasLinks: links.length > 0,
+      print: () => window.print(),
+      body: r ? React.createElement('div', { dangerouslySetInnerHTML: { __html: r.html } }) : null
+    };
+  }
+}
+
+</script>
+</body>
+</html>

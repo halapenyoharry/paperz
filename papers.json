@@ -1,0 +1,90 @@
+{
+  "site": {
+    "title": "paperz",
+    "tagline": "whitepapers on ideas generated with AI",
+    "url": "https://halapenyoharry.github.io/paperz",
+    "author": "paperz"
+  },
+  "papers": [
+    {
+      "slug": "the-contracted-edge",
+      "title": "The contracted edge",
+      "subtitle": "Convenience as graph contraction, and attention as the moral budget",
+      "date": "2026-10-17",
+      "version": "1.0",
+      "tags": [
+        "ethics",
+        "graph-theory",
+        "attention",
+        "supply-chains",
+        "comfort",
+        "human-ai-collaboration"
+      ],
+      "summary": "Buying is an edge that is secretly a graph. Convenience is the industry that contracts graphs into edges so you never render the people inside them — and a price is a lossy projection of a labor hypergraph. If an unexpanded edge cannot be priced truly, then expansion is a precondition of honest settlement, and ethics falls out of the model as a line item in a bounded attention budget."
+    },
+    {
+      "slug": "dont-found-anything",
+      "title": "Don't found anything",
+      "subtitle": "On the gap where religions start, and what else could live there",
+      "date": "2026-10-13",
+      "version": "1.0",
+      "tags": [
+        "religion",
+        "epistemology",
+        "absurdism",
+        "ai",
+        "topology",
+        "human-ai-collaboration"
+      ],
+      "summary": "A creature notices its own noticing and finds no ground. Religion is that gap resolved into certainty — and so is nihilism: two basins on one landscape. A former minister and a language model map the terrain and argue for the ridge between them — open in both directions, walked in company, founding nothing. With a topograph."
+    },
+    {
+      "slug": "the-smoke-loop",
+      "title": "The smoke loop",
+      "subtitle": "A full-circuit model of a small fire — and the engine that reroutes its charge",
+      "date": "2026-10-12",
+      "version": "1.0",
+      "tags": [
+        "systems",
+        "emotion",
+        "information",
+        "momentum",
+        "creativity",
+        "human-ai-collaboration"
+      ],
+      "summary": "Trace a lit herb far enough in both directions and it stops being consumption — it is one closed loop with the human inside it as a component. The model is then turned on emotion as information dissolved to do something, and on the charge a productive life accumulates, with iterated creation as the engine that reroutes it."
+    },
+    {
+      "slug": "squash-the-triangle",
+      "title": "Squash the triangle",
+      "subtitle": "An argument for teaching invariance before number",
+      "date": "2026-09-07",
+      "version": "3.0",
+      "tags": [
+        "pedagogy",
+        "mathematics-education",
+        "graph-theory",
+        "invariance",
+        "curriculum"
+      ],
+      "summary": "Early mathematics teaches counting first because our tradition does, not because counting is simple. An argument for putting invariance first — and for making the rigid/deformable comparison the load-bearing lesson."
+    }
+  ],
+  "forthcoming": [
+    {
+      "slug": "topothink",
+      "title": "Topothink",
+      "note": "referenced by Squash the triangle, The smoke loop, Don't found anything, and The contracted edge"
+    },
+    {
+      "slug": "structure-before-number",
+      "title": "Structure Before Number",
+      "note": "antecedent draft — superseded by Squash the triangle"
+    },
+    {
+      "slug": "sandboxes-to-vector-spaces-structural-review",
+      "title": "Sandboxes to Vector Spaces",
+      "note": "structural review — referenced by Squash the triangle"
+    }
+  ]
+}

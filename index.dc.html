@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>paperz</title>
+<link rel="stylesheet" href="_ds/nocturne-f58e5f09-aa1c-4b83-9d92-0d9ff9917e86/styles.css">
+<script src="_ds/nocturne-f58e5f09-aa1c-4b83-9d92-0d9ff9917e86/_ds_bundle.js"></script>
+<link rel="alternate" type="application/rss+xml" title="paperz" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;1,14..32,400&display=swap" rel="stylesheet">
+<style>
+  html { background: var(--color-bg); }
+  body { margin: 0; -webkit-font-smoothing: antialiased; }
+  a { color: var(--color-accent-300); text-decoration: none; }
+  a:hover { color: var(--color-accent-200); }
+  [data-row]:hover .card-title { color: var(--color-accent-300); }
+  [data-row]:hover { background: color-mix(in srgb, var(--color-text) 4%, var(--color-surface)); }
+</style>
+</helmet>
+<div style="min-height:100vh;background:var(--color-bg);padding:0 var(--space-8) 120px">
+  <div style="max-width:940px;margin:0 auto">
+
+    <header class="nav" style="padding:var(--space-8) 0 var(--space-6);align-items:baseline;flex-wrap:wrap;background:linear-gradient(to right,transparent,var(--color-divider) 48px,var(--color-divider) calc(100% - 48px),transparent) no-repeat bottom / 100% 1px">
+      <div class="nav-brand" style="margin-right:0">paperz</div>
+      <div style="flex:1 1 200px;font-size:13px;color:var(--color-neutral-500)">whitepapers on ideas generated with AI</div>
+      <a class="btn btn-secondary" href="feed.xml" style="font-size:12px;letter-spacing:.06em;text-transform:uppercase">RSS</a>
+    </header>
+
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-4);padding:var(--space-6) 0 var(--space-3)">
+      <div class="field" style="flex:1 1 240px;min-width:0">
+        <input class="input" type="search" placeholder="Search papers" value="{{ q }}" onInput="{{ onSearch }}" />
+      </div>
+      <div style="font-size:12px;color:var(--color-neutral-500)">{{ countLabel }}</div>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;gap:var(--space-2);padding:0 0 var(--space-8)">
+      <sc-for list="{{ allTags }}" as="t" hint-placeholder-count="6">
+        <button class="tag {{ t.cls }}" onClick="{{ t.toggle }}" style="cursor:pointer;background-color:{{ t.bgOverride }};font-family:var(--font-body)">{{ t.label }}</button>
+      </sc-for>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:var(--space-4)">
+      <sc-for list="{{ papers }}" as="p" hint-placeholder-count="3">
+        <a class="card" data-row="1" href="{{ p.href }}" style="padding:var(--space-6);gap:var(--space-3);transition:background .14s">
+          <div class="card-meta">
+            <span>{{ p.dateLabel }}</span>
+            <span style="color:var(--color-neutral-700)">/</span>
+            <span>v{{ p.version }}</span>
+          </div>
+          <div class="card-title" style="font-size:24px;transition:color .14s">{{ p.title }}</div>
+          <div style="font-size:16px;font-style:italic;color:var(--color-neutral-400);line-height:1.4">{{ p.subtitle }}</div>
+          <sc-if value="{{ p.showSummary }}" hint-placeholder-val="{{ true }}">
+            <p class="card-body" style="font-size:14.5px;line-height:1.6;max-width:64ch;text-wrap:pretty">{{ p.summary }}</p>
+          </sc-if>
+          <div style="display:flex;flex-wrap:wrap;gap:var(--space-2);padding-top:var(--space-1)">
+            <sc-for list="{{ p.tags }}" as="tg" hint-placeholder-count="3">
+              <span class="tag tag-neutral">{{ tg.label }}</span>
+            </sc-for>
+          </div>
+        </a>
+      </sc-for>
+    </div>
+
+    <sc-if value="{{ isEmpty }}" hint-placeholder-val="{{ false }}">
+      <div style="padding:var(--space-8) 0;font-size:13.5px;line-height:1.6;color:var(--color-neutral-500);max-width:64ch">{{ emptyMessage }}</div>
+    </sc-if>
+
+    <sc-if value="{{ showForthcoming }}" hint-placeholder-val="{{ true }}">
+      <section style="padding:56px 0 0">
+        <hr class="hr" style="margin:0 0 var(--space-8)" />
+        <h6 style="color:var(--color-neutral-500);margin:0 0 var(--space-6)">Forthcoming</h6>
+        <div style="display:flex;flex-direction:column;gap:var(--space-4)">
+          <sc-for list="{{ forthcoming }}" as="f" hint-placeholder-count="3">
+            <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-4)">
+              <div style="font-size:17px;color:var(--color-neutral-400)">{{ f.title }}</div>
+              <div style="font-size:12px;color:var(--color-neutral-500)">{{ f.note }}</div>
+            </div>
+          </sc-for>
+        </div>
+      </section>
+    </sc-if>
+
+    <footer style="padding:56px 0 0">
+      <hr class="hr" style="margin:0 0 var(--space-6)" />
+      <div style="font-size:12px;line-height:1.7;color:var(--color-neutral-500)">Ideas generated in collaboration with AI · donated to the commons</div>
+    </footer>
+  </div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1000,&quot;height&quot;:900},&quot;showSummaries&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Index&quot;},&quot;sort&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;newest&quot;,&quot;oldest&quot;,&quot;title&quot;],&quot;default&quot;:&quot;newest&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Index&quot;},&quot;showForthcoming&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Index&quot;}}">
+class Component extends DCLogic {
+  state = { data: null, q: '', tags: [], err: null };
+
+  componentDidMount() {
+    fetch('papers.json')
+      .then(r => r.json())
+      .then(d => this.setState({ data: d }))
+      .catch(e => this.setState({ err: String(e) }));
+  }
+
+  fmtDate(s) {
+    const d = new Date(s + 'T12:00:00');
+    return isNaN(d) ? s : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+  }
+
+  toggleTag(tag) {
+    this.setState(s => ({
+      tags: s.tags.indexOf(tag) > -1 ? s.tags.filter(t => t !== tag) : s.tags.concat([tag])
+    }));
+  }
+
+  renderVals() {
+    const d = this.state.data;
+    const all = (d && d.papers) || [];
+    const q = this.state.q.trim().toLowerCase();
+    const active = this.state.tags;
+    const sort = this.props.sort || 'newest';
+    const showSummaries = this.props.showSummaries !== false;
+
+    let list = all.filter(p => {
+      if (active.length && !active.every(t => (p.tags || []).indexOf(t) > -1)) return false;
+      if (!q) return true;
+      return [p.title, p.subtitle, p.summary].concat(p.tags || []).join(' ').toLowerCase().indexOf(q) > -1;
+    });
+
+    list = list.slice().sort((a, b) =>
+      sort === 'title' ? a.title.localeCompare(b.title)
+        : sort === 'oldest' ? String(a.date).localeCompare(String(b.date))
+        : String(b.date).localeCompare(String(a.date))
+    );
+
+    const counts = {};
+    all.forEach(p => (p.tags || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
+
+    const allTags = Object.keys(counts)
+      .sort((a, b) => counts[b] - counts[a] || a.localeCompare(b))
+      .map(t => {
+        const on = active.indexOf(t) > -1;
+        return {
+          label: t,
+          toggle: () => this.toggleTag(t),
+          cls: on ? 'tag-accent' : 'tag-outline',
+          bgOverride: on ? '' : 'transparent'
+        };
+      });
+
+    return {
+      q: this.state.q,
+      onSearch: e => this.setState({ q: e.target.value }),
+      allTags,
+      papers: list.map(p => ({
+        href: 'paper.dc.html?p=' + p.slug,
+        title: p.title,
+        subtitle: p.subtitle || '',
+        summary: p.summary || '',
+        showSummary: showSummaries && !!p.summary,
+        version: p.version || '1.0',
+        dateLabel: this.fmtDate(p.date),
+        tags: (p.tags || []).filter(t => t !== 'whitepaper').map(t => ({ label: t }))
+      })),
+      countLabel: d ? list.length + (list.length === 1 ? ' paper' : ' papers') : '',
+      isEmpty: !!d && list.length === 0,
+      emptyMessage: this.state.err
+        ? 'Could not load papers.json — serve this folder over http (e.g. python3 -m http.server) rather than opening the file directly.'
+        : 'Nothing matches that.',
+      showForthcoming: this.props.showForthcoming !== false && !!(d && d.forthcoming && d.forthcoming.length) && !q && !active.length,
+      forthcoming: (d && d.forthcoming) || []
+    };
+  }
+}
+
+</script>
+</body>
+</html>
