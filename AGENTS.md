@@ -32,6 +32,13 @@ All zpapers adhere strictly to **MLA (Modern Language Association) citation styl
      - An independent book collective (e.g., Bookshop.org) or non-commercial open-access digital archive (e.g., Marxists Internet Archive, PhilArchive, Cambridge Core Open).
 3. **Works Cited Section**:
    - Every zpaper concludes with a formal `## Works Cited` section formatted according to MLA guidelines. Each entry must link the title or publisher to the author-preferred source.
+4. **Citation Integrity (non-negotiable)**:
+   - **Never invent page numbers, issue numbers, editions, or URLs.** A made-up citation is worse than none.
+   - **Open every link before publishing** and confirm it loads the cited work (not a 404, a homepage, or a different book).
+   - If you cannot verify a page number, cite the work without one: `([Wu](url))`. For classics, cite a structural locator you have confirmed instead, e.g. `([Marx ch. 1, sec. 4](url))`.
+   - If a detail cannot be verified, leave it out, and flag it to the human rather than guessing.
+
+> **Frontmatter lists**: use one-line arrays (`tags: [a, b, c]`) or dash lists (one `- item` per line, as in `references` below). Wrap items containing commas in double quotes.
 
 ---
 
@@ -55,13 +62,10 @@ tags: [ethics, graph-theory, attention, supply-chains, comfort, human-ai-collabo
 lineage: [marxian-political-economy, hebbian-neuroscience, attention-economics, behavioral-bargaining]
 links: ["[[the-smoke-loop]]", "[[topothink]]"]
 summary: Buying is an edge that is secretly a graph. Convenience is the industry that contracts graphs into edges so you never render the people inside them...
-references: [
-  "Marx, Karl. Capital: A Critique of Political Economy, Volume 1. Translated by Samuel Moore and Edward Aveling, edited by Frederick Engels, Progress Publishers, 1887.",
-  "Wu, Tim. The Attention Merchants: The Epic Scramble to Get Inside Our Heads. Alfred A. Knopf, 2016.",
-  "Williams, James. Stand Out of Our Light: Freedom and Resistance in the Attention Economy. Cambridge University Press, 2018.",
-  "Hebb, Donald O. The Organization of Behavior: A Neuropsychological Theory. John Wiley & Sons, 1949.",
-  "Schelling, Thomas C. 'The Intimate Contest for Self-Command.' The Public Interest, no. 60, 1980, pp. 94–118."
-]
+references:
+  - "Marx, Karl. Capital: A Critique of Political Economy, Volume 1. Translated by Samuel Moore and Edward Aveling, 1887."
+  - "Wu, Tim. The Attention Merchants: The Epic Scramble to Get Inside Our Heads. Alfred A. Knopf, 2016."
+  - "Schelling, Thomas C. 'The Intimate Contest for Self-Command.' The Public Interest, Summer 1980."
 ---
 ```
 
@@ -111,7 +115,7 @@ references: [
 5. **Numbered Conceptual Sections**:
    Develop the core thesis through crisp, numbered sections (e.g., `## 1. Two graphs, one joint`, `## 2. Friction is the expanded graph`).
    - Bold core definitions and theorems (`**Friction is the expanded graph.**`).
-   - Embed inline MLA citations linking to author-preferred sources: `([Marx 165](https://...))`.
+   - Embed inline MLA citations linking to author-preferred sources, using only locators you have verified: `([Marx ch. 1, sec. 4](https://...))` or `([Wu](https://...))`.
    - Where visual structure aids comprehension, inline clean SVG diagrams styled with Nocturne CSS variables (e.g. `var(--color-accent-300)`, `var(--color-surface)`).
 
 6. **Wikilinks**:

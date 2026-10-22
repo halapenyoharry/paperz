@@ -51,8 +51,13 @@
         var v = mm[2].trim();
         if (!v) {
           meta[currentKey] = [];
-        } else if (v.charAt(0) === '[' && v.charAt(v.length - 1) === ']') {
-          meta[currentKey] = parseArray(v.slice(1, -1));
+        } else if (v.charAt(0) === '[') {
+          // Gather a bracket array that may span several lines, until the closing ']'.
+          while (v.charAt(v.length - 1) !== ']' && i + 1 < lines.length) {
+            i++;
+            v += ' ' + lines[i].trim();
+          }
+          meta[currentKey] = parseArray(v.replace(/^\[|\]$/g, ''));
           currentKey = null;
         } else {
           meta[currentKey] = v.replace(/^["\x27]|["\x27]$/g, '');
