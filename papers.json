@@ -7,6 +7,26 @@
   },
   "papers": [
     {
+      "slug": "the-twenty-watt-watch",
+      "title": "The twenty-watt watch",
+      "subtitle": "On the thermodynamic cost of negentropy, spinlock loops, and the biphasic architecture of sleep",
+      "date": "2026-10-31",
+      "version": "1.0",
+      "tags": [
+        "thermodynamics",
+        "negentropy",
+        "sleep",
+        "cognitive-budget",
+        "flow",
+        "biphasic-sleep",
+        "neuroscience",
+        "information-theory",
+        "human-ai-collaboration",
+        "systems-topology"
+      ],
+      "summary": "Every bit of cognitive order is purchased by dumping heat into the universe, yet the human brain operates under a rigid twenty-watt metabolic ceiling that cannot be overclocked. Capacity for creative work comes not from burning more fuel, but from terminating parasitic spinlock loops like guilt, regret, and un-externalized memory, and from abandoning the industrial myth of the single eight-hour sleep block in favor of the human nervous system's native biphasic rhythm."
+    },
+    {
       "slug": "the-contracted-edge",
       "title": "The contracted edge",
       "subtitle": "Convenience as graph contraction, and attention as the moral budget",
