@@ -7,6 +7,25 @@
   },
   "papers": [
     {
+      "slug": "the-joint-cognitive-system",
+      "title": "The joint cognitive system",
+      "subtitle": "Ecological interface design, its four failure modes, and an operating protocol for agentic coding",
+      "date": "2026-10-31",
+      "version": "1.0",
+      "tags": [
+        "cognitive-systems-engineering",
+        "ecological-interface-design",
+        "joint-cognitive-systems",
+        "agentic-coding",
+        "human-ai-collaboration",
+        "epistemic-actions",
+        "systems-topology",
+        "provenance",
+        "interface-architecture"
+      ],
+      "summary": "Ecological Interface Design (EID) did not vanish; it evolved into Cognitive Systems Engineering to solve the four failure modes of 1992 constraint displays: training overhead, intentional versus causal rules, missing sequential flow, and the automation blind spot. When applied to software built with autonomous coding agents, the true unit of design is a triadic Joint Cognitive System uniting the human nervous system, the ecological interface, and the coding agent, governed by explicit rules that convert abstract agent questions into manipulable epistemic controls."
+    },
+    {
       "slug": "the-twenty-watt-watch",
       "title": "The twenty-watt watch",
       "subtitle": "On the thermodynamic cost of negentropy, spinlock loops, and the biphasic architecture of sleep",
