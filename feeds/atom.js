@@ -34,6 +34,8 @@ function generateAtom(site, items) {
     </author>
 ${categories}
     <summary>${escapeXml(item.summary || '')}</summary>
+    <rights>${escapeXml(item.license ? item.license.line : '')}</rights>${item.license && item.license.url ? `
+    <link rel="license" href="${escapeXml(item.license.url)}"/>` : ''}
     <content type="html"><![CDATA[${item.html}]]></content>
   </entry>`;
   }).join('\n');

@@ -26,7 +26,12 @@ function generateJsonFeed(site, items) {
         summary: item.summary || '',
         content_html: item.html,
         date_published: isoDate,
-        tags: item.tags || []
+        tags: item.tags || [],
+        _paperz: {
+          license: item.license ? item.license.id : null,
+          license_url: item.license ? item.license.url : null,
+          attribution: item.license ? item.license.attribution : null
+        }
       };
     })
   };

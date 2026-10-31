@@ -40,6 +40,20 @@ All zpapers adhere strictly to **MLA (Modern Language Association) citation styl
 
 > **Frontmatter lists**: use one-line arrays (`tags: [a, b, c]`) or dash lists (one `- item` per line, as in `references` below). Wrap items containing commas in double quotes.
 
+### Licensing
+
+Each zpaper declares its own `license` in frontmatter. **Ask the human which license to use; never pick one for them.** If they don't say, use `CC0-1.0`.
+
+| `license` value | Meaning |
+|---|---|
+| `CC0-1.0` | Donated to the commons. No conditions. *(default)* |
+| `CC-BY-4.0` | Free to use with credit to the human author. |
+| `CC-BY-SA-4.0` | Free to use with credit; derivatives must stay open. |
+| `CC-BY-NC-4.0` | Free to use with credit, non-commercially. |
+| `all-rights-reserved` | The human retains rights to the human contribution. |
+
+For any `CC-BY*` license or `all-rights-reserved`, also set `attribution:` to the name the human wants credited (e.g. `attribution: Harold`). The license registry lives in `licenses.js`; add new licenses there, not in the pages.
+
 ---
 
 ## 3. Document Anatomy
@@ -57,7 +71,7 @@ title: The contracted edge — convenience as graph contraction, and attention a
 version: 1.1
 date: YYYY-MM-DD
 audience: anyone who has ever bought something instead of making it — which is everyone
-license: donated to the commons
+license: CC0-1.0
 tags: [ethics, graph-theory, attention, supply-chains, comfort, human-ai-collaboration, commodity-fetishism, political-economy, cognitive-budget, systems-topology]
 lineage: [marxian-political-economy, hebbian-neuroscience, attention-economics, behavioral-bargaining]
 links: ["[[the-smoke-loop]]", "[[topothink]]"]

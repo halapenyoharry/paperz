@@ -47,7 +47,8 @@ subtitle: The line under the title
 version: 1.0
 date: YYYY-MM-DD
 audience: target audience or persona
-license: donated to the commons
+license: CC0-1.0            # or CC-BY-4.0, CC-BY-SA-4.0, CC-BY-NC-4.0, all-rights-reserved
+attribution: Your Name      # needed for CC-BY* and all-rights-reserved
 tags: [ethics, topology, cognitive-budget, systems]
 lineage: [marxian-political-economy, hebbian-neuroscience]
 links: ["[[another-paper]]"]
@@ -106,6 +107,7 @@ http://localhost:8000/index.dc.html
 - `index.dc.html` — Searchable, tag-filtered zpaper index with feed links.
 - `paper.dc.html` — In-browser markdown reader (`paper.dc.html?p=slug`).
 - `md.js` — Client-side markdown and YAML frontmatter parser.
+- `licenses.js` — License registry (identifier → name, link, meaning).
 - `papers.json` — The central archive index (metadata, tags, forthcoming tracking).
 - `papers/` — Markdown source files for all published zpapers.
 - `inbox/` — Staging area for drafts in development.
@@ -123,4 +125,4 @@ http://localhost:8000/index.dc.html
 
 ## License
 
-All zpapers in this archive are donated to the commons.
+Each zpaper carries its own license in frontmatter, shown on the paper page and in all three feeds. Papers default to [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (donated to the commons); authors may choose [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) or another option listed in [AGENTS.md](AGENTS.md#licensing).

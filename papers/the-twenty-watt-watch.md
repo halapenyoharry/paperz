@@ -29,7 +29,7 @@ references:
 > he said
 > and slept;died
 > can't decide
->
+> 
 > ...what is the cost in entropy units for each negentropy unit? ... so there is only so much energy available for cognitive work, the only real way to get more is to let go of things that's taking energy, what I call loops like guilt, memorization paths, regret, etc. that is why flow works, it's why dancing works, etc. ... I took a nap at 6 o'clock for over an hour, so I don't see the point in laying in bed trying to sleep when I know it's impossible. been wondering if I need a nap everyday, maybe this is what's ideal, there is nothing stopping me.
 
 *A poem placed at the end of a collection, followed by a late-night inquiry at 2:30 AM after an early-evening nap. This paper is its formalization.*
@@ -119,6 +119,7 @@ If cognitive fatigue is mostly spinlock contention on a fixed twenty-watt bus, t
 Arne Dietrich formalized this mechanism as **transient hypofrontality** ([Dietrich](https://pubmed.ncbi.nlm.nih.gov/15522630/)). During states of deep flow, vigorous physical movement, or musical absorption, the brain temporarily downregulates the dorsolateral prefrontal cortex and Default Mode Network, the exact regions responsible for self-conscious auditing, temporal anxiety, and second-guessing. The subjective sensation of effortless capacity during flow is the felt experience of reclaiming the wattage usually burned by the inner critic.
 
 Dancing is the cleanest demonstration of this circuit. When a human body locks its movement to an external musical beat, two things happen simultaneously on the twenty-watt bus:
+
 - **Coupled oscillator entrainment**: Real-time auditory beat prediction, proprioception, and motor execution demand immediate, high-bandwidth throughput from the sensorimotor cortex, basal ganglia, and cerebellum, forcing the brain to preempt and terminate the background rumination loops of the Default Mode Network.
 - **Zero-lag feedback**: Unlike abstract life problems whose outcomes sit weeks or months in the future, moving a limb onto a downbeat resolves its prediction error within milliseconds, closing the control loop on the exact timescale the nervous system evolved to steer ([[the-smoke-loop]]).
 
@@ -143,42 +144,36 @@ In 1992, psychiatrist Thomas Wehr proved at the National Institute of Mental Hea
 Why does splitting sleep, whether via a midnight watch or via an early-evening nap paired with a shorter late-night core sleep, often produce *more* usable cognitive capacity than a single sixteen-hour waking marathon?
 
 Giulio Tononi and Chiara Cirelli's **Synaptic Homeostasis Hypothesis (SHY)** supplies the cellular mechanism ([Tononi and Cirelli](https://pubmed.ncbi.nlm.nih.gov/24411729/)). Every hour of waking perception, learning, and attention strengthens synaptic connections across the cortex ([Hebb](https://www.routledge.com/The-Organization-of-Behavior-A-Neuropsychological-Theory/Hebb/p/book/9780805843002); [[the-contracted-edge]]). As net synaptic weight climbs across a sixteen-hour day, two costs compound:
+
 1. **Metabolic saturation**: Stronger, more numerous active synapses consume more of the twenty-watt budget just to maintain baseline firing, leaving less headroom for new plasticity.
 2. **Signal-to-noise degradation**: As more pathways sit near saturation, cortical signal-to-noise ratio drops, experienced subjectively by late afternoon as brain fog, irritability, and an inability to hold complex topologies in frame.
 
 <svg viewBox="0 0 760 430" width="100%" role="img" aria-label="Comparison of monophasic 16-hour synaptic noise accumulation versus biphasic anchor-and-nap reset across the 20-watt cognitive budget" style="display:block;max-width:720px;margin:1.5em auto">
   <!-- Background Frame -->
   <rect x="20" y="16" width="720" height="398" rx="8" fill="none" stroke="var(--color-divider)" stroke-width="1"/>
-
-  <!-- Top Panel: Monophasic 16h Wake (Saturating Noise) -->
+<!-- Top Panel: Monophasic 16h Wake (Saturating Noise) -->
   <text x="44" y="46" style="font-family:var(--font-body);font-size:11.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase" fill="var(--color-neutral-400)">A. Industrial Monophasic Schedule (16h continuous wake + 8h block)</text>
   <line x1="44" y1="165" x2="710" y2="165" stroke="var(--color-divider)" stroke-width="1"/>
   <line x1="44" y1="75" x2="710" y2="75" stroke="var(--color-divider)" stroke-width="1" stroke-dasharray="3 5"/>
   <text x="48" y="70" style="font-family:var(--font-body);font-size:10px" fill="var(--color-neutral-400)">20W Synaptic Saturation / High Adenosine Ceiling</text>
-
-  <!-- Monophasic Curve: climbs from 08:00 to saturation by 16:00, stays saturated until 24:00 -->
-  <path d="M 44 155 C 140 135, 220 92, 310 80 C 390 74, 460 73, 520 73 L 520 160 L 710 160" fill="none" stroke="var(--color-neutral-400)" stroke-width="2"/>
+<!-- Monophasic Curve: climbs from 08:00 to saturation by 16:00, stays saturated until 24:00 -->
+<path d="M 44 155 C 140 135, 220 92, 310 80 C 390 74, 460 73, 520 73 L 520 160 L 710 160" fill="none" stroke="var(--color-neutral-400)" stroke-width="2"/>
   <text x="360" y="102" text-anchor="middle" style="font-family:var(--font-body);font-size:11px" fill="var(--color-neutral-400)">6 hrs of saturated, low-SNR coasting (18:00–24:00)</text>
   <text x="615" y="145" text-anchor="middle" style="font-family:var(--font-body);font-size:11px" fill="var(--color-neutral-400)">8h Single Sleep</text>
-
-  <!-- Bottom Panel: Biphasic Anchor + Nap (Double Fresh Window) -->
+<!-- Bottom Panel: Biphasic Anchor + Nap (Double Fresh Window) -->
   <text x="44" y="216" style="font-family:var(--font-body);font-size:11.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase" fill="var(--color-accent)">B. Biphasic Nap + Night Watch (Two Fresh Cortical Windows)</text>
   <line x1="44" y1="345" x2="710" y2="345" stroke="var(--color-divider)" stroke-width="1"/>
   <line x1="44" y1="250" x2="710" y2="250" stroke="var(--color-divider)" stroke-width="1" stroke-dasharray="3 5"/>
-
-  <!-- Biphasic Curve: Morning climb -> 18:00 Nap Downscaling -> Second Fresh Window (19:30-03:00) -> Core Sleep -->
-  <path d="M 44 335 C 130 315, 210 275, 285 262 L 335 332 C 395 312, 470 280, 565 260 L 595 340 L 710 340" fill="none" stroke="var(--color-accent)" stroke-width="2.2"/>
-
-  <!-- Nap Highlight Box -->
-  <rect x="285" y="245" width="50" height="100" fill="var(--color-accent)" opacity="0.12"/>
+<!-- Biphasic Curve: Morning climb -> 18:00 Nap Downscaling -> Second Fresh Window (19:30-03:00) -> Core Sleep -->
+<path d="M 44 335 C 130 315, 210 275, 285 262 L 335 332 C 395 312, 470 280, 565 260 L 595 340 L 710 340" fill="none" stroke="var(--color-accent)" stroke-width="2.2"/>
+<!-- Nap Highlight Box -->
+<rect x="285" y="245" width="50" height="100" fill="var(--color-accent)" opacity="0.12"/>
   <text x="310" y="240" text-anchor="middle" style="font-family:var(--font-body);font-size:10.5px;font-weight:500" fill="var(--color-accent)">90m Nap Reset</text>
-
-  <!-- Night Watch Label -->
-  <circle cx="465" cy="292" r="4" fill="var(--color-accent)"/>
+<!-- Night Watch Label -->
+<circle cx="465" cy="292" r="4" fill="var(--color-accent)"/>
   <text x="465" y="318" text-anchor="middle" style="font-family:var(--font-body);font-size:11px;font-weight:500" fill="var(--color-text)">Second Fresh Brain (Zero Social Noise, 19:30–03:00)</text>
   <text x="652" y="325" text-anchor="middle" style="font-family:var(--font-body);font-size:11px" fill="var(--color-neutral-400)">Core Anchor Sleep</text>
-
-  <!-- Shared 24h Time Axis Labels -->
+<!-- Shared 24h Time Axis Labels -->
   <text x="44" y="378" style="font-family:var(--font-body);font-size:10px" fill="var(--color-neutral-400)">09:00</text>
   <text x="175" y="378" style="font-family:var(--font-body);font-size:10px" fill="var(--color-neutral-400)">13:30</text>
   <text x="285" y="378" style="font-family:var(--font-body);font-size:10px" fill="var(--color-neutral-400)">18:00</text>
@@ -191,12 +186,14 @@ Giulio Tononi and Chiara Cirelli's **Synaptic Homeostasis Hypothesis (SHY)** sup
 *Figure 1: Synaptic weight and adenosine pressure across twenty-four hours. Under the monophasic industrial schedule (A), the cortex hits saturation by late afternoon and spends the entire evening in low-signal-to-noise coasting. Under the biphasic nap-and-watch schedule (B), a sixty-to-ninety-minute early-evening nap performs a mid-cycle synaptic downscaling pass, opening a second high-capacity cognitive window during the quietest hours of the night.*
 
 When a person takes a sixty-to-ninety-minute nap around six in the evening, completing one full ultradian slow-wave and REM cycle, two distinct physiological events occur:
+
 1. **Sleep inertia at wakeup ("feeling meh at first")**: For the first fifteen to thirty minutes after waking, adenosine clearance and prefrontal blood-flow reactivation lag slightly behind brainstem arousal. The initial grogginess is a transient boot sequence, not a sign that the nap failed.
 2. **Synaptic renormalization ("more capacity after getting up")**: Once the boot sequence finishes, the slow-wave downscaling pass has pruned back the day's accumulated synaptic noise and cleared a substantial fraction of extracellular adenosine ([Tononi and Cirelli](https://pubmed.ncbi.nlm.nih.gov/24411729/)).
 
 Instead of limping through a six-hour evening fog just to stay compliant with an industrial bedtime, the biphasic sleeper gets **two mornings in every twenty-four-hour day**. Better still, the second morning arrives between ten at night and three in the morning, when the external world's interrupt rate drops to zero, phones stop buzzing, and the entire twenty-watt budget can be routed into uninterrupted creation.
 
 The operational rules that fall out of this model are simple and testable:
+
 - **Never run the bedtime spinlock**: If a nap has cleared adenosine pressure, lying in bed at midnight trying to force sleep violates stimulus control and hands the twenty-watt budget over to Default Mode rumination. Stay at the desk or in motion until true sleep pressure arrives.
 - **Sleep in ninety-minute ultradian multiples**: Whether divided as a ninety-minute early-evening nap plus a four-and-a-half-to-six-hour late-night anchor sleep, or as a first sleep and second sleep flanking a midnight watch, waking near the top of a ninety-minute cycle minimizes sleep inertia.
 - **Offload volatile state before sleeping**: Commit the code, write the note, and close the open loops onto disk so the sleeping brain spends its metabolic maintenance window downscaling synapses rather than guarding un-saved state.

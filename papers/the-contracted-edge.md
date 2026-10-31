@@ -3,7 +3,7 @@ type: zpaper
 title: The contracted edge — convenience as graph contraction, and attention as the moral budget
 version: 1.1
 audience: anyone who has ever bought something instead of making it — which is everyone
-license: donated to the commons
+license: CC0-1.0
 tags: [ethics, graph-theory, attention, supply-chains, comfort, human-ai-collaboration, commodity-fetishism, political-economy, cognitive-budget, systems-topology]
 lineage: [marxian-political-economy, hebbian-neuroscience, attention-economics, behavioral-bargaining]
 links: ["[[the-smoke-loop]]", "[[topothink]]"]

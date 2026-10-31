@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="_ds/nocturne-f58e5f09-aa1c-4b83-9d92-0d9ff9917e86/styles.css">
 <script src="_ds/nocturne-f58e5f09-aa1c-4b83-9d92-0d9ff9917e86/_ds_bundle.js"></script>
 <script src="md.js"></script>
+<script src="licenses.js"></script>
 <link rel="alternate" type="application/rss+xml" title="paperz (RSS 2.0)" href="feed.xml">
 <link rel="alternate" type="application/atom+xml" title="paperz (Atom 1.0)" href="atom.xml">
 <link rel="alternate" type="application/feed+json" title="paperz (JSON Feed 1.1)" href="feed.json">
@@ -63,6 +64,8 @@
         <span>{{ dateLabel }}</span>
         <span style="color:var(--color-neutral-700)">/</span>
         <span>v{{ version }}</span>
+        <span style="color:var(--color-neutral-700)">/</span>
+        <a href="{{ licenseUrl }}" title="{{ licenseMeaning }}" style="color:var(--color-neutral-400)">{{ licenseLine }}</a>
         <sc-for list="{{ tags }}" as="tg" hint-placeholder-count="4">
           <span class="tag tag-neutral">{{ tg.label }}</span>
         </sc-for>
@@ -117,7 +120,7 @@
 
     <footer style="max-width:74ch;padding:56px 0 0;display:flex;flex-direction:column;gap:var(--space-2)">
       <hr class="hr" style="margin:0 0 var(--space-4)" />
-      <div style="font-size:12px;line-height:1.7;color:var(--color-neutral-500)">Ideas generated in collaboration with AI · human thesis, machine drafting · donated to the commons</div>
+      <div style="font-size:12px;line-height:1.7;color:var(--color-neutral-500)">Ideas generated in collaboration with AI · human thesis, machine drafting · <a href="{{ licenseUrl }}">{{ licenseLine }}</a> — {{ licenseMeaning }}</div>
       <div style="font-size:12px;line-height:1.7;color:var(--color-neutral-500)">paperz · <a href="index.dc.html">all papers</a> · Feeds: <a href="feed.xml">RSS 2.0</a> · <a href="atom.xml">Atom 1.0</a> · <a href="feed.json">JSON Feed</a></div>
     </footer>
   </div>
@@ -187,6 +190,11 @@ class Component extends DCLogic {
     return isNaN(d) ? (s || '') : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
   }
 
+  licenseVals(m) {
+    const lic = (typeof PZL !== 'undefined') ? PZL.resolve(m.license, m.attribution) : { line: 'CC0 1.0', url: '', meaning: '' };
+    return { licenseLine: lic.line, licenseUrl: lic.url || '#', licenseMeaning: lic.meaning };
+  }
+
   renderVals() {
     const m = this.state.meta || {};
     const r = this.state.rendered;
@@ -225,6 +233,9 @@ class Component extends DCLogic {
         : (m.summary || ''),
       dateLabel: this.fmtDate(m.date),
       version: m.version || '1.0',
+      licenseLine: this.licenseVals(m).licenseLine,
+      licenseUrl: this.licenseVals(m).licenseUrl,
+      licenseMeaning: this.licenseVals(m).licenseMeaning,
       tags: tags.map(t => ({ label: t })),
       progress: Math.round(this.state.progress * 1000) / 10 + '%',
       measure: this.props.measure || 68,

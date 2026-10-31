@@ -2,7 +2,7 @@
 title: Squash the triangle — an argument for teaching invariance before number
 version: 3.0
 audience: curriculum designers, educational researchers
-license: donated to the commons
+license: CC0-1.0
 tags: [pedagogy, mathematics-education, graph-theory, invariance, curriculum, whitepaper]
 links: ["[[topothink]]", "[[structure-before-number]]", "[[sandboxes-to-vector-spaces-structural-review]]"]
 date: 2026-09-07

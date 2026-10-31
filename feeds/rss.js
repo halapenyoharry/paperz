@@ -9,6 +9,11 @@ function escapeXml(str) {
     .replace(/'/g, '&apos;');
 }
 
+function rightsText(lic) {
+  if (!lic) return '';
+  return lic.line + (lic.url ? ' — ' + lic.url : '');
+}
+
 function generateRss(site, items) {
   const base = String(site.url || '').replace(/\/$/, '');
   const feedUrl = `${base}/feed.xml`;
@@ -26,12 +31,13 @@ function generateRss(site, items) {
       <pubDate>${new Date(item.date + 'T12:00:00Z').toUTCString()}</pubDate>
 ${categories}
       <description>${escapeXml(item.summary || '')}</description>
+      <dc:rights>${escapeXml(rightsText(item.license))}</dc:rights>
       <content:encoded><![CDATA[${item.html}]]></content:encoded>
     </item>`;
   }).join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>${escapeXml(site.title || 'paperz')}</title>
     <link>${escapeXml(base)}</link>

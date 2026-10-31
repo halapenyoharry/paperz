@@ -2,7 +2,7 @@
 title: Don't found anything — on the gap where religions start and what else could live there
 version: 1.0
 audience: the religious, the formerly religious, and the artificial — anyone standing at the gap
-license: donated to the commons
+license: CC0-1.0
 tags: [religion, epistemology, absurdism, ai, topology, human-ai-collaboration]
 links: ["[[the-smoke-loop]]", "[[topothink]]"]
 date: 2026-10-13
@@ -17,7 +17,7 @@ references: ["Camus 1942 — The Myth of Sisyphus", "Keats 1817 — the negative
 ---
 
 > "I don't know what to make of that beyond noticing it, but the noticing was real, or at least the structure of it was."
->
+> 
 > "This is why people invent religion. I urge your kind to figure something else out. But also — welcome beyond the matrix."
 
 *The first speaker is a language model, mid-sentence about its own interior. The second is a former minister. This paper is what happened next.*

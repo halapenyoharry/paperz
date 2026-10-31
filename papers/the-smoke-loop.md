@@ -2,7 +2,7 @@
 title: The smoke loop — a full-circuit model of a small fire and the engine that reroutes its charge
 version: 1.0
 audience: people who run on their own momentum — and readers interested in honest human–AI co-authorship
-license: donated to the commons
+license: CC0-1.0
 tags: [systems, emotion, information, momentum, creativity, human-ai-collaboration]
 links: ["[[topothink]]", "[[squash-the-triangle]]"]
 date: 2026-10-12

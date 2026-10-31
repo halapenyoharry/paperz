@@ -4,6 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 const { PZ } = require('./md.js');
+const { PZL } = require('./licenses.js');
 const { generateRss } = require('./feeds/rss.js');
 const { generateAtom } = require('./feeds/atom.js');
 const { generateJsonFeed } = require('./feeds/jsonfeed.js');
@@ -38,6 +39,7 @@ const items = (index.papers || []).map(p => {
     tags: p.tags,
     summary: p.summary,
     url: `${base}/paper.dc.html?p=${p.slug}`,
+    license: PZL.resolve(parsed.meta.license, parsed.meta.attribution),
     html: rendered.html
   };
 });
