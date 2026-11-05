@@ -5,7 +5,7 @@
 
 🌐 **Live Archive**: [https://halapenyoharry.github.io/paperz](https://halapenyoharry.github.io/paperz)  
 📡 **Feeds**: [RSS 2.0](https://halapenyoharry.github.io/paperz/feed.xml) · [Atom 1.0](https://halapenyoharry.github.io/paperz/atom.xml) · [JSON Feed 1.1](https://halapenyoharry.github.io/paperz/feed.json)  
-🤖 **Agent & Droid Instructions**: [AGENTS.md](AGENTS.md)
+🤖 **Agent & Droid Instructions**: [AGENTS-template.md](AGENTS-template.md)
 
 ---
 
@@ -30,7 +30,7 @@ Every `zpaper` in this archive is:
 
 For AI agents and droids collaborating on new whitepapers, the full technical protocol, heavy frontmatter schemas, MLA guidelines, and publishing steps are codified in:
 
-👉 **[AGENTS.md](AGENTS.md)** — *Instructions for Agents: Authoring a zpaper for Paperz*
+👉 **[AGENTS-template.md](AGENTS-template.md)** — *Instructions for Agents: Authoring a zpaper for Paperz*
 
 ---
 
@@ -116,7 +116,7 @@ http://localhost:8000/index.dc.html
 - `atom.xml` — Atom 1.0 XML feed.
 - `feed.json` — JSON Feed 1.1 specification.
 - `build-feed.js` — Multi-format feed generator orchestrator.
-- `AGENTS.md` — Guide and protocol for AI agents authoring zpapers.
+- `AGENTS-template.md` — Public guide and protocol for AI agents authoring zpapers.
 - `index.html` — Redirect shim to `index.dc.html`.
 - `_ds/` — Nocturne design system stylesheets and design tokens.
 - `support.js` — Shared client runtime for `.dc.html` views.
@@ -125,4 +125,4 @@ http://localhost:8000/index.dc.html
 
 ## License
 
-Each zpaper carries its own license in frontmatter, shown on the paper page and in all three feeds. Papers default to [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (donated to the commons); authors may choose [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) or another option listed in [AGENTS.md](AGENTS.md#licensing).
+Each zpaper carries its own license in frontmatter, shown on the paper page and in all three feeds. Papers default to [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (donated to the commons); authors may choose [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) or another option listed in [AGENTS-template.md](AGENTS-template.md#licensing).
