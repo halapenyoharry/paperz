@@ -7,6 +7,29 @@
   },
   "papers": [
     {
+      "slug": "three-gates",
+      "title": "Three gates",
+      "subtitle": "Texas after the 2026 election, read as the graph of who can block whom",
+      "date": "2026-11-04",
+      "version": "1.1",
+      "tags": [
+        "texas",
+        "elections",
+        "state-legislatures",
+        "veto-players",
+        "legislative-rules",
+        "redistricting",
+        "coalition-bargaining",
+        "campaign-finance",
+        "cannabis-policy",
+        "religion-and-voting",
+        "systems-topology",
+        "human-ai-collaboration",
+        "living-document"
+      ],
+      "summary": "On November 3, 2026, Texas went from one veto player to three: a Democratic House, a Republican Senate and a Democratic governor, with no party holding two-thirds anywhere. Only bills with votes from both parties can now become law, and the lieutenant governor, the most powerful office in the state, holds whatever power nineteen Republican senators choose to leave it in January. A living zpaper, built to be revised as the canvass, the rules vote and two special elections arrive."
+    },
+    {
       "slug": "the-joint-cognitive-system",
       "title": "The joint cognitive system",
       "subtitle": "Ecological interface design, four failure modes, and an operating protocol for agentic coding",
