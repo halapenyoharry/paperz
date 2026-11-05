@@ -60,6 +60,12 @@ For any `CC-BY*` license or `all-rights-reserved`, also set `attribution:` to th
 
 Every zpaper is a single markdown file located in `papers/<slug>.md` (kebab-case slug). It must adhere to the following structure:
 
+### Slug Rule (Two Literal Words)
+
+- **`slug`**: Every zpaper must carry an explicit `slug` field in its frontmatter and in `papers.json` (matching its filename `papers/<slug>.md`).
+- **Two literal topic words**: A slug is never a poetic phrase, a metaphor, or a copy of a clever title. It must be the **literal best two words** (`word-word` in kebab-case) that explain what the article is actually about (e.g., `texas-election`, `ecological-interface`, `biphasic-sleep`, `attention-budget`, `mathematics-invariance`).
+- **Title freedom**: Because the `slug` carries the literal two-word topic identity, the `title` and `subtitle` are free to be whatever poetic, structural, or conversational title the human or agent chooses.
+
 ### Heavy Frontmatter
 
 Zpapers utilize **heavy frontmatter** to preserve deep taxonomic metadata, intellectual lineages, and relational graphs:
@@ -67,6 +73,7 @@ Zpapers utilize **heavy frontmatter** to preserve deep taxonomic metadata, intel
 ```yaml
 ---
 type: zpaper
+slug: attention-budget
 title: The contracted edge — convenience as graph contraction, and attention as the moral budget
 version: 1.1
 date: YYYY-MM-DD

@@ -37,11 +37,12 @@ For AI agents and droids collaborating on new whitepapers, the full technical pr
 ## Adding a `zpaper`
 
 ### 1. Write the Markdown File
-Create `papers/your-paper-slug.md` with heavy frontmatter:
+Create `papers/<slug>.md` where `<slug>` is the **literal best two words** (`word-word` in kebab-case) that explain what the article is actually about (never a poetic metaphor), and include `slug` in the heavy frontmatter:
 
 ```yaml
 ---
 type: zpaper
+slug: two-words
 title: Your Title
 subtitle: The line under the title
 version: 1.0
@@ -64,7 +65,7 @@ Add an entry to the `papers` array in `papers.json` (newest first):
 
 ```json
 {
-  "slug": "your-paper-slug",
+  "slug": "two-words",
   "title": "Your Title",
   "subtitle": "The line under the title",
   "date": "YYYY-MM-DD",
