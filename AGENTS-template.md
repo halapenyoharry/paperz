@@ -207,24 +207,23 @@ Open `papers.json` and prepend the new zpaper object to the beginning of the `"p
 - If this zpaper was previously listed in `"forthcoming"`, remove it from that array.
 - If this zpaper references new, forthcoming zpapers, add them to `"forthcoming"` with a brief `"note"` explaining which zpapers reference them.
 
-### Step 3: Rebuild Multi-Format Feeds
-Run the modular feed generator to update `feed.xml` (RSS 2.0), `atom.xml` (Atom 1.0), and `feed.json` (JSON Feed 1.1):
+### Step 3: Rebuild the `post-pipe` Site & Multi-Format Feeds
+Run `node scripts/build.js` (or `node build-feed.js`, which delegates to `scripts/build.js` when `post-pipe` is present) to rebuild the `post-pipe` graph viewer (`index.html`), standalone/reader HTML (`<slug>.html`), SKOS files (`skos.jsonld`, `skos.ttl`), ledgers (`cards.json`, `rtagz-ids.json`), and all three feeds (`feed.json`, `feed.xml`, `atom.xml`):
 ```bash
-node build-feed.js
+node scripts/build.js
 ```
-Verify that the output reports that all three feed formats were generated.
 
 ### Step 4: Preview Locally
 Verify rendering and links in a local server:
 ```bash
 python3 -m http.server 8000
 ```
-Open `http://localhost:8000/index.dc.html` and check:
-- The zpaper appears in the index with correct tags, date, and summary.
-- The reader page (`paper.dc.html?p=your-paper-slug`) renders headers, introduction, source dossier, lists, SVGs, MLA links, and wikilinks properly.
+Open `http://localhost:8000/` (for the `post-pipe` graph viewer and reader panel) and `http://localhost:8000/index.dc.html` (for the classic Nocturne index) and check:
+- The zpaper appears in the graph and index with correct tags, date, `topicSlug`, and summary.
+- Both the `post-pipe` reader panel and the classic reader (`paper.dc.html?p=your-paper-slug`) render headers, introduction, source dossier, lists, SVGs, MLA links, and wikilinks properly.
 
 ### Step 5: Commit and Deploy
-Commit all modified files (`papers/<slug>.md`, `papers.json`, `feed.xml`, `atom.xml`, `feed.json`) and push to `main`. GitHub Pages serves the changes automatically.
+Commit all modified files (`papers/<slug>.md`, `papers.json`, `index.html`, `<slug>.html`, `cards.json`, `rtagz-ids.json`, `skos.jsonld`, `skos.ttl`, `feed.xml`, `atom.xml`, `feed.json`) and push to `main`. GitHub Pages serves the changes automatically.
 
 ---
 

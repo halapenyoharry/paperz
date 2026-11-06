@@ -1,0 +1,76 @@
+{
+  "schema": "post-pipe/cards@1",
+  "created": "2026-11-06",
+  "cards": {
+    "three-gates": {
+      "urls": [
+        "https://halapenyoharry.github.io/paperz/three-gates.html"
+      ],
+      "titles": [
+        "Three gates"
+      ],
+      "firstSeen": "2026-11-06",
+      "source": "url"
+    },
+    "the-joint-cognitive-system": {
+      "urls": [
+        "https://halapenyoharry.github.io/paperz/the-joint-cognitive-system.html"
+      ],
+      "titles": [
+        "The joint cognitive system"
+      ],
+      "firstSeen": "2026-11-06",
+      "source": "url"
+    },
+    "the-twenty-watt-watch": {
+      "urls": [
+        "https://halapenyoharry.github.io/paperz/the-twenty-watt-watch.html"
+      ],
+      "titles": [
+        "The twenty-watt watch"
+      ],
+      "firstSeen": "2026-11-06",
+      "source": "url"
+    },
+    "the-contracted-edge": {
+      "urls": [
+        "https://halapenyoharry.github.io/paperz/the-contracted-edge.html"
+      ],
+      "titles": [
+        "The contracted edge"
+      ],
+      "firstSeen": "2026-11-06",
+      "source": "url"
+    },
+    "dont-found-anything": {
+      "urls": [
+        "https://halapenyoharry.github.io/paperz/dont-found-anything.html"
+      ],
+      "titles": [
+        "Don't found anything"
+      ],
+      "firstSeen": "2026-11-06",
+      "source": "url"
+    },
+    "the-smoke-loop": {
+      "urls": [
+        "https://halapenyoharry.github.io/paperz/the-smoke-loop.html"
+      ],
+      "titles": [
+        "The smoke loop"
+      ],
+      "firstSeen": "2026-11-06",
+      "source": "url"
+    },
+    "squash-the-triangle": {
+      "urls": [
+        "https://halapenyoharry.github.io/paperz/squash-the-triangle.html"
+      ],
+      "titles": [
+        "Squash the triangle"
+      ],
+      "firstSeen": "2026-11-06",
+      "source": "url"
+    }
+  }
+}

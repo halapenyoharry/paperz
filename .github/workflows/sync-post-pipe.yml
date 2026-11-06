@@ -1,0 +1,65 @@
+name: Sync post-pipe Engine & Rebuild Site
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [post-pipe-updated]
+  schedule:
+    - cron: '17 6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'papers/**'
+      - 'papers.json'
+      - 'settings.json'
+      - 'feeds.opml'
+      - 'scripts/**'
+      - 'md.js'
+      - 'licenses.js'
+      - 'feeds/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout paperz
+        uses: actions/checkout@v4
+        with:
+          path: paperz
+
+      - name: Checkout post-pipe (main)
+        uses: actions/checkout@v4
+        with:
+          repository: halapenyoharry/post-pipe
+          ref: main
+          path: post-pipe
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install post-pipe dependencies
+        working-directory: post-pipe
+        run: npm ci
+
+      - name: Build paperz site with post-pipe
+        working-directory: paperz
+        env:
+          POSTPIPE_ENGINE: ${{ github.workspace }}/post-pipe
+        run: node scripts/build.js
+
+      - name: Commit and push if changed
+        working-directory: paperz
+        run: |
+          PP_SHA="$(git -C "${{ github.workspace }}/post-pipe" rev-parse --short HEAD)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html feed.json feed.xml atom.xml cards.json rtagz-ids.json skos.jsonld skos.ttl favicon.svg fonts/ *.html
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(engine): rebuild site with post-pipe main ($PP_SHA)"
+            git push origin main
+          fi

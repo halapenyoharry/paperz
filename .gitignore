@@ -4,7 +4,14 @@ Thumbs.db
 *~
 .idea/
 .vscode/
+old/
+_local/
+_build/
+_site/
 AGENTS.md
 AGENT.md
 CLAUDE.md
 DROIDZ.md
+DROID-LEAD.md
+DROiD-LEAD.md
+GEMINI.md

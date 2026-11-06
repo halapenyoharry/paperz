@@ -1,8 +1,20 @@
 #!/usr/bin/env node
-/* Regenerates multi-format feeds (RSS 2.0, Atom 1.0, JSON Feed 1.1) from papers.json + papers/*.md
+/* Regenerates the post-pipe site + multi-format feeds (RSS 2.0, Atom 1.0, JSON Feed 1.1)
+   from papers.json + papers/*.md when ~/Projects/post-pipe is available, or falls back
+   to standalone feed generation.
    Usage: node build-feed.js                                                              */
 const fs = require('fs');
 const path = require('path');
+
+const engineDir = process.env.POSTPIPE_ENGINE
+  ? path.resolve(process.env.POSTPIPE_ENGINE.replace(/^~/, process.env.HOME || ''))
+  : path.join(process.env.HOME || '', 'Projects', 'post-pipe');
+
+if (fs.existsSync(path.join(engineDir, 'generate-index.js')) && fs.existsSync(path.join(__dirname, 'scripts', 'build.js'))) {
+  require('./scripts/build.js');
+  process.exit(0);
+}
+
 const { PZ } = require('./md.js');
 const { PZL } = require('./licenses.js');
 const { generateRss } = require('./feeds/rss.js');

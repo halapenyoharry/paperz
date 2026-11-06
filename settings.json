@@ -1,0 +1,213 @@
+{
+  "site": {
+    "title": "paperz",
+    "description": "whitepapers on ideas generated with AI",
+    "base_url": "https://halapenyoharry.github.io/paperz",
+    "lang": "en"
+  },
+  "author": {
+    "name": "harold young",
+    "display": "paperz"
+  },
+  "frontmatter_display": [
+    "publish_date",
+    "updated_date",
+    "reading_time",
+    "tags",
+    "license",
+    "references"
+  ],
+  "timeOverlay": {
+    "show": false
+  },
+  "toolbar": {
+    "position": "top",
+    "show": {
+      "history": true,
+      "layout": true,
+      "dimensions": true
+    },
+    "show_canonical_crown": true
+  },
+  "tts": {
+    "enabled": true,
+    "default_engine": "browser",
+    "fallback": "voice-then-browser",
+    "engines": {
+      "browser": {
+        "label": "Browser (Web Speech API)",
+        "preferredVoices": [
+          "Samantha",
+          "Daniel",
+          "Karen",
+          "Moira",
+          "Tessa",
+          "Google US English",
+          "Google UK English Female",
+          "Google UK English Male",
+          "Microsoft Aria",
+          "Microsoft Jenny",
+          "Microsoft Guy"
+        ],
+        "available": true,
+        "exposed": true,
+        "cost": "free — the device already has it, no key, no network"
+      },
+      "gemini": {
+        "label": "Google Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "defaultVoice": "Kore",
+        "available": true,
+        "exposed": false,
+        "cost": "billed per character to whoever owns the key"
+      }
+    }
+  },
+  "export": {
+    "license_header": "Original: {{canonical_url}}",
+    "include_frontmatter": false,
+    "include_further_reading": true
+  },
+  "theme": {
+    "name": "default",
+    "bg": "#161826",
+    "surface": "#232532",
+    "accent": "#9184d9",
+    "text": "#b2b6ca",
+    "text_bright": "#e9e9ed",
+    "border": "rgba(145, 132, 217, 0.25)",
+    "node_published": "#9184d9",
+    "node_draft": "#595d6c",
+    "tag_color": "#d2cefd"
+  },
+  "feed_cache_ttl": 3600,
+  "cards": {
+    "ledger": "cards.json",
+    "listen": true,
+    "topicSlug": true,
+    "topicSlugFoundTags": "text"
+  },
+  "rtagz": {
+    "enabled": true,
+    "discover": false
+  },
+  "reader": {
+    "header": {
+      "byline": true
+    },
+    "progressBar": "top",
+    "allowDownload": true,
+    "fonts": [
+      "default",
+      "opendyslexic"
+    ]
+  },
+  "graph": {
+    "card": {
+      "width": 190,
+      "height": 144,
+      "hoverWidth": 210,
+      "hoverHeight": 162,
+      "pinnedWidth": 236,
+      "pinnedHeight": 192,
+      "minWidth": 110,
+      "minHeight": 80,
+      "maxWidth": 620,
+      "maxHeight": 520,
+      "cornerRadius": 10,
+      "glowPadding": 16,
+      "labelMinFontSize": 14,
+      "labelMaxFontSize": 26,
+      "imageMarkSize": 22
+    },
+    "tag": {
+      "fontSize": 20,
+      "padding": 10,
+      "maxWidth": 150,
+      "maxLines": 3,
+      "cornerRadius": 9,
+      "opacity": 0.72,
+      "show": true,
+      "labels": true,
+      "markRadius": 7
+    },
+    "timeAxis": {
+      "dock": "left",
+      "inset": 54,
+      "endPadding": 70,
+      "connectorOpacity": 0.45,
+      "connectorWidth": 1.6,
+      "spineOpacity": 0.55,
+      "spineWidth": 3,
+      "tickFontSize": 13
+    },
+    "simulation": {
+      "linkDistance": 160,
+      "chargeStrength": -500,
+      "collidePadding": 10,
+      "velocityDecay": 0.7,
+      "alphaDecay": 0.028
+    },
+    "edgeWeights": {
+      "mode": "weighted",
+      "degreePenalty": "sqrt",
+      "recencyClock": "calendar",
+      "recencyHalfLifeDays": 365,
+      "recencyFloor": 0.2,
+      "distanceSpread": 1,
+      "weights": {
+        "tag": 1,
+        "broader": 1,
+        "related": 1,
+        "closeMatch": 1,
+        "broadMatch": 1,
+        "relatedMatch": 1,
+        "exactMatch": 1,
+        "authored": 1,
+        "topology": 1
+      }
+    },
+    "initialFocus": "all",
+    "visibleLayers": [
+      "sequence",
+      "authored",
+      "tag",
+      "topology"
+    ],
+    "containerCount": true,
+    "readingProgress": true,
+    "intro": "whitepapers on ideas generated with AI"
+  },
+  "views": [
+    "cluster",
+    "ring"
+  ],
+  "topBar": {
+    "pages": [],
+    "links": [
+      {
+        "id": "classic",
+        "label": "archive",
+        "href": "./index.dc.html",
+        "showLabel": true
+      },
+      {
+        "id": "rss",
+        "label": "RSS",
+        "href": "./feed.xml",
+        "showLabel": true
+      },
+      {
+        "id": "atom",
+        "label": "Atom",
+        "href": "./atom.xml",
+        "showLabel": true
+      }
+    ],
+    "addFeed": true,
+    "resume": {
+      "label": "read",
+      "showLabel": true
+    }
+  }
+}
