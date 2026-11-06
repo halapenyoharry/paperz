@@ -37,28 +37,50 @@ jobs:
           ref: main
           path: post-pipe
 
+      - name: Check if rebuild is needed
+        id: check
+        working-directory: paperz
+        run: |
+          PP_SHA="$(git -C "${{ github.workspace }}/post-pipe" rev-parse --short HEAD)"
+          CURRENT_SHA="$(node -e "try { const f = require('./feed.json'); console.log((f._postpipe && f._postpipe.engine_commit) || ''); } catch { console.log(''); }")"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$PP_SHA" = "$CURRENT_SHA" ]; then
+            echo "rebuild=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "rebuild=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Setup Node.js
+        if: steps.check.outputs.rebuild == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
       - name: Install post-pipe dependencies
+        if: steps.check.outputs.rebuild == 'true'
         working-directory: post-pipe
         run: npm ci
 
       - name: Build paperz site with post-pipe
+        if: steps.check.outputs.rebuild == 'true'
         working-directory: paperz
         env:
           POSTPIPE_ENGINE: ${{ github.workspace }}/post-pipe
         run: node scripts/build.js
 
       - name: Commit and push if changed
+        if: steps.check.outputs.rebuild == 'true'
         working-directory: paperz
         run: |
           PP_SHA="$(git -C "${{ github.workspace }}/post-pipe" rev-parse --short HEAD)"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html feed.json feed.xml atom.xml cards.json rtagz-ids.json skos.jsonld skos.ttl favicon.svg fonts/ *.html
+          git add -- index.html feed.json feed.xml atom.xml cards.json rtagz-ids.json skos.jsonld skos.ttl favicon.svg fonts/
+          for f in *.html; do
+            case "$f" in
+              *.dc.html) ;;
+              *) git add -- "$f" ;;
+            esac
+          done
           if ! git diff --cached --quiet; then
             git commit -m "chore(engine): rebuild site with post-pipe main ($PP_SHA)"
             git push origin main
