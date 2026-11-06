@@ -44,7 +44,7 @@
       "series": "paperz",
       "series_part": 7,
       "commit_times": [
-        "2026-11-05T12:05:18-06:00"
+        "2026-11-06T17:16:40-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/three-gates.html",
@@ -575,8 +575,7 @@
       "series": "paperz",
       "series_part": 6,
       "commit_times": [
-        "2026-10-31T16:01:09-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-06T17:16:40-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/the-joint-cognitive-system.html",
@@ -1113,8 +1112,7 @@
       "series": "paperz",
       "series_part": 5,
       "commit_times": [
-        "2026-10-31T14:20:49-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-06T17:16:40-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/the-twenty-watt-watch.html",
@@ -1554,11 +1552,7 @@
       "series": "paperz",
       "series_part": 4,
       "commit_times": [
-        "2026-10-22T10:10:19-05:00",
-        "2026-10-22T10:32:15-05:00",
-        "2026-10-22T10:44:31-05:00",
-        "2026-10-22T11:20:06-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-06T17:16:40-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/the-contracted-edge.html",
@@ -1982,8 +1976,7 @@
       "series": "paperz",
       "series_part": 3,
       "commit_times": [
-        "2026-10-22T10:10:19-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-06T17:16:40-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/dont-found-anything.html",
@@ -2284,8 +2277,7 @@
       "series": "paperz",
       "series_part": 2,
       "commit_times": [
-        "2026-10-22T10:10:19-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-06T17:16:40-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/the-smoke-loop.html",
@@ -2590,8 +2582,7 @@
       "series": "paperz",
       "series_part": 1,
       "commit_times": [
-        "2026-10-22T10:10:19-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-06T17:16:40-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/squash-the-triangle.html",
@@ -5321,11 +5312,11 @@
       "prominence": "primary",
       "itemCount": 7,
       "ok": true,
-      "readAt": "2026-11-06T23:13:15.259Z"
+      "readAt": "2026-11-06T23:16:56.182Z"
     }
   ],
   "_rtagz": {
-    "built": "2026-11-06T23:13:15.288Z",
+    "built": "2026-11-06T23:16:56.569Z",
     "systems": {
       "paperz": {
         "sourceId": "local://_build/content",
@@ -5367,7 +5358,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5403,7 +5394,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5439,7 +5430,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5475,7 +5466,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5511,7 +5502,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5547,7 +5538,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5583,7 +5574,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5619,7 +5610,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5655,7 +5646,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5691,7 +5682,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5727,7 +5718,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5763,7 +5754,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5799,7 +5790,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5835,7 +5826,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5871,7 +5862,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5907,7 +5898,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5943,7 +5934,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -5979,7 +5970,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6015,7 +6006,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6051,7 +6042,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6087,7 +6078,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6123,7 +6114,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6159,7 +6150,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6195,7 +6186,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6231,7 +6222,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6267,7 +6258,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6303,7 +6294,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6339,7 +6330,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6375,7 +6366,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6411,7 +6402,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6447,7 +6438,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6483,7 +6474,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6519,7 +6510,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6555,7 +6546,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6591,7 +6582,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6627,7 +6618,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6663,7 +6654,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6699,7 +6690,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6735,7 +6726,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6771,7 +6762,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6807,7 +6798,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6843,7 +6834,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6879,7 +6870,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6915,7 +6906,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6951,7 +6942,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -6987,7 +6978,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -7023,7 +7014,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -7059,7 +7050,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -7095,7 +7086,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -7131,7 +7122,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -7167,7 +7158,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -7203,7 +7194,7 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
-          "event": "minted"
+          "event": "reused"
         }
       }
     ],
@@ -7268,13 +7259,13 @@
       }
     ],
     "ledger": {
-      "minted": 52,
-      "reused": 0,
+      "minted": 0,
+      "reused": 52,
       "retired": 0
     }
   },
   "_postpipe": {
     "engine_commit": "a117b85",
-    "built_at": "2026-11-06T23:13:15.556Z"
+    "built_at": "2026-11-06T23:16:57.095Z"
   }
 }
