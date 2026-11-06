@@ -17,6 +17,9 @@ function rightsText(lic) {
 function generateRss(site, items) {
   const base = String(site.url || '').replace(/\/$/, '');
   const feedUrl = `${base}/feed.xml`;
+  const latestPubDate = items.length > 0 && items[0].date
+    ? new Date(items[0].date + 'T12:00:00Z').toUTCString()
+    : new Date().toUTCString();
 
   const itemXml = items.map(item => {
     const fullTitle = item.title + (item.subtitle ? ' — ' + item.subtitle : '');
@@ -43,7 +46,7 @@ ${categories}
     <link>${escapeXml(base)}</link>
     <description>${escapeXml(site.tagline || '')}</description>
     <language>en</language>
-    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <lastBuildDate>${latestPubDate}</lastBuildDate>
     <atom:link href="${escapeXml(feedUrl)}" rel="self" type="application/rss+xml"/>
 ${itemXml}
   </channel>

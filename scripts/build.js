@@ -357,7 +357,6 @@ if (topicSlugOn(SETTINGS)) {
 
 feed._postpipe = {
   engine_commit: getEngineHead(),
-  built_at: new Date().toISOString(),
 };
 
 fs.writeFileSync(feedJsonPath, JSON.stringify(feed, null, 2) + '\n', 'utf8');

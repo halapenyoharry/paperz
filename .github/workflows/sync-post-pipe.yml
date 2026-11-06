@@ -13,7 +13,7 @@ on:
       - 'papers.json'
       - 'settings.json'
       - 'feeds.opml'
-      - 'scripts/**'
+      - 'scripts/build.js'
       - 'md.js'
       - 'licenses.js'
       - 'feeds/**'
@@ -23,11 +23,13 @@ permissions:
 
 jobs:
   build:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout paperz
         uses: actions/checkout@v4
         with:
+          fetch-depth: 2
           path: paperz
 
       - name: Checkout post-pipe (main)
@@ -43,10 +45,15 @@ jobs:
         run: |
           PP_SHA="$(git -C "${{ github.workspace }}/post-pipe" rev-parse --short HEAD)"
           CURRENT_SHA="$(node -e "try { const f = require('./feed.json'); console.log((f._postpipe && f._postpipe.engine_commit) || ''); } catch { console.log(''); }")"
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$PP_SHA" = "$CURRENT_SHA" ]; then
-            echo "rebuild=false" >> "$GITHUB_OUTPUT"
-          else
+          FEED_UPDATED_IN_HEAD="$(git diff-tree --no-commit-id --name-only -r HEAD | grep -x 'feed.json' || true)"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event_name }}" = "repository_dispatch" ]; then
             echo "rebuild=true" >> "$GITHUB_OUTPUT"
+          elif [ "$PP_SHA" != "$CURRENT_SHA" ]; then
+            echo "rebuild=true" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "push" ] && [ -z "$FEED_UPDATED_IN_HEAD" ]; then
+            echo "rebuild=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "rebuild=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Setup Node.js
