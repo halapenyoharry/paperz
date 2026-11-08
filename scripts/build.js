@@ -206,12 +206,10 @@ for (let idx = 0; idx < (INDEX.papers || []).length; idx++) {
     ? meta.lineage.map((s) => String(s).trim()).filter(Boolean)
     : [];
 
-  const references = Array.isArray(meta.references)
-    ? meta.references
-        .map((r) => String(r).trim())
-        .filter(Boolean)
-        .map((r) => ({ type: 'citation', value: r, label: r }))
-    : [];
+  // Full MLA bibliography entries live in the paper body ("## Works Cited");
+  // do not emit them into frontmatter.json `references`, which post-pipe
+  // renders as graph nodes on the canvas whenever the `tag` layer is visible.
+  const references = [];
 
   const rendered = PZ.render(body, {
     wikilink: (s) => {

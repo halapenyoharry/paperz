@@ -171,8 +171,7 @@
     "visibleLayers": [
       "sequence",
       "authored",
-      "tag",
-      "topology"
+      "tag"
     ],
     "containerCount": true,
     "readingProgress": true,
