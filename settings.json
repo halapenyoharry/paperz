@@ -85,7 +85,7 @@
     "ledger": "cards.json",
     "listen": true,
     "topicSlug": true,
-    "topicSlugFoundTags": "ignore"
+    "topicSlugFoundTags": "text"
   },
   "rtagz": {
     "enabled": true,
