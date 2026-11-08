@@ -7,6 +7,28 @@
   },
   "papers": [
     {
+      "slug": "montana-initiative",
+      "title": "Powers, not rights",
+      "subtitle": "Montana's Initiative 194 and the chain of cases it has to get past",
+      "date": "2026-11-08",
+      "version": "1.0",
+      "tags": [
+        "campaign-finance",
+        "citizens-united",
+        "montana",
+        "ballot-initiatives",
+        "corporate-law",
+        "first-amendment",
+        "supreme-court",
+        "federalism",
+        "elections",
+        "systems-topology",
+        "human-ai-collaboration",
+        "living-document"
+      ],
+      "summary": "On November 3, 2026, Montana voters passed Initiative 194 by about two to one, barring corporations, nonprofits, unions and trade associations from spending on candidates, parties and ballot issues; a federal lawsuit followed within two days. This zpaper lays out the full chain of decisions the measure has to get past, from Buckley v. Valeo in 1976 to NRSC v. FEC in June 2026, and the one most coverage leaves out: American Tradition Partnership v. Bullock, where the Supreme Court threw out Montana's 1912 corporate spending ban without hearing argument. The measure's authors say they are not fighting that chain but stepping off it, from the law of speech to the law of corporate powers. A living zpaper."
+    },
+    {
       "slug": "three-gates",
       "title": "Three gates",
       "subtitle": "Texas after the 2026 election, read as the graph of who can block whom",

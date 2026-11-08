@@ -48,6 +48,15 @@
     rtz:formOf <urn:rosetta-tagz:concept/c_attention> ;
     skos:prefLabel "attention"@en .
 <urn:rosetta-tagz:concept/c_attention> skos:exactMatch <urn:rosetta-tagz:concept/c_attention/paperz> .
+<urn:rosetta-tagz:concept/c_ballot_initiatives> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/site> ;
+    skos:notation "c_ballot_initiatives" ;
+    skos:prefLabel "ballot-initiatives"@en .
+<urn:rosetta-tagz:concept/c_ballot_initiatives/paperz> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/paperz> ;
+    rtz:formOf <urn:rosetta-tagz:concept/c_ballot_initiatives> ;
+    skos:prefLabel "ballot-initiatives"@en .
+<urn:rosetta-tagz:concept/c_ballot_initiatives> skos:exactMatch <urn:rosetta-tagz:concept/c_ballot_initiatives/paperz> .
 <urn:rosetta-tagz:concept/c_biphasic_sleep> rdf:type skos:Concept ;
     skos:inScheme <urn:rosetta-tagz:scheme/site> ;
     skos:notation "c_biphasic_sleep" ;
@@ -75,6 +84,15 @@
     rtz:formOf <urn:rosetta-tagz:concept/c_cannabis_policy> ;
     skos:prefLabel "cannabis-policy"@en .
 <urn:rosetta-tagz:concept/c_cannabis_policy> skos:exactMatch <urn:rosetta-tagz:concept/c_cannabis_policy/paperz> .
+<urn:rosetta-tagz:concept/c_citizens_united> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/site> ;
+    skos:notation "c_citizens_united" ;
+    skos:prefLabel "citizens-united"@en .
+<urn:rosetta-tagz:concept/c_citizens_united/paperz> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/paperz> ;
+    rtz:formOf <urn:rosetta-tagz:concept/c_citizens_united> ;
+    skos:prefLabel "citizens-united"@en .
+<urn:rosetta-tagz:concept/c_citizens_united> skos:exactMatch <urn:rosetta-tagz:concept/c_citizens_united/paperz> .
 <urn:rosetta-tagz:concept/c_coalition_bargaining> rdf:type skos:Concept ;
     skos:inScheme <urn:rosetta-tagz:scheme/site> ;
     skos:notation "c_coalition_bargaining" ;
@@ -120,6 +138,15 @@
     rtz:formOf <urn:rosetta-tagz:concept/c_commodity_fetishism> ;
     skos:prefLabel "commodity-fetishism"@en .
 <urn:rosetta-tagz:concept/c_commodity_fetishism> skos:exactMatch <urn:rosetta-tagz:concept/c_commodity_fetishism/paperz> .
+<urn:rosetta-tagz:concept/c_corporate_law> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/site> ;
+    skos:notation "c_corporate_law" ;
+    skos:prefLabel "corporate-law"@en .
+<urn:rosetta-tagz:concept/c_corporate_law/paperz> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/paperz> ;
+    rtz:formOf <urn:rosetta-tagz:concept/c_corporate_law> ;
+    skos:prefLabel "corporate-law"@en .
+<urn:rosetta-tagz:concept/c_corporate_law> skos:exactMatch <urn:rosetta-tagz:concept/c_corporate_law/paperz> .
 <urn:rosetta-tagz:concept/c_creativity> rdf:type skos:Concept ;
     skos:inScheme <urn:rosetta-tagz:scheme/site> ;
     skos:notation "c_creativity" ;
@@ -201,6 +228,24 @@
     rtz:formOf <urn:rosetta-tagz:concept/c_ethics> ;
     skos:prefLabel "ethics"@en .
 <urn:rosetta-tagz:concept/c_ethics> skos:exactMatch <urn:rosetta-tagz:concept/c_ethics/paperz> .
+<urn:rosetta-tagz:concept/c_federalism> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/site> ;
+    skos:notation "c_federalism" ;
+    skos:prefLabel "federalism"@en .
+<urn:rosetta-tagz:concept/c_federalism/paperz> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/paperz> ;
+    rtz:formOf <urn:rosetta-tagz:concept/c_federalism> ;
+    skos:prefLabel "federalism"@en .
+<urn:rosetta-tagz:concept/c_federalism> skos:exactMatch <urn:rosetta-tagz:concept/c_federalism/paperz> .
+<urn:rosetta-tagz:concept/c_first_amendment> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/site> ;
+    skos:notation "c_first_amendment" ;
+    skos:prefLabel "first-amendment"@en .
+<urn:rosetta-tagz:concept/c_first_amendment/paperz> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/paperz> ;
+    rtz:formOf <urn:rosetta-tagz:concept/c_first_amendment> ;
+    skos:prefLabel "first-amendment"@en .
+<urn:rosetta-tagz:concept/c_first_amendment> skos:exactMatch <urn:rosetta-tagz:concept/c_first_amendment/paperz> .
 <urn:rosetta-tagz:concept/c_flow> rdf:type skos:Concept ;
     skos:inScheme <urn:rosetta-tagz:scheme/site> ;
     skos:notation "c_flow" ;
@@ -318,6 +363,15 @@
     rtz:formOf <urn:rosetta-tagz:concept/c_momentum> ;
     skos:prefLabel "momentum"@en .
 <urn:rosetta-tagz:concept/c_momentum> skos:exactMatch <urn:rosetta-tagz:concept/c_momentum/paperz> .
+<urn:rosetta-tagz:concept/c_montana> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/site> ;
+    skos:notation "c_montana" ;
+    skos:prefLabel "montana"@en .
+<urn:rosetta-tagz:concept/c_montana/paperz> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/paperz> ;
+    rtz:formOf <urn:rosetta-tagz:concept/c_montana> ;
+    skos:prefLabel "montana"@en .
+<urn:rosetta-tagz:concept/c_montana> skos:exactMatch <urn:rosetta-tagz:concept/c_montana/paperz> .
 <urn:rosetta-tagz:concept/c_negentropy> rdf:type skos:Concept ;
     skos:inScheme <urn:rosetta-tagz:scheme/site> ;
     skos:notation "c_negentropy" ;
@@ -426,6 +480,15 @@
     rtz:formOf <urn:rosetta-tagz:concept/c_supply_chains> ;
     skos:prefLabel "supply-chains"@en .
 <urn:rosetta-tagz:concept/c_supply_chains> skos:exactMatch <urn:rosetta-tagz:concept/c_supply_chains/paperz> .
+<urn:rosetta-tagz:concept/c_supreme_court> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/site> ;
+    skos:notation "c_supreme_court" ;
+    skos:prefLabel "supreme-court"@en .
+<urn:rosetta-tagz:concept/c_supreme_court/paperz> rdf:type skos:Concept ;
+    skos:inScheme <urn:rosetta-tagz:scheme/paperz> ;
+    rtz:formOf <urn:rosetta-tagz:concept/c_supreme_court> ;
+    skos:prefLabel "supreme-court"@en .
+<urn:rosetta-tagz:concept/c_supreme_court> skos:exactMatch <urn:rosetta-tagz:concept/c_supreme_court/paperz> .
 <urn:rosetta-tagz:concept/c_systems> rdf:type skos:Concept ;
     skos:inScheme <urn:rosetta-tagz:scheme/site> ;
     skos:notation "c_systems" ;
@@ -480,13 +543,13 @@
     rtz:formOf <urn:rosetta-tagz:concept/c_veto_players> ;
     skos:prefLabel "veto-players"@en .
 <urn:rosetta-tagz:concept/c_veto_players> skos:exactMatch <urn:rosetta-tagz:concept/c_veto_players/paperz> .
-<urn:rosetta-tagz:concept/c_cognitive_budget> skos:related <urn:rosetta-tagz:concept/c_systems_topology> .
+<urn:rosetta-tagz:concept/c_campaign_finance> skos:related <urn:rosetta-tagz:concept/c_elections> .
 _:b1 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:concept/c_cognitive_budget> ;
+    rdf:subject <urn:rosetta-tagz:concept/c_campaign_finance> ;
     rdf:predicate skos:related ;
-    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
-    rtz:why "\"cognitive-budget\" and \"systems-topology\" share 2 of their 2 and 4 items, more than chance predicts (NPMI 0.45)" ;
-    rtz:weight "0.2978"^^xsd:decimal ;
+    rdf:object <urn:rosetta-tagz:concept/c_elections> ;
+    rtz:why "\"campaign-finance\" and \"elections\" share 2 of their 2 and 2 items, more than chance predicts (NPMI 1.00)" ;
+    rtz:weight "0.6667"^^xsd:decimal ;
     prov:wasDerivedFrom _:b2 .
 _:b2 rdf:type prov:Entity ;
     rtz:evidenceType "cooccurrence" ;
@@ -496,560 +559,564 @@ _:b3 rdf:type prov:Activity ;
     rtz:activity "relate" ;
     rtz:minNpmi "0.25"^^xsd:decimal ;
     rtz:minCooc "2"^^xsd:integer .
-<urn:rosetta-tagz:concept/c_human_ai_collaboration> skos:related <urn:rosetta-tagz:concept/c_systems_topology> .
+<urn:rosetta-tagz:concept/c_campaign_finance> skos:related <urn:rosetta-tagz:concept/c_living_document> .
 _:b4 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
+    rdf:subject <urn:rosetta-tagz:concept/c_campaign_finance> ;
     rdf:predicate skos:related ;
-    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
-    rtz:why "\"human-ai-collaboration\" and \"systems-topology\" share 4 of their 6 and 4 items, more than chance predicts (NPMI 0.28)" ;
-    rtz:weight "0.2204"^^xsd:decimal ;
+    rdf:object <urn:rosetta-tagz:concept/c_living_document> ;
+    rtz:why "\"campaign-finance\" and \"living-document\" share 2 of their 2 and 2 items, more than chance predicts (NPMI 1.00)" ;
+    rtz:weight "0.6667"^^xsd:decimal ;
     prov:wasDerivedFrom _:b5 .
 _:b5 rdf:type prov:Entity ;
     rtz:evidenceType "cooccurrence" ;
-    rtz:items "4"^^xsd:integer .
+    rtz:items "2"^^xsd:integer .
 _:b4 prov:wasGeneratedBy _:b6 .
 _:b6 rdf:type prov:Activity ;
+    rtz:activity "relate" ;
+    rtz:minNpmi "0.25"^^xsd:decimal ;
+    rtz:minCooc "2"^^xsd:integer .
+<urn:rosetta-tagz:concept/c_campaign_finance> skos:related <urn:rosetta-tagz:concept/c_systems_topology> .
+_:b7 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:concept/c_campaign_finance> ;
+    rdf:predicate skos:related ;
+    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
+    rtz:why "\"campaign-finance\" and \"systems-topology\" share 2 of their 2 and 5 items, more than chance predicts (NPMI 0.34)" ;
+    rtz:weight "0.226"^^xsd:decimal ;
+    prov:wasDerivedFrom _:b8 .
+_:b8 rdf:type prov:Entity ;
+    rtz:evidenceType "cooccurrence" ;
+    rtz:items "2"^^xsd:integer .
+_:b7 prov:wasGeneratedBy _:b9 .
+_:b9 rdf:type prov:Activity ;
+    rtz:activity "relate" ;
+    rtz:minNpmi "0.25"^^xsd:decimal ;
+    rtz:minCooc "2"^^xsd:integer .
+<urn:rosetta-tagz:concept/c_cognitive_budget> skos:related <urn:rosetta-tagz:concept/c_systems_topology> .
+_:b10 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:concept/c_cognitive_budget> ;
+    rdf:predicate skos:related ;
+    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
+    rtz:why "\"cognitive-budget\" and \"systems-topology\" share 2 of their 2 and 5 items, more than chance predicts (NPMI 0.34)" ;
+    rtz:weight "0.226"^^xsd:decimal ;
+    prov:wasDerivedFrom _:b11 .
+_:b11 rdf:type prov:Entity ;
+    rtz:evidenceType "cooccurrence" ;
+    rtz:items "2"^^xsd:integer .
+_:b10 prov:wasGeneratedBy _:b12 .
+_:b12 rdf:type prov:Activity ;
+    rtz:activity "relate" ;
+    rtz:minNpmi "0.25"^^xsd:decimal ;
+    rtz:minCooc "2"^^xsd:integer .
+<urn:rosetta-tagz:concept/c_elections> skos:related <urn:rosetta-tagz:concept/c_living_document> .
+_:b13 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:concept/c_elections> ;
+    rdf:predicate skos:related ;
+    rdf:object <urn:rosetta-tagz:concept/c_living_document> ;
+    rtz:why "\"elections\" and \"living-document\" share 2 of their 2 and 2 items, more than chance predicts (NPMI 1.00)" ;
+    rtz:weight "0.6667"^^xsd:decimal ;
+    prov:wasDerivedFrom _:b14 .
+_:b14 rdf:type prov:Entity ;
+    rtz:evidenceType "cooccurrence" ;
+    rtz:items "2"^^xsd:integer .
+_:b13 prov:wasGeneratedBy _:b15 .
+_:b15 rdf:type prov:Activity ;
+    rtz:activity "relate" ;
+    rtz:minNpmi "0.25"^^xsd:decimal ;
+    rtz:minCooc "2"^^xsd:integer .
+<urn:rosetta-tagz:concept/c_elections> skos:related <urn:rosetta-tagz:concept/c_systems_topology> .
+_:b16 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:concept/c_elections> ;
+    rdf:predicate skos:related ;
+    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
+    rtz:why "\"elections\" and \"systems-topology\" share 2 of their 2 and 5 items, more than chance predicts (NPMI 0.34)" ;
+    rtz:weight "0.226"^^xsd:decimal ;
+    prov:wasDerivedFrom _:b17 .
+_:b17 rdf:type prov:Entity ;
+    rtz:evidenceType "cooccurrence" ;
+    rtz:items "2"^^xsd:integer .
+_:b16 prov:wasGeneratedBy _:b18 .
+_:b18 rdf:type prov:Activity ;
+    rtz:activity "relate" ;
+    rtz:minNpmi "0.25"^^xsd:decimal ;
+    rtz:minCooc "2"^^xsd:integer .
+<urn:rosetta-tagz:concept/c_human_ai_collaboration> skos:related <urn:rosetta-tagz:concept/c_systems_topology> .
+_:b19 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
+    rdf:predicate skos:related ;
+    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
+    rtz:why "\"human-ai-collaboration\" and \"systems-topology\" share 5 of their 7 and 5 items, more than chance predicts (NPMI 0.28)" ;
+    rtz:weight "0.2368"^^xsd:decimal ;
+    prov:wasDerivedFrom _:b20 .
+_:b20 rdf:type prov:Entity ;
+    rtz:evidenceType "cooccurrence" ;
+    rtz:items "5"^^xsd:integer .
+_:b19 prov:wasGeneratedBy _:b21 .
+_:b21 rdf:type prov:Activity ;
+    rtz:activity "relate" ;
+    rtz:minNpmi "0.25"^^xsd:decimal ;
+    rtz:minCooc "2"^^xsd:integer .
+<urn:rosetta-tagz:concept/c_living_document> skos:related <urn:rosetta-tagz:concept/c_systems_topology> .
+_:b22 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:concept/c_living_document> ;
+    rdf:predicate skos:related ;
+    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
+    rtz:why "\"living-document\" and \"systems-topology\" share 2 of their 2 and 5 items, more than chance predicts (NPMI 0.34)" ;
+    rtz:weight "0.226"^^xsd:decimal ;
+    prov:wasDerivedFrom _:b23 .
+_:b23 rdf:type prov:Entity ;
+    rtz:evidenceType "cooccurrence" ;
+    rtz:items "2"^^xsd:integer .
+_:b22 prov:wasGeneratedBy _:b24 .
+_:b24 rdf:type prov:Activity ;
     rtz:activity "relate" ;
     rtz:minNpmi "0.25"^^xsd:decimal ;
     rtz:minCooc "2"^^xsd:integer .
 <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> dcterms:title "Don't found anything" ;
     rdfs:seeAlso <https://halapenyoharry.github.io/paperz/dont-found-anything.html> ;
     dcterms:subject <urn:rosetta-tagz:concept/c_absurdism> .
-_:b7 rdf:type rdf:Statement ;
+_:b25 rdf:type rdf:Statement ;
     rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> ;
     rdf:predicate dcterms:subject ;
     rdf:object <urn:rosetta-tagz:concept/c_absurdism> ;
-    rtz:origin "explicit" ;
-    rtz:weight "1"^^xsd:integer ;
-    prov:wasDerivedFrom _:b8 .
-_:b8 rdf:type prov:Entity ;
-    rtz:evidenceType "category" ;
-    rtz:scheme "paperz" ;
-    rtz:label "absurdism" .
-_:b7 prov:wasGeneratedBy _:b9 .
-_:b9 rdf:type prov:Activity ;
-    rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> dcterms:subject <urn:rosetta-tagz:concept/c_ai> .
-_:b10 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> ;
-    rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_ai> ;
-    rtz:origin "explicit" ;
-    rtz:weight "1"^^xsd:integer ;
-    prov:wasDerivedFrom _:b11 .
-_:b11 rdf:type prov:Entity ;
-    rtz:evidenceType "category" ;
-    rtz:scheme "paperz" ;
-    rtz:label "ai" .
-_:b10 prov:wasGeneratedBy _:b12 .
-_:b12 rdf:type prov:Activity ;
-    rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> dcterms:subject <urn:rosetta-tagz:concept/c_epistemology> .
-_:b13 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> ;
-    rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_epistemology> ;
-    rtz:origin "explicit" ;
-    rtz:weight "1"^^xsd:integer ;
-    prov:wasDerivedFrom _:b14 .
-_:b14 rdf:type prov:Entity ;
-    rtz:evidenceType "category" ;
-    rtz:scheme "paperz" ;
-    rtz:label "epistemology" .
-_:b13 prov:wasGeneratedBy _:b15 .
-_:b15 rdf:type prov:Activity ;
-    rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
-_:b16 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> ;
-    rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
-    rtz:origin "explicit" ;
-    rtz:weight "1"^^xsd:integer ;
-    prov:wasDerivedFrom _:b17 .
-_:b17 rdf:type prov:Entity ;
-    rtz:evidenceType "category" ;
-    rtz:scheme "paperz" ;
-    rtz:label "human-ai-collaboration" .
-_:b16 prov:wasGeneratedBy _:b18 .
-_:b18 rdf:type prov:Activity ;
-    rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> dcterms:subject <urn:rosetta-tagz:concept/c_religion> .
-_:b19 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> ;
-    rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_religion> ;
-    rtz:origin "explicit" ;
-    rtz:weight "1"^^xsd:integer ;
-    prov:wasDerivedFrom _:b20 .
-_:b20 rdf:type prov:Entity ;
-    rtz:evidenceType "category" ;
-    rtz:scheme "paperz" ;
-    rtz:label "religion" .
-_:b19 prov:wasGeneratedBy _:b21 .
-_:b21 rdf:type prov:Activity ;
-    rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> dcterms:subject <urn:rosetta-tagz:concept/c_topology> .
-_:b22 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> ;
-    rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_topology> ;
-    rtz:origin "explicit" ;
-    rtz:weight "1"^^xsd:integer ;
-    prov:wasDerivedFrom _:b23 .
-_:b23 rdf:type prov:Entity ;
-    rtz:evidenceType "category" ;
-    rtz:scheme "paperz" ;
-    rtz:label "topology" .
-_:b22 prov:wasGeneratedBy _:b24 .
-_:b24 rdf:type prov:Activity ;
-    rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> dcterms:title "Squash the triangle" ;
-    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/squash-the-triangle.html> ;
-    dcterms:subject <urn:rosetta-tagz:concept/c_curriculum> .
-_:b25 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> ;
-    rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_curriculum> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b26 .
 _:b26 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "curriculum" .
+    rtz:label "absurdism" .
 _:b25 prov:wasGeneratedBy _:b27 .
 _:b27 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> dcterms:subject <urn:rosetta-tagz:concept/c_graph_theory> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> dcterms:subject <urn:rosetta-tagz:concept/c_ai> .
 _:b28 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_graph_theory> ;
+    rdf:object <urn:rosetta-tagz:concept/c_ai> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b29 .
 _:b29 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "graph-theory" .
+    rtz:label "ai" .
 _:b28 prov:wasGeneratedBy _:b30 .
 _:b30 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> dcterms:subject <urn:rosetta-tagz:concept/c_invariance> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> dcterms:subject <urn:rosetta-tagz:concept/c_epistemology> .
 _:b31 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_invariance> ;
+    rdf:object <urn:rosetta-tagz:concept/c_epistemology> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b32 .
 _:b32 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "invariance" .
+    rtz:label "epistemology" .
 _:b31 prov:wasGeneratedBy _:b33 .
 _:b33 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> dcterms:subject <urn:rosetta-tagz:concept/c_mathematics_education> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
 _:b34 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_mathematics_education> ;
+    rdf:object <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b35 .
 _:b35 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "mathematics-education" .
+    rtz:label "human-ai-collaboration" .
 _:b34 prov:wasGeneratedBy _:b36 .
 _:b36 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> dcterms:subject <urn:rosetta-tagz:concept/c_pedagogy> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> dcterms:subject <urn:rosetta-tagz:concept/c_religion> .
 _:b37 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_pedagogy> ;
+    rdf:object <urn:rosetta-tagz:concept/c_religion> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b38 .
 _:b38 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "pedagogy" .
+    rtz:label "religion" .
 _:b37 prov:wasGeneratedBy _:b39 .
 _:b39 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:title "The contracted edge" ;
-    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/the-contracted-edge.html> ;
-    dcterms:subject <urn:rosetta-tagz:concept/c_attention> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> dcterms:subject <urn:rosetta-tagz:concept/c_topology> .
 _:b40 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fdont-found-anything.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_attention> ;
+    rdf:object <urn:rosetta-tagz:concept/c_topology> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b41 .
 _:b41 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "attention" .
+    rtz:label "topology" .
 _:b40 prov:wasGeneratedBy _:b42 .
 _:b42 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_cognitive_budget> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:title "Powers, not rights" ;
+    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/montana-initiative.html> ;
+    dcterms:subject <urn:rosetta-tagz:concept/c_ballot_initiatives> .
 _:b43 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_cognitive_budget> ;
+    rdf:object <urn:rosetta-tagz:concept/c_ballot_initiatives> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b44 .
 _:b44 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "cognitive-budget" .
+    rtz:label "ballot-initiatives" .
 _:b43 prov:wasGeneratedBy _:b45 .
 _:b45 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_comfort> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:subject <urn:rosetta-tagz:concept/c_campaign_finance> .
 _:b46 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_comfort> ;
+    rdf:object <urn:rosetta-tagz:concept/c_campaign_finance> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b47 .
 _:b47 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "comfort" .
+    rtz:label "campaign-finance" .
 _:b46 prov:wasGeneratedBy _:b48 .
 _:b48 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_commodity_fetishism> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:subject <urn:rosetta-tagz:concept/c_citizens_united> .
 _:b49 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_commodity_fetishism> ;
+    rdf:object <urn:rosetta-tagz:concept/c_citizens_united> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b50 .
 _:b50 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "commodity-fetishism" .
+    rtz:label "citizens-united" .
 _:b49 prov:wasGeneratedBy _:b51 .
 _:b51 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_ethics> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:subject <urn:rosetta-tagz:concept/c_corporate_law> .
 _:b52 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_ethics> ;
+    rdf:object <urn:rosetta-tagz:concept/c_corporate_law> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b53 .
 _:b53 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "ethics" .
+    rtz:label "corporate-law" .
 _:b52 prov:wasGeneratedBy _:b54 .
 _:b54 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_graph_theory> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:subject <urn:rosetta-tagz:concept/c_elections> .
 _:b55 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_graph_theory> ;
+    rdf:object <urn:rosetta-tagz:concept/c_elections> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b56 .
 _:b56 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "graph-theory" .
+    rtz:label "elections" .
 _:b55 prov:wasGeneratedBy _:b57 .
 _:b57 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:subject <urn:rosetta-tagz:concept/c_federalism> .
 _:b58 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
+    rdf:object <urn:rosetta-tagz:concept/c_federalism> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b59 .
 _:b59 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "human-ai-collaboration" .
+    rtz:label "federalism" .
 _:b58 prov:wasGeneratedBy _:b60 .
 _:b60 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_political_economy> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:subject <urn:rosetta-tagz:concept/c_first_amendment> .
 _:b61 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_political_economy> ;
+    rdf:object <urn:rosetta-tagz:concept/c_first_amendment> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b62 .
 _:b62 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "political-economy" .
+    rtz:label "first-amendment" .
 _:b61 prov:wasGeneratedBy _:b63 .
 _:b63 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_supply_chains> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
 _:b64 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_supply_chains> ;
+    rdf:object <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b65 .
 _:b65 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "supply-chains" .
+    rtz:label "human-ai-collaboration" .
 _:b64 prov:wasGeneratedBy _:b66 .
 _:b66 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_systems_topology> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:subject <urn:rosetta-tagz:concept/c_living_document> .
 _:b67 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
+    rdf:object <urn:rosetta-tagz:concept/c_living_document> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b68 .
 _:b68 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "systems-topology" .
+    rtz:label "living-document" .
 _:b67 prov:wasGeneratedBy _:b69 .
 _:b69 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:title "The joint cognitive system" ;
-    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/the-joint-cognitive-system.html> ;
-    dcterms:subject <urn:rosetta-tagz:concept/c_agentic_coding> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:subject <urn:rosetta-tagz:concept/c_montana> .
 _:b70 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_agentic_coding> ;
+    rdf:object <urn:rosetta-tagz:concept/c_montana> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b71 .
 _:b71 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "agentic-coding" .
+    rtz:label "montana" .
 _:b70 prov:wasGeneratedBy _:b72 .
 _:b72 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_cognitive_systems_engineering> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:subject <urn:rosetta-tagz:concept/c_supreme_court> .
 _:b73 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_cognitive_systems_engineering> ;
+    rdf:object <urn:rosetta-tagz:concept/c_supreme_court> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b74 .
 _:b74 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "cognitive-systems-engineering" .
+    rtz:label "supreme-court" .
 _:b73 prov:wasGeneratedBy _:b75 .
 _:b75 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_directability> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> dcterms:subject <urn:rosetta-tagz:concept/c_systems_topology> .
 _:b76 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fmontana-initiative.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_directability> ;
+    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b77 .
 _:b77 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "directability" .
+    rtz:label "systems-topology" .
 _:b76 prov:wasGeneratedBy _:b78 .
 _:b78 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_ecological_interface_design> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> dcterms:title "Squash the triangle" ;
+    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/squash-the-triangle.html> ;
+    dcterms:subject <urn:rosetta-tagz:concept/c_curriculum> .
 _:b79 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_ecological_interface_design> ;
+    rdf:object <urn:rosetta-tagz:concept/c_curriculum> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b80 .
 _:b80 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "ecological-interface-design" .
+    rtz:label "curriculum" .
 _:b79 prov:wasGeneratedBy _:b81 .
 _:b81 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_epistemic_actions> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> dcterms:subject <urn:rosetta-tagz:concept/c_graph_theory> .
 _:b82 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_epistemic_actions> ;
+    rdf:object <urn:rosetta-tagz:concept/c_graph_theory> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b83 .
 _:b83 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "epistemic-actions" .
+    rtz:label "graph-theory" .
 _:b82 prov:wasGeneratedBy _:b84 .
 _:b84 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> dcterms:subject <urn:rosetta-tagz:concept/c_invariance> .
 _:b85 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
+    rdf:object <urn:rosetta-tagz:concept/c_invariance> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b86 .
 _:b86 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "human-ai-collaboration" .
+    rtz:label "invariance" .
 _:b85 prov:wasGeneratedBy _:b87 .
 _:b87 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_interface_architecture> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> dcterms:subject <urn:rosetta-tagz:concept/c_mathematics_education> .
 _:b88 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_interface_architecture> ;
+    rdf:object <urn:rosetta-tagz:concept/c_mathematics_education> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b89 .
 _:b89 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "interface-architecture" .
+    rtz:label "mathematics-education" .
 _:b88 prov:wasGeneratedBy _:b90 .
 _:b90 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_ironies_of_automation> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> dcterms:subject <urn:rosetta-tagz:concept/c_pedagogy> .
 _:b91 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fsquash-the-triangle.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_ironies_of_automation> ;
+    rdf:object <urn:rosetta-tagz:concept/c_pedagogy> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b92 .
 _:b92 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "ironies-of-automation" .
+    rtz:label "pedagogy" .
 _:b91 prov:wasGeneratedBy _:b93 .
 _:b93 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_joint_cognitive_systems> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:title "The contracted edge" ;
+    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/the-contracted-edge.html> ;
+    dcterms:subject <urn:rosetta-tagz:concept/c_attention> .
 _:b94 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_joint_cognitive_systems> ;
+    rdf:object <urn:rosetta-tagz:concept/c_attention> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b95 .
 _:b95 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "joint-cognitive-systems" .
+    rtz:label "attention" .
 _:b94 prov:wasGeneratedBy _:b96 .
 _:b96 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_observability> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_cognitive_budget> .
 _:b97 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_observability> ;
+    rdf:object <urn:rosetta-tagz:concept/c_cognitive_budget> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b98 .
 _:b98 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "observability" .
+    rtz:label "cognitive-budget" .
 _:b97 prov:wasGeneratedBy _:b99 .
 _:b99 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_provenance> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_comfort> .
 _:b100 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_provenance> ;
+    rdf:object <urn:rosetta-tagz:concept/c_comfort> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b101 .
 _:b101 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "provenance" .
+    rtz:label "comfort" .
 _:b100 prov:wasGeneratedBy _:b102 .
 _:b102 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_systems_topology> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_commodity_fetishism> .
 _:b103 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
+    rdf:object <urn:rosetta-tagz:concept/c_commodity_fetishism> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b104 .
 _:b104 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "systems-topology" .
+    rtz:label "commodity-fetishism" .
 _:b103 prov:wasGeneratedBy _:b105 .
 _:b105 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:title "The smoke loop" ;
-    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/the-smoke-loop.html> ;
-    dcterms:subject <urn:rosetta-tagz:concept/c_creativity> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_ethics> .
 _:b106 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_creativity> ;
+    rdf:object <urn:rosetta-tagz:concept/c_ethics> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b107 .
 _:b107 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "creativity" .
+    rtz:label "ethics" .
 _:b106 prov:wasGeneratedBy _:b108 .
 _:b108 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:subject <urn:rosetta-tagz:concept/c_emotion> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_graph_theory> .
 _:b109 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_emotion> ;
+    rdf:object <urn:rosetta-tagz:concept/c_graph_theory> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b110 .
 _:b110 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "emotion" .
+    rtz:label "graph-theory" .
 _:b109 prov:wasGeneratedBy _:b111 .
 _:b111 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
 _:b112 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
     rdf:predicate dcterms:subject ;
     rdf:object <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
     rtz:origin "explicit" ;
@@ -1062,268 +1129,268 @@ _:b113 rdf:type prov:Entity ;
 _:b112 prov:wasGeneratedBy _:b114 .
 _:b114 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:subject <urn:rosetta-tagz:concept/c_information> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_political_economy> .
 _:b115 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_information> ;
+    rdf:object <urn:rosetta-tagz:concept/c_political_economy> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b116 .
 _:b116 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "information" .
+    rtz:label "political-economy" .
 _:b115 prov:wasGeneratedBy _:b117 .
 _:b117 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:subject <urn:rosetta-tagz:concept/c_momentum> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_supply_chains> .
 _:b118 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_momentum> ;
+    rdf:object <urn:rosetta-tagz:concept/c_supply_chains> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b119 .
 _:b119 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "momentum" .
+    rtz:label "supply-chains" .
 _:b118 prov:wasGeneratedBy _:b120 .
 _:b120 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:subject <urn:rosetta-tagz:concept/c_systems> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> dcterms:subject <urn:rosetta-tagz:concept/c_systems_topology> .
 _:b121 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-contracted-edge.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_systems> ;
+    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b122 .
 _:b122 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "systems" .
+    rtz:label "systems-topology" .
 _:b121 prov:wasGeneratedBy _:b123 .
 _:b123 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:title "The twenty-watt watch" ;
-    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/the-twenty-watt-watch.html> ;
-    dcterms:subject <urn:rosetta-tagz:concept/c_biphasic_sleep> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:title "The joint cognitive system" ;
+    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/the-joint-cognitive-system.html> ;
+    dcterms:subject <urn:rosetta-tagz:concept/c_agentic_coding> .
 _:b124 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_biphasic_sleep> ;
+    rdf:object <urn:rosetta-tagz:concept/c_agentic_coding> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b125 .
 _:b125 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "biphasic-sleep" .
+    rtz:label "agentic-coding" .
 _:b124 prov:wasGeneratedBy _:b126 .
 _:b126 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_cognitive_budget> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_cognitive_systems_engineering> .
 _:b127 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_cognitive_budget> ;
+    rdf:object <urn:rosetta-tagz:concept/c_cognitive_systems_engineering> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b128 .
 _:b128 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "cognitive-budget" .
+    rtz:label "cognitive-systems-engineering" .
 _:b127 prov:wasGeneratedBy _:b129 .
 _:b129 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_flow> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_directability> .
 _:b130 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_flow> ;
+    rdf:object <urn:rosetta-tagz:concept/c_directability> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b131 .
 _:b131 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "flow" .
+    rtz:label "directability" .
 _:b130 prov:wasGeneratedBy _:b132 .
 _:b132 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_ecological_interface_design> .
 _:b133 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
+    rdf:object <urn:rosetta-tagz:concept/c_ecological_interface_design> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b134 .
 _:b134 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "human-ai-collaboration" .
+    rtz:label "ecological-interface-design" .
 _:b133 prov:wasGeneratedBy _:b135 .
 _:b135 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_information_theory> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_epistemic_actions> .
 _:b136 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_information_theory> ;
+    rdf:object <urn:rosetta-tagz:concept/c_epistemic_actions> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b137 .
 _:b137 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "information-theory" .
+    rtz:label "epistemic-actions" .
 _:b136 prov:wasGeneratedBy _:b138 .
 _:b138 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_negentropy> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
 _:b139 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_negentropy> ;
+    rdf:object <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b140 .
 _:b140 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "negentropy" .
+    rtz:label "human-ai-collaboration" .
 _:b139 prov:wasGeneratedBy _:b141 .
 _:b141 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_neuroscience> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_interface_architecture> .
 _:b142 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_neuroscience> ;
+    rdf:object <urn:rosetta-tagz:concept/c_interface_architecture> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b143 .
 _:b143 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "neuroscience" .
+    rtz:label "interface-architecture" .
 _:b142 prov:wasGeneratedBy _:b144 .
 _:b144 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_sleep> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_ironies_of_automation> .
 _:b145 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_sleep> ;
+    rdf:object <urn:rosetta-tagz:concept/c_ironies_of_automation> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b146 .
 _:b146 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "sleep" .
+    rtz:label "ironies-of-automation" .
 _:b145 prov:wasGeneratedBy _:b147 .
 _:b147 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_systems_topology> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_joint_cognitive_systems> .
 _:b148 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
+    rdf:object <urn:rosetta-tagz:concept/c_joint_cognitive_systems> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b149 .
 _:b149 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "systems-topology" .
+    rtz:label "joint-cognitive-systems" .
 _:b148 prov:wasGeneratedBy _:b150 .
 _:b150 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_thermodynamics> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_observability> .
 _:b151 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_thermodynamics> ;
+    rdf:object <urn:rosetta-tagz:concept/c_observability> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b152 .
 _:b152 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "thermodynamics" .
+    rtz:label "observability" .
 _:b151 prov:wasGeneratedBy _:b153 .
 _:b153 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:title "Three gates" ;
-    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/three-gates.html> ;
-    dcterms:subject <urn:rosetta-tagz:concept/c_campaign_finance> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_provenance> .
 _:b154 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_campaign_finance> ;
+    rdf:object <urn:rosetta-tagz:concept/c_provenance> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b155 .
 _:b155 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "campaign-finance" .
+    rtz:label "provenance" .
 _:b154 prov:wasGeneratedBy _:b156 .
 _:b156 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_cannabis_policy> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> dcterms:subject <urn:rosetta-tagz:concept/c_systems_topology> .
 _:b157 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-joint-cognitive-system.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_cannabis_policy> ;
+    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b158 .
 _:b158 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "cannabis-policy" .
+    rtz:label "systems-topology" .
 _:b157 prov:wasGeneratedBy _:b159 .
 _:b159 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_coalition_bargaining> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:title "The smoke loop" ;
+    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/the-smoke-loop.html> ;
+    dcterms:subject <urn:rosetta-tagz:concept/c_creativity> .
 _:b160 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_coalition_bargaining> ;
+    rdf:object <urn:rosetta-tagz:concept/c_creativity> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b161 .
 _:b161 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "coalition-bargaining" .
+    rtz:label "creativity" .
 _:b160 prov:wasGeneratedBy _:b162 .
 _:b162 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_elections> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:subject <urn:rosetta-tagz:concept/c_emotion> .
 _:b163 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_elections> ;
+    rdf:object <urn:rosetta-tagz:concept/c_emotion> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b164 .
 _:b164 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "elections" .
+    rtz:label "emotion" .
 _:b163 prov:wasGeneratedBy _:b165 .
 _:b165 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
 _:b166 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
     rdf:predicate dcterms:subject ;
     rdf:object <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
     rtz:origin "explicit" ;
@@ -1336,123 +1403,397 @@ _:b167 rdf:type prov:Entity ;
 _:b166 prov:wasGeneratedBy _:b168 .
 _:b168 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_legislative_rules> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:subject <urn:rosetta-tagz:concept/c_information> .
 _:b169 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_legislative_rules> ;
+    rdf:object <urn:rosetta-tagz:concept/c_information> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b170 .
 _:b170 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "legislative-rules" .
+    rtz:label "information" .
 _:b169 prov:wasGeneratedBy _:b171 .
 _:b171 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_living_document> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:subject <urn:rosetta-tagz:concept/c_momentum> .
 _:b172 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_living_document> ;
+    rdf:object <urn:rosetta-tagz:concept/c_momentum> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b173 .
 _:b173 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "living-document" .
+    rtz:label "momentum" .
 _:b172 prov:wasGeneratedBy _:b174 .
 _:b174 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_redistricting> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> dcterms:subject <urn:rosetta-tagz:concept/c_systems> .
 _:b175 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-smoke-loop.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_redistricting> ;
+    rdf:object <urn:rosetta-tagz:concept/c_systems> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b176 .
 _:b176 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "redistricting" .
+    rtz:label "systems" .
 _:b175 prov:wasGeneratedBy _:b177 .
 _:b177 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_religion_and_voting> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:title "The twenty-watt watch" ;
+    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/the-twenty-watt-watch.html> ;
+    dcterms:subject <urn:rosetta-tagz:concept/c_biphasic_sleep> .
 _:b178 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_religion_and_voting> ;
+    rdf:object <urn:rosetta-tagz:concept/c_biphasic_sleep> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b179 .
 _:b179 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "religion-and-voting" .
+    rtz:label "biphasic-sleep" .
 _:b178 prov:wasGeneratedBy _:b180 .
 _:b180 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_state_legislatures> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_cognitive_budget> .
 _:b181 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_state_legislatures> ;
+    rdf:object <urn:rosetta-tagz:concept/c_cognitive_budget> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b182 .
 _:b182 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "state-legislatures" .
+    rtz:label "cognitive-budget" .
 _:b181 prov:wasGeneratedBy _:b183 .
 _:b183 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_systems_topology> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_flow> .
 _:b184 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
+    rdf:object <urn:rosetta-tagz:concept/c_flow> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b185 .
 _:b185 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "systems-topology" .
+    rtz:label "flow" .
 _:b184 prov:wasGeneratedBy _:b186 .
 _:b186 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_texas> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
 _:b187 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_texas> ;
+    rdf:object <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b188 .
 _:b188 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "texas" .
+    rtz:label "human-ai-collaboration" .
 _:b187 prov:wasGeneratedBy _:b189 .
 _:b189 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_veto_players> .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_information_theory> .
 _:b190 rdf:type rdf:Statement ;
-    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
     rdf:predicate dcterms:subject ;
-    rdf:object <urn:rosetta-tagz:concept/c_veto_players> ;
+    rdf:object <urn:rosetta-tagz:concept/c_information_theory> ;
     rtz:origin "explicit" ;
     rtz:weight "1"^^xsd:integer ;
     prov:wasDerivedFrom _:b191 .
 _:b191 rdf:type prov:Entity ;
     rtz:evidenceType "category" ;
     rtz:scheme "paperz" ;
-    rtz:label "veto-players" .
+    rtz:label "information-theory" .
 _:b190 prov:wasGeneratedBy _:b192 .
 _:b192 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_negentropy> .
+_:b193 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_negentropy> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b194 .
+_:b194 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "negentropy" .
+_:b193 prov:wasGeneratedBy _:b195 .
+_:b195 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_neuroscience> .
+_:b196 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_neuroscience> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b197 .
+_:b197 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "neuroscience" .
+_:b196 prov:wasGeneratedBy _:b198 .
+_:b198 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_sleep> .
+_:b199 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_sleep> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b200 .
+_:b200 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "sleep" .
+_:b199 prov:wasGeneratedBy _:b201 .
+_:b201 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_systems_topology> .
+_:b202 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b203 .
+_:b203 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "systems-topology" .
+_:b202 prov:wasGeneratedBy _:b204 .
+_:b204 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> dcterms:subject <urn:rosetta-tagz:concept/c_thermodynamics> .
+_:b205 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthe-twenty-watt-watch.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_thermodynamics> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b206 .
+_:b206 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "thermodynamics" .
+_:b205 prov:wasGeneratedBy _:b207 .
+_:b207 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:title "Three gates" ;
+    rdfs:seeAlso <https://halapenyoharry.github.io/paperz/three-gates.html> ;
+    dcterms:subject <urn:rosetta-tagz:concept/c_campaign_finance> .
+_:b208 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_campaign_finance> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b209 .
+_:b209 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "campaign-finance" .
+_:b208 prov:wasGeneratedBy _:b210 .
+_:b210 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_cannabis_policy> .
+_:b211 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_cannabis_policy> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b212 .
+_:b212 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "cannabis-policy" .
+_:b211 prov:wasGeneratedBy _:b213 .
+_:b213 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_coalition_bargaining> .
+_:b214 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_coalition_bargaining> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b215 .
+_:b215 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "coalition-bargaining" .
+_:b214 prov:wasGeneratedBy _:b216 .
+_:b216 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_elections> .
+_:b217 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_elections> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b218 .
+_:b218 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "elections" .
+_:b217 prov:wasGeneratedBy _:b219 .
+_:b219 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_human_ai_collaboration> .
+_:b220 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_human_ai_collaboration> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b221 .
+_:b221 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "human-ai-collaboration" .
+_:b220 prov:wasGeneratedBy _:b222 .
+_:b222 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_legislative_rules> .
+_:b223 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_legislative_rules> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b224 .
+_:b224 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "legislative-rules" .
+_:b223 prov:wasGeneratedBy _:b225 .
+_:b225 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_living_document> .
+_:b226 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_living_document> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b227 .
+_:b227 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "living-document" .
+_:b226 prov:wasGeneratedBy _:b228 .
+_:b228 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_redistricting> .
+_:b229 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_redistricting> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b230 .
+_:b230 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "redistricting" .
+_:b229 prov:wasGeneratedBy _:b231 .
+_:b231 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_religion_and_voting> .
+_:b232 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_religion_and_voting> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b233 .
+_:b233 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "religion-and-voting" .
+_:b232 prov:wasGeneratedBy _:b234 .
+_:b234 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_state_legislatures> .
+_:b235 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_state_legislatures> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b236 .
+_:b236 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "state-legislatures" .
+_:b235 prov:wasGeneratedBy _:b237 .
+_:b237 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_systems_topology> .
+_:b238 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_systems_topology> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b239 .
+_:b239 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "systems-topology" .
+_:b238 prov:wasGeneratedBy _:b240 .
+_:b240 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_texas> .
+_:b241 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_texas> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b242 .
+_:b242 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "texas" .
+_:b241 prov:wasGeneratedBy _:b243 .
+_:b243 rdf:type prov:Activity ;
+    rtz:activity "ingest" .
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> dcterms:subject <urn:rosetta-tagz:concept/c_veto_players> .
+_:b244 rdf:type rdf:Statement ;
+    rdf:subject <urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fhalapenyoharry.github.io%2Fpaperz%2Fthree-gates.html> ;
+    rdf:predicate dcterms:subject ;
+    rdf:object <urn:rosetta-tagz:concept/c_veto_players> ;
+    rtz:origin "explicit" ;
+    rtz:weight "1"^^xsd:integer ;
+    prov:wasDerivedFrom _:b245 .
+_:b245 rdf:type prov:Entity ;
+    rtz:evidenceType "category" ;
+    rtz:scheme "paperz" ;
+    rtz:label "veto-players" .
+_:b244 prov:wasGeneratedBy _:b246 .
+_:b246 rdf:type prov:Activity ;
     rtz:activity "ingest" .
