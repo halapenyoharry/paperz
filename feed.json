@@ -42,7 +42,9 @@
       ],
       "series": "paperz",
       "series_part": 8,
-      "commit_times": [],
+      "commit_times": [
+        "2026-11-08T15:39:03-06:00"
+      ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/montana-initiative.html",
       "syndication": {},
@@ -511,7 +513,7 @@
       "series": "paperz",
       "series_part": 7,
       "commit_times": [
-        "2026-11-05T12:05:18-06:00"
+        "2026-11-08T12:16:33-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/three-gates.html",
@@ -1012,8 +1014,7 @@
       "series": "paperz",
       "series_part": 6,
       "commit_times": [
-        "2026-10-31T16:01:09-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-08T12:16:33-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/the-joint-cognitive-system.html",
@@ -1485,8 +1486,7 @@
       "series": "paperz",
       "series_part": 5,
       "commit_times": [
-        "2026-10-31T14:20:49-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-08T12:16:33-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/the-twenty-watt-watch.html",
@@ -1891,11 +1891,7 @@
       "series": "paperz",
       "series_part": 4,
       "commit_times": [
-        "2026-10-22T10:10:19-05:00",
-        "2026-10-22T10:32:15-05:00",
-        "2026-10-22T10:44:31-05:00",
-        "2026-10-22T11:20:06-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-08T12:16:33-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/the-contracted-edge.html",
@@ -2294,8 +2290,7 @@
       "series": "paperz",
       "series_part": 3,
       "commit_times": [
-        "2026-10-22T10:10:19-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-08T12:16:33-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/dont-found-anything.html",
@@ -2561,8 +2556,7 @@
       "series": "paperz",
       "series_part": 2,
       "commit_times": [
-        "2026-10-22T10:10:19-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-08T12:16:33-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/the-smoke-loop.html",
@@ -2827,8 +2821,7 @@
       "series": "paperz",
       "series_part": 1,
       "commit_times": [
-        "2026-10-22T10:10:19-05:00",
-        "2026-10-31T17:19:40-05:00"
+        "2026-11-08T12:16:33-06:00"
       ],
       "license": "CC0 1.0",
       "canonical_url": "https://halapenyoharry.github.io/paperz/squash-the-triangle.html",
@@ -5273,11 +5266,11 @@
       "prominence": "primary",
       "itemCount": 8,
       "ok": true,
-      "readAt": "2026-11-08T18:16:33.083Z"
+      "readAt": "2026-11-08T21:39:19.008Z"
     }
   ],
   "_rtagz": {
-    "built": "2026-11-08T18:16:33.114Z",
+    "built": "2026-11-08T21:39:19.478Z",
     "systems": {
       "paperz": {
         "sourceId": "local://_build/content",
