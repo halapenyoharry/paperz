@@ -79,7 +79,10 @@ Add an entry to the `papers` array in `papers.json` (newest first):
 ### 3. Rebuild the `post-pipe` Site & Multi-Format Feeds
 Run `node scripts/build.js` (or `node build-feed.js`) to build the `post-pipe` graph viewer (`index.html`), per-paper reader pages (`<slug>.html`), SKOS vocabulary (`skos.jsonld`, `skos.ttl`), card and concept ledgers (`cards.json`, `rtagz-ids.json`), and all three feeds (`feed.json`, `feed.xml`, `atom.xml`).
 
-When `post-pipe`'s `main` branch updates, `paperz` automatically rebuilds and syncs on `main` via `.github/workflows/sync-post-pipe.yml` and `scripts/sync-from-post-pipe.sh`.
+When `post-pipe`'s `main` branch updates, `paperz` rebuilds itself on `main` in two ways, and both are kept:
+
+- **On Harold's Mac:** post-pipe's git hooks (post-commit, post-merge, post-rewrite) run `scripts/sync-from-post-pipe.sh` within minutes of a commit on post-pipe's `main`. The script fetches GitHub's `paperz` first and fast-forwards to it. If GitHub moves while it builds, it keeps its build on a branch `paperz-sync-unpushed-<sha>`, matches GitHub, and builds once more. If both sides hold commits the other lacks, it stops and says so.
+- **On GitHub:** `.github/workflows/sync-post-pipe.yml` rebuilds daily at 06:17 UTC, on a manual run, and when paper content is pushed. It checks `paperz` out with its full history (`fetch-depth: 0`), because each paper's `commit_times` come from `git log`; with a shallow checkout every paper got the same single time.
 
 ---
 
