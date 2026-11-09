@@ -11,7 +11,11 @@
 #   2. brings paperz's main level with GitHub before building (fast-forward only);
 #   3. if GitHub moves while it builds and the push is refused, keeps its own
 #      build on a branch paperz-sync-unpushed-<sha>, matches GitHub, and builds
-#      once more if GitHub's build is from another post-pipe commit.
+#      once more if GitHub's build is from another post-pipe commit;
+#   4. pushes only its own rebuild commits: when paperz main holds a commit a
+#      person made that GitHub lacks, it builds and commits but leaves the push
+#      to that person.
+# post-pipe's hooks call it only for a commit in post-pipe's own folder on main.
 # Pass --force to rebuild even when the committed build is from post-pipe's HEAD.
 set -euo pipefail
 
@@ -55,6 +59,14 @@ committed_engine() {
 
 # Commits on paperz main here that GitHub (as last fetched) does not have.
 unpushed() { pz rev-list --count origin/main..HEAD 2>/dev/null || echo 0; }
+
+# Of those, the ones this script did not make (its own are its rebuild commits).
+# This script pushes only its own: a commit a person made goes to GitHub when a
+# person pushes it (2026-11-09: an earlier version pushed two such commits).
+BUILD_SUBJECT="chore(engine): rebuild site with post-pipe main ("
+not_ours() {
+  pz log --format=%s origin/main..HEAD 2>/dev/null | grep -cvF "$BUILD_SUBJECT" || true
+}
 
 # Fetch GitHub's main and fast-forward to it. Stops the run if both sides have
 # moved, or if the fast-forward is refused (uncommitted changes in the way).
@@ -115,6 +127,12 @@ build_and_commit() {
 # (returns 2). Returns 1 when GitHub cannot be reached or the state needs a
 # person.
 push_or_set_aside() {
+  local others
+  others="$(not_ours)"
+  if [ "$others" -gt 0 ]; then
+    say "not pushed: paperz main has $others commit(s) GitHub lacks that this script did not make. Whoever made them pushes them, and the rebuild goes with them."
+    return 1
+  fi
   if pz push -q origin main; then
     say "Pushed paperz main for post-pipe $PP_SHA."
     return 0
