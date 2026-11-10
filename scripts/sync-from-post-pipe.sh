@@ -14,7 +14,10 @@
 #      once more if GitHub's build is from another post-pipe commit;
 #   4. pushes only its own rebuild commits: when paperz main holds a commit a
 #      person made that GitHub lacks, it builds and commits but leaves the push
-#      to that person.
+#      to that person;
+#   5. skips when paperz's working tree has uncommitted or untracked changes
+#      (`git status --porcelain`), so an uncommitted draft paper is never built
+#      into the HTML pages and feeds by a background hook run.
 # post-pipe's hooks call it only for a commit in post-pipe's own folder on main.
 # Pass --force to rebuild even when the committed build is from post-pipe's HEAD.
 set -euo pipefail
@@ -43,6 +46,11 @@ fi
 PZ_BRANCH="$(pz rev-parse --abbrev-ref HEAD 2>/dev/null || echo "")"
 if [ "$PZ_BRANCH" != "main" ]; then
   say "paperz is on branch '$PZ_BRANCH' (not main); skipping auto-rebuild."
+  exit 0
+fi
+
+if [ -n "$(pz status --porcelain 2>/dev/null)" ]; then
+  say "paperz working tree has uncommitted or untracked changes; skipping auto-rebuild so a draft is not published early."
   exit 0
 fi
 
