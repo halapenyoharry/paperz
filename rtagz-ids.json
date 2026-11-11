@@ -1,8 +1,8 @@
 {
  "schema": "rosetta-tagz/ledger@1",
  "created": "2026-11-06T23:13:15.349Z",
- "updated": "2026-11-11T23:46:27.055Z",
- "builds": 15,
+ "updated": "2026-11-11T23:59:00.207Z",
+ "builds": 16,
  "concepts": {
   "c_absurdism": {
    "members": [
@@ -10,7 +10,7 @@
    ],
    "label": "absurdism",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_agentic_coding": {
    "members": [
@@ -18,7 +18,7 @@
    ],
    "label": "agentic-coding",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_ai": {
    "members": [
@@ -26,7 +26,7 @@
    ],
    "label": "ai",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_attention": {
    "members": [
@@ -34,7 +34,7 @@
    ],
    "label": "attention",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_ballot_initiatives": {
    "members": [
@@ -42,7 +42,7 @@
    ],
    "label": "ballot-initiatives",
    "since": "2026-11-08T18:07:55.042Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_biphasic_sleep": {
    "members": [
@@ -50,7 +50,7 @@
    ],
    "label": "biphasic-sleep",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_campaign_finance": {
    "members": [
@@ -58,7 +58,7 @@
    ],
    "label": "campaign-finance",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_cannabis_policy": {
    "members": [
@@ -66,7 +66,7 @@
    ],
    "label": "cannabis-policy",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_citizens_united": {
    "members": [
@@ -74,7 +74,7 @@
    ],
    "label": "citizens-united",
    "since": "2026-11-08T18:07:55.042Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_coalition_bargaining": {
    "members": [
@@ -82,7 +82,7 @@
    ],
    "label": "coalition-bargaining",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_cognitive_budget": {
    "members": [
@@ -90,7 +90,7 @@
    ],
    "label": "cognitive-budget",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_cognitive_systems_engineering": {
    "members": [
@@ -98,7 +98,7 @@
    ],
    "label": "cognitive-systems-engineering",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_comfort": {
    "members": [
@@ -106,7 +106,7 @@
    ],
    "label": "comfort",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_commodity_fetishism": {
    "members": [
@@ -114,7 +114,7 @@
    ],
    "label": "commodity-fetishism",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_corporate_law": {
    "members": [
@@ -122,7 +122,7 @@
    ],
    "label": "corporate-law",
    "since": "2026-11-08T18:07:55.042Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_creativity": {
    "members": [
@@ -130,7 +130,7 @@
    ],
    "label": "creativity",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_curriculum": {
    "members": [
@@ -138,7 +138,7 @@
    ],
    "label": "curriculum",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_directability": {
    "members": [
@@ -146,7 +146,7 @@
    ],
    "label": "directability",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_ecological_interface_design": {
    "members": [
@@ -154,7 +154,7 @@
    ],
    "label": "ecological-interface-design",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_elections": {
    "members": [
@@ -162,7 +162,7 @@
    ],
    "label": "elections",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_emotion": {
    "members": [
@@ -170,7 +170,7 @@
    ],
    "label": "emotion",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_epistemic_actions": {
    "members": [
@@ -178,7 +178,7 @@
    ],
    "label": "epistemic-actions",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_epistemology": {
    "members": [
@@ -186,7 +186,7 @@
    ],
    "label": "epistemology",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_ethics": {
    "members": [
@@ -194,7 +194,7 @@
    ],
    "label": "ethics",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_federalism": {
    "members": [
@@ -202,7 +202,7 @@
    ],
    "label": "federalism",
    "since": "2026-11-08T18:07:55.042Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_first_amendment": {
    "members": [
@@ -210,7 +210,7 @@
    ],
    "label": "first-amendment",
    "since": "2026-11-08T18:07:55.042Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_flow": {
    "members": [
@@ -218,7 +218,7 @@
    ],
    "label": "flow",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_graph_theory": {
    "members": [
@@ -226,7 +226,7 @@
    ],
    "label": "graph-theory",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_human_ai_collaboration": {
    "members": [
@@ -234,7 +234,7 @@
    ],
    "label": "human-ai-collaboration",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_information": {
    "members": [
@@ -242,7 +242,7 @@
    ],
    "label": "information",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_information_theory": {
    "members": [
@@ -250,7 +250,7 @@
    ],
    "label": "information-theory",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_interface_architecture": {
    "members": [
@@ -258,7 +258,7 @@
    ],
    "label": "interface-architecture",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_invariance": {
    "members": [
@@ -266,7 +266,7 @@
    ],
    "label": "invariance",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_ironies_of_automation": {
    "members": [
@@ -274,7 +274,7 @@
    ],
    "label": "ironies-of-automation",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_joint_cognitive_systems": {
    "members": [
@@ -282,7 +282,7 @@
    ],
    "label": "joint-cognitive-systems",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_legislative_rules": {
    "members": [
@@ -290,7 +290,7 @@
    ],
    "label": "legislative-rules",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_living_document": {
    "members": [
@@ -298,7 +298,7 @@
    ],
    "label": "living-document",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_mathematics_education": {
    "members": [
@@ -306,7 +306,7 @@
    ],
    "label": "mathematics-education",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_momentum": {
    "members": [
@@ -314,7 +314,7 @@
    ],
    "label": "momentum",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_montana": {
    "members": [
@@ -322,7 +322,7 @@
    ],
    "label": "montana",
    "since": "2026-11-08T18:07:55.042Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_negentropy": {
    "members": [
@@ -330,7 +330,7 @@
    ],
    "label": "negentropy",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_neuroscience": {
    "members": [
@@ -338,7 +338,7 @@
    ],
    "label": "neuroscience",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_observability": {
    "members": [
@@ -346,7 +346,7 @@
    ],
    "label": "observability",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_pedagogy": {
    "members": [
@@ -354,7 +354,7 @@
    ],
    "label": "pedagogy",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_political_economy": {
    "members": [
@@ -362,7 +362,7 @@
    ],
    "label": "political-economy",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_provenance": {
    "members": [
@@ -370,7 +370,7 @@
    ],
    "label": "provenance",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_redistricting": {
    "members": [
@@ -378,7 +378,7 @@
    ],
    "label": "redistricting",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_religion": {
    "members": [
@@ -386,7 +386,7 @@
    ],
    "label": "religion",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_religion_and_voting": {
    "members": [
@@ -394,7 +394,7 @@
    ],
    "label": "religion-and-voting",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_sleep": {
    "members": [
@@ -402,7 +402,7 @@
    ],
    "label": "sleep",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_state_legislatures": {
    "members": [
@@ -410,7 +410,7 @@
    ],
    "label": "state-legislatures",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_supply_chains": {
    "members": [
@@ -418,7 +418,7 @@
    ],
    "label": "supply-chains",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_supreme_court": {
    "members": [
@@ -426,7 +426,7 @@
    ],
    "label": "supreme-court",
    "since": "2026-11-08T18:07:55.042Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_systems": {
    "members": [
@@ -434,7 +434,7 @@
    ],
    "label": "systems",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_systems_topology": {
    "members": [
@@ -442,7 +442,7 @@
    ],
    "label": "systems-topology",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_texas": {
    "members": [
@@ -450,7 +450,7 @@
    ],
    "label": "texas",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_thermodynamics": {
    "members": [
@@ -458,7 +458,7 @@
    ],
    "label": "thermodynamics",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_topology": {
    "members": [
@@ -466,7 +466,7 @@
    ],
    "label": "topology",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   },
   "c_veto_players": {
    "members": [
@@ -474,7 +474,7 @@
    ],
    "label": "veto-players",
    "since": "2026-11-06T23:13:15.349Z",
-   "lastSeen": "2026-11-11T23:46:27.055Z"
+   "lastSeen": "2026-11-11T23:59:00.207Z"
   }
  },
  "retired": {},
