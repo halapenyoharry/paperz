@@ -32,7 +32,8 @@ const SETTINGS = JSON.parse(fs.readFileSync(SETTINGS_PATH, 'utf8'));
 const PAPERS_PATH = path.join(SITE_ROOT, 'papers.json');
 const INDEX = JSON.parse(fs.readFileSync(PAPERS_PATH, 'utf8'));
 
-const BASE_URL = String(SETTINGS.site?.base_url || INDEX.site?.url || 'https://halapenyoharry.github.io/paperz').replace(/\/+$/, '');
+const BASE_URL = String(SETTINGS.site?.base_url || INDEX.site?.url || 'https://haroldyoung.net/paperz').replace(/\/+$/, '');
+const PATH_URLS = SETTINGS.reader?.urlStyle === 'path';
 const PUBLISHED_SLUGS = new Set((INDEX.papers || []).map((p) => p.slug));
 const FORTHCOMING_BY_SLUG = new Map((INDEX.forthcoming || []).map((f) => [f.slug, f]));
 
@@ -216,8 +217,10 @@ for (let idx = 0; idx < (INDEX.papers || []).length; idx++) {
       const clean = String(s).replace(/^\[\[|\]\]$/g, '').trim();
       const hit = (INDEX.papers || []).find((x) => x.slug === clean);
       if (hit) {
-        const targetId = `${BASE_URL}/${clean}.html`;
-        return `<a href="#read=${encodeURIComponent(targetId)}" style="color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)">${escapeHtml(hit.title.toLowerCase())}</a>`;
+        const targetHref = PATH_URLS
+          ? `./${encodeURIComponent(clean)}`
+          : `#read=${encodeURIComponent(`${BASE_URL}/${clean}.html`)}`;
+        return `<a href="${targetHref}" style="color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)">${escapeHtml(hit.title.toLowerCase())}</a>`;
       }
       const fc = FORTHCOMING_BY_SLUG.get(clean);
       const label = fc ? fc.title.toLowerCase() : clean.replace(/-/g, ' ');
@@ -288,7 +291,7 @@ for (let idx = 0; idx < (INDEX.papers || []).length; idx++) {
     version: p.version,
     tags: p.tags,
     summary: p.summary,
-    url: `${BASE_URL}/${p.slug}.html`,
+    url: PATH_URLS ? `${BASE_URL}/${p.slug}` : `${BASE_URL}/${p.slug}.html`,
     license: licenseObj,
     html: rendered.html,
   });
@@ -319,7 +322,7 @@ for (const [slug, info] of renderedBySlug.entries()) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(info.paper.title)} — paperz</title>
 <meta name="description" content="${escapeHtml(info.paper.summary || info.paper.subtitle || '')}">
-<link rel="canonical" href="${BASE_URL}/${escapeHtml(slug)}.html">
+<link rel="canonical" href="${BASE_URL}/${escapeHtml(slug)}${PATH_URLS ? '' : '.html'}">
 </head>
 <body style="background:var(--color-bg,#161826);color:var(--color-text,#e9e9ed);font-family:system-ui,-apple-system,sans-serif;max-width:72ch;margin:0 auto;padding:32px 20px">
 <h1>${escapeHtml(info.paper.title)}</h1>

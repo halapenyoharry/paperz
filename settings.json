@@ -2,7 +2,7 @@
   "site": {
     "title": "paperz",
     "description": "whitepapers on ideas generated with AI",
-    "base_url": "https://halapenyoharry.github.io/paperz",
+    "base_url": "https://haroldyoung.net/paperz",
     "lang": "en"
   },
   "author": {
@@ -93,6 +93,7 @@
     "emerge": false
   },
   "reader": {
+    "urlStyle": "path",
     "header": {
       "byline": true
     },

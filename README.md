@@ -3,9 +3,9 @@
 > **A website repository of deep-dive `zpapers` born from human–AI collaboration.**  
 > Powered by [`post-pipe`](https://github.com/halapenyoharry/post-pipe) (`v1.1.0+`), holding both the source markdown and the built graph + reader site served directly by GitHub Pages, and automatically updated whenever `post-pipe` `main` updates.
 
-🌐 **Live Graph & Reader**: [https://halapenyoharry.github.io/paperz](https://halapenyoharry.github.io/paperz)  
-📚 **Classic Nocturne Index**: [https://halapenyoharry.github.io/paperz/index.dc.html](https://halapenyoharry.github.io/paperz/index.dc.html)  
-📡 **Feeds**: [RSS 2.0](https://halapenyoharry.github.io/paperz/feed.xml) · [Atom 1.0](https://halapenyoharry.github.io/paperz/atom.xml) · [JSON Feed 1.1](https://halapenyoharry.github.io/paperz/feed.json)  
+🌐 **Live Graph & Reader**: [https://haroldyoung.net/paperz](https://haroldyoung.net/paperz)  
+📚 **Classic Nocturne Index**: [https://haroldyoung.net/paperz/index.dc.html](https://haroldyoung.net/paperz/index.dc.html)  
+📡 **Feeds**: [RSS 2.0](https://haroldyoung.net/paperz/feed.xml) · [Atom 1.0](https://haroldyoung.net/paperz/atom.xml) · [JSON Feed 1.1](https://haroldyoung.net/paperz/feed.json)  
 🤖 **Agent & Droid Instructions**: [AGENTS-template.md](AGENTS-template.md)
 
 ---
