@@ -1017,7 +1017,7 @@ _:b80 rdf:type prov:Entity ;
 _:b79 prov:wasGeneratedBy _:b81 .
 _:b81 rdf:type prov:Activity ;
     rtz:activity "ingest" .
-<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fharoldyoung.net%2Fpaperz%2Friemann-hypothesis.html> dcterms:title "The zero spiral" ;
+<urn:rosetta-tagz:item/paperz%3A%3Ahttps%3A%2F%2Fharoldyoung.net%2Fpaperz%2Friemann-hypothesis.html> dcterms:title "The Riemann hypothesis" ;
     rdfs:seeAlso <https://haroldyoung.net/paperz/riemann-hypothesis.html> ;
     dcterms:subject <urn:rosetta-tagz:concept/c_ai> .
 _:b82 rdf:type rdf:Statement ;

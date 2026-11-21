@@ -60,11 +60,12 @@ For any `CC-BY*` license or `all-rights-reserved`, also set `attribution:` to th
 
 Every zpaper is a single markdown file located in `papers/<slug>.md` (kebab-case slug). It must adhere to the following structure:
 
-### Slug Rule (Two Literal Words)
+### Slug and Title Rule
 
 - **`slug`**: Every zpaper must carry an explicit `slug` field in its frontmatter and in `papers.json` (matching its filename `papers/<slug>.md`).
-- **Two literal topic words**: A slug is never a poetic phrase, a metaphor, or a copy of a clever title. It must be the **literal best two words** (`word-word` in kebab-case) that explain what the article is actually about (e.g., `texas-election`, `ecological-interface`, `biphasic-sleep`, `attention-budget`, `mathematics-invariance`).
-- **Title freedom**: Because the `slug` carries the literal two-word topic identity, the `title` and `subtitle` are free to be whatever poetic, structural, or conversational title the human or agent chooses.
+- **Two literal topic words**: A slug is never a poetic phrase, a metaphor, or a copy of a clever title. It must be the **literal best two words** (`word-word` in kebab-case) that explain what the article is actually about (e.g., `texas-election`, `ecological-interface`, `biphasic-sleep`, `attention-budget`, `riemann-hypothesis`).
+- **Small title (`title`) explains what it is**: Because graph cards display `title` alone, `title` must state plainly what the article is rather than try to be creative or metaphorical (e.g., `The Riemann hypothesis`, not `The zero spiral`).
+- **Long title (`subtitle`)**: `subtitle` can be more creative in phrasing, but it must still clearly say what the article is about.
 
 ### Heavy Frontmatter
 
@@ -176,6 +177,8 @@ references:
 
    *Donated to the commons.*
    ```
+
+   If the starting prompt is brief or consists largely of pasted material from another AI session, do not invent collaborative emergence under **Neither, exactly**; state the real division of contributions plainly and note when the prompt did not establish a deeper separation.
 
 ---
 

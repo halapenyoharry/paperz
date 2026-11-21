@@ -8,10 +8,10 @@
   "papers": [
     {
       "slug": "riemann-hypothesis",
-      "title": "The zero spiral",
-      "subtitle": "The Riemann hypothesis, its fractal echoes, and the day a machine claimed the proof",
+      "title": "The Riemann hypothesis",
+      "subtitle": "How the zeta spiral keeps hitting zero, where fractals enter, and the November 2026 Lean proof claim",
       "date": "2026-11-21",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "riemann-hypothesis",
         "prime-numbers",
