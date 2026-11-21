@@ -161,21 +161,30 @@ push_or_set_aside() {
   return 2
 }
 
+# True when the committed build was already produced by post-pipe main ($PP_SHA)
+# or by a newer post-pipe commit ahead of main (such as dev while awaiting merge),
+# so auto-sync never downgrades paperz to an older engine commit.
+engine_at_or_ahead() {
+  local cur
+  cur="$(committed_engine)"
+  [ -n "$cur" ] && { [ "$cur" = "$PP_SHA" ] || git -C "$POSTPIPE_ROOT" merge-base --is-ancestor "$PP_SHA" "$cur" 2>/dev/null; }
+}
+
 # Nothing new from post-pipe: push anything an earlier run left unpushed, then stop.
-if [ "$FORCE" != "--force" ] && [ "$(committed_engine)" = "$PP_SHA" ]; then
+if [ "$FORCE" != "--force" ] && engine_at_or_ahead; then
   if [ "$(unpushed)" -gt 0 ]; then
     push_or_set_aside || true
   else
-    say "paperz is already built with post-pipe main ($PP_SHA); nothing to do."
+    say "paperz is already built with post-pipe $(committed_engine) (at or ahead of main $PP_SHA); nothing to do."
   fi
   exit 0
 fi
 
 level_with_github
 
-# GitHub's Action may already have built this post-pipe commit.
-if [ "$FORCE" != "--force" ] && [ "$(committed_engine)" = "$PP_SHA" ]; then
-  say "GitHub's paperz is already built with post-pipe main ($PP_SHA); nothing to do."
+# GitHub's Action may already have built this post-pipe commit (or a newer one).
+if [ "$FORCE" != "--force" ] && engine_at_or_ahead; then
+  say "GitHub's paperz is already built with post-pipe $(committed_engine) (at or ahead of main $PP_SHA); nothing to do."
   exit 0
 fi
 
