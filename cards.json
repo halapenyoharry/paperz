@@ -81,6 +81,16 @@
       ],
       "firstSeen": "2026-11-08",
       "source": "url"
+    },
+    "riemann-hypothesis": {
+      "urls": [
+        "https://halapenyoharry.github.io/paperz/riemann-hypothesis.html"
+      ],
+      "titles": [
+        "The zero spiral"
+      ],
+      "firstSeen": "2026-11-21",
+      "source": "url"
     }
   }
 }

@@ -7,6 +7,26 @@
   },
   "papers": [
     {
+      "slug": "riemann-hypothesis",
+      "title": "The zero spiral",
+      "subtitle": "The Riemann hypothesis, its fractal echoes, and the day a machine claimed the proof",
+      "date": "2026-11-21",
+      "version": "1.0",
+      "tags": [
+        "riemann-hypothesis",
+        "prime-numbers",
+        "complex-analysis",
+        "fractals",
+        "formal-verification",
+        "lean",
+        "ai",
+        "human-ai-collaboration",
+        "systems-topology",
+        "living-document"
+      ],
+      "summary": "Walk up the vertical centerline Re(s) = 1/2 of the complex plane, feed each point into the Riemann zeta function, and the output traces a spiral that loops back through zero again and again. The Riemann hypothesis claims every non-trivial zero sits on that single line, a condition that locks the error in prime counts, anchors two exact theorems on fractals and self-similarity, and broke into the news on November 20, 2026 when Levent Alpöge and Claude released 175,187 files of Lean 4 code claiming a full proof. A living zpaper with computed animations and the live verification ledger as of November 21, 2026."
+    },
+    {
       "slug": "montana-initiative",
       "title": "Powers, not rights",
       "subtitle": "Montana's Initiative 194 and the chain of cases it has to get past",
