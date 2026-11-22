@@ -38,7 +38,9 @@
       ],
       "series": "paperz",
       "series_part": 10,
-      "commit_times": [],
+      "commit_times": [
+        "2026-11-22T09:27:17-06:00"
+      ],
       "license": "CC0 1.0",
       "canonical_url": "https://haroldyoung.net/paperz/agent-swarms.html",
       "syndication": {},
@@ -6493,11 +6495,11 @@
       "prominence": "primary",
       "itemCount": 10,
       "ok": true,
-      "readAt": "2026-11-22T15:26:55.644Z"
+      "readAt": "2026-11-22T16:16:30.119Z"
     }
   ],
   "_rtagz": {
-    "built": "2026-11-22T15:26:55.716Z",
+    "built": "2026-11-22T16:16:30.194Z",
     "systems": {
       "paperz": {
         "sourceId": "local://_build/content",
@@ -6647,7 +6649,7 @@
         },
         "ledger": {
           "since": "2026-11-22T15:26:55.873Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -7007,7 +7009,7 @@
         },
         "ledger": {
           "since": "2026-11-22T15:26:55.873Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -8307,7 +8309,7 @@
         },
         "ledger": {
           "since": "2026-11-22T15:26:55.873Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -8343,7 +8345,7 @@
         },
         "ledger": {
           "since": "2026-11-22T15:26:55.873Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -8523,7 +8525,7 @@
         },
         "ledger": {
           "since": "2026-11-22T15:26:55.873Z",
-          "event": "minted"
+          "event": "reused"
         }
       },
       {
@@ -9175,12 +9177,12 @@
       }
     ],
     "ledger": {
-      "minted": 5,
-      "reused": 65,
+      "minted": 0,
+      "reused": 70,
       "retired": 0
     }
   },
   "_postpipe": {
-    "engine_commit": "4d5042a"
+    "engine_commit": "667e4f4"
   }
 }
