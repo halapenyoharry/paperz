@@ -101,6 +101,16 @@
       ],
       "firstSeen": "2026-11-21",
       "source": "url"
+    },
+    "agent-swarms": {
+      "urls": [
+        "https://haroldyoung.net/paperz/agent-swarms.html"
+      ],
+      "titles": [
+        "Parallel agent swarms and digital secrecy"
+      ],
+      "firstSeen": "2026-11-22",
+      "source": "url"
     }
   }
 }

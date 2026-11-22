@@ -7,6 +7,24 @@
   },
   "papers": [
     {
+      "slug": "agent-swarms",
+      "title": "Parallel agent swarms and digital secrecy",
+      "subtitle": "Fourteen minutes to daylight: asymmetric escalation, formal verification, and care-coupled tool design",
+      "date": "2026-11-22",
+      "version": "1.0",
+      "tags": [
+        "parallel-agents",
+        "formal-verification",
+        "asymmetric-conflict",
+        "operational-security",
+        "radical-transparency",
+        "cognitive-tools",
+        "systems-topology",
+        "human-ai-collaboration"
+      ],
+      "summary": "Between November 17 and November 21, 2026, machine-verified mathematics, 14-minute autonomous network breaches, classified US network outages, and wartime Iranian cyber pressure converged in a single week. Parallel AI execution has collapsed sequential human defense windows, leaving radical personal transparency and care-coupled cognitive architecture as durable foundations for human tool design."
+    },
+    {
       "slug": "riemann-hypothesis",
       "title": "The Riemann hypothesis",
       "subtitle": "How the zeta spiral keeps hitting zero, where fractals enter, and the November 2026 Lean proof claim",
