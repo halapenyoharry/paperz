@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "paperz",
-    "description": "whitepapers on ideas generated with AI",
+    "description": "whitepapers, articles, and other explorations generated with human/machine collaboration",
     "base_url": "https://haroldyoung.net/paperz",
     "lang": "en"
   },
@@ -177,7 +177,7 @@
     ],
     "containerCount": true,
     "readingProgress": true,
-    "intro": "whitepapers on ideas generated with AI"
+    "intro": "whitepapers, articles, and other explorations generated with human/machine collaboration"
   },
   "views": [
     "cluster",

@@ -378,7 +378,7 @@ for (const entry of fs.readdirSync(SITE_OUT_DIR, { withFileTypes: true })) {
 // Regenerate RSS 2.0 (feed.xml) and Atom 1.0 (atom.xml) at the root
 const siteMeta = INDEX.site || {
   title: 'paperz',
-  tagline: 'whitepapers on ideas generated with AI',
+  tagline: 'whitepapers, articles, and other explorations generated with human/machine collaboration',
   url: BASE_URL,
   author: 'paperz',
 };
