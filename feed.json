@@ -10,6 +10,343 @@
   ],
   "items": [
     {
+      "id": "https://haroldyoung.net/paperz/human-power.html",
+      "url": "https://haroldyoung.net/paperz/human-power.html",
+      "title": "Human power and flywheels",
+      "short_title": "Human power and flywheels",
+      "summary": "Pedaling at 100 watts for 12 hours a day over 40 years produces 63.07 gigajoules (17,520 kWh), roughly equal to 10.5 barrels of crude oil or 497 gallons of gasoline. Storing all of that work inside a spinning flywheel runs into two hard constraints: centrifugal hoop stress depends strictly on material specific strength (which shatters a 1,000 kg, 2 m carbon wheel spun to 50,000 RPM at 58 times its tensile limit), and even a 0.1 percent per hour standby leak caps the steady-state charge at 50 kilowatt-hours within four months.",
+      "tldr": "Pedaling at 100 watts for 12 hours a day over 40 years produces 63.07 gigajoules (17,520 kWh), roughly equal to 10.5 barrels of crude oil or 497 gallons of gasoline. Storing all of that work inside a spinning flywheel runs into two hard constraints: centrifugal hoop stress depends strictly on material specific strength (which shatters a 1,000 kg, 2 m carbon wheel spun to 50,000 RPM at 58 times its tensile limit), and even a 0.1 percent per hour standby leak caps the steady-state charge at 50 kilowatt-hours within four months.",
+      "image": "",
+      "date_published": "2026-11-28T00:00:00.000Z",
+      "reading_time": "13 min read",
+      "author": "paperz",
+      "authors": [
+        {
+          "name": "paperz",
+          "url": "https://haroldyoung.net/paperz/human-power.html"
+        }
+      ],
+      "tags": [
+        "thermodynamics",
+        "mechanics",
+        "energy-storage",
+        "flywheels",
+        "human-power",
+        "cognitive-budget",
+        "systems-topology",
+        "human-ai-collaboration"
+      ],
+      "series": "paperz",
+      "series_part": 11,
+      "commit_times": [],
+      "license": "CC0 1.0",
+      "canonical_url": "https://haroldyoung.net/paperz/human-power.html",
+      "syndication": {},
+      "attachments": [],
+      "_status": "published",
+      "_posted": true,
+      "_references": [
+        {
+          "type": "tag",
+          "value": "thermodynamics",
+          "concept": "c_thermodynamics",
+          "origin": "explicit",
+          "weight": 1,
+          "systems": [
+            "paperz"
+          ],
+          "forms": {
+            "paperz": [
+              "thermodynamics"
+            ]
+          },
+          "via": "known",
+          "why": null,
+          "prefLabel": {
+            "paperz": "thermodynamics",
+            "site": "thermodynamics"
+          },
+          "wasDerivedFrom": [
+            {
+              "type": "category",
+              "scheme": "paperz",
+              "label": "thermodynamics"
+            }
+          ],
+          "wasGeneratedBy": {
+            "activity": "ingest",
+            "parameters": {}
+          }
+        },
+        {
+          "type": "tag",
+          "value": "mechanics",
+          "concept": "c_mechanics",
+          "origin": "explicit",
+          "weight": 1,
+          "systems": [
+            "paperz"
+          ],
+          "forms": {
+            "paperz": [
+              "mechanics"
+            ]
+          },
+          "via": "known",
+          "why": null,
+          "prefLabel": {
+            "paperz": "mechanics",
+            "site": "mechanics"
+          },
+          "wasDerivedFrom": [
+            {
+              "type": "category",
+              "scheme": "paperz",
+              "label": "mechanics"
+            }
+          ],
+          "wasGeneratedBy": {
+            "activity": "ingest",
+            "parameters": {}
+          }
+        },
+        {
+          "type": "tag",
+          "value": "energy-storage",
+          "concept": "c_energy_storage",
+          "origin": "explicit",
+          "weight": 1,
+          "systems": [
+            "paperz"
+          ],
+          "forms": {
+            "paperz": [
+              "energy-storage"
+            ]
+          },
+          "via": "known",
+          "why": null,
+          "prefLabel": {
+            "paperz": "energy-storage",
+            "site": "energy-storage"
+          },
+          "wasDerivedFrom": [
+            {
+              "type": "category",
+              "scheme": "paperz",
+              "label": "energy-storage"
+            }
+          ],
+          "wasGeneratedBy": {
+            "activity": "ingest",
+            "parameters": {}
+          }
+        },
+        {
+          "type": "tag",
+          "value": "flywheels",
+          "concept": "c_flywheels",
+          "origin": "explicit",
+          "weight": 1,
+          "systems": [
+            "paperz"
+          ],
+          "forms": {
+            "paperz": [
+              "flywheels"
+            ]
+          },
+          "via": "known",
+          "why": null,
+          "prefLabel": {
+            "paperz": "flywheels",
+            "site": "flywheels"
+          },
+          "wasDerivedFrom": [
+            {
+              "type": "category",
+              "scheme": "paperz",
+              "label": "flywheels"
+            }
+          ],
+          "wasGeneratedBy": {
+            "activity": "ingest",
+            "parameters": {}
+          }
+        },
+        {
+          "type": "tag",
+          "value": "human-power",
+          "concept": "c_human_power",
+          "origin": "explicit",
+          "weight": 1,
+          "systems": [
+            "paperz"
+          ],
+          "forms": {
+            "paperz": [
+              "human-power"
+            ]
+          },
+          "via": "known",
+          "why": null,
+          "prefLabel": {
+            "paperz": "human-power",
+            "site": "human-power"
+          },
+          "wasDerivedFrom": [
+            {
+              "type": "category",
+              "scheme": "paperz",
+              "label": "human-power"
+            }
+          ],
+          "wasGeneratedBy": {
+            "activity": "ingest",
+            "parameters": {}
+          }
+        },
+        {
+          "type": "tag",
+          "value": "cognitive-budget",
+          "concept": "c_cognitive_budget",
+          "origin": "explicit",
+          "weight": 1,
+          "systems": [
+            "paperz"
+          ],
+          "forms": {
+            "paperz": [
+              "cognitive-budget"
+            ]
+          },
+          "via": "known",
+          "why": null,
+          "prefLabel": {
+            "paperz": "cognitive-budget",
+            "site": "cognitive-budget"
+          },
+          "wasDerivedFrom": [
+            {
+              "type": "category",
+              "scheme": "paperz",
+              "label": "cognitive-budget"
+            }
+          ],
+          "wasGeneratedBy": {
+            "activity": "ingest",
+            "parameters": {}
+          }
+        },
+        {
+          "type": "tag",
+          "value": "systems-topology",
+          "concept": "c_systems_topology",
+          "origin": "explicit",
+          "weight": 1,
+          "systems": [
+            "paperz"
+          ],
+          "forms": {
+            "paperz": [
+              "systems-topology"
+            ]
+          },
+          "via": "known",
+          "why": null,
+          "prefLabel": {
+            "paperz": "systems-topology",
+            "site": "systems-topology"
+          },
+          "wasDerivedFrom": [
+            {
+              "type": "category",
+              "scheme": "paperz",
+              "label": "systems-topology"
+            }
+          ],
+          "wasGeneratedBy": {
+            "activity": "ingest",
+            "parameters": {}
+          }
+        },
+        {
+          "type": "tag",
+          "value": "human-ai-collaboration",
+          "concept": "c_human_ai_collaboration",
+          "origin": "explicit",
+          "weight": 1,
+          "systems": [
+            "paperz"
+          ],
+          "forms": {
+            "paperz": [
+              "human-ai-collaboration"
+            ]
+          },
+          "via": "known",
+          "why": null,
+          "prefLabel": {
+            "paperz": "human-ai-collaboration",
+            "site": "human-ai-collaboration"
+          },
+          "wasDerivedFrom": [
+            {
+              "type": "category",
+              "scheme": "paperz",
+              "label": "human-ai-collaboration"
+            }
+          ],
+          "wasGeneratedBy": {
+            "activity": "ingest",
+            "parameters": {}
+          }
+        }
+      ],
+      "kind": "essay",
+      "substrate": "essay",
+      "seed": "How much energy one body produces in a lifetime, and why a spinning wheel breaks or leaks before it can hold it",
+      "topology": [
+        "classical-mechanics",
+        "exercise-physiology",
+        "aerospace-energy-storage",
+        "topological-accounting"
+      ],
+      "energy": null,
+      "forms": {
+        "current": "essay",
+        "potential": [],
+        "companions": []
+      },
+      "connected_to": [
+        "the-twenty-watt-watch",
+        "the-smoke-loop",
+        "the-contracted-edge"
+      ],
+      "note": null,
+      "todos": [],
+      "schema": "gen2",
+      "version": "79d7adbe6954",
+      "_source": {
+        "id": "local://_build/content",
+        "title": "paperz",
+        "type": "local",
+        "color": "hsl(51, 65%, 58%)",
+        "prominence": "primary"
+      },
+      "labels": {
+        "short": "Human power",
+        "medium": "Human power and flywheels",
+        "full": "Human power and flywheels"
+      },
+      "slug": "human-power",
+      "slugSource": "url",
+      "topicSlug": "energy-storage-flywheels",
+      "subtitle": "How much energy one body produces in a lifetime, and why a spinning wheel breaks or leaks before it can hold it",
+      "paper_version": "1.0",
+      "content_html": "<div style=\"margin:36px 0\"><svg data-hp-toy=\"1\" data-pp-not-text=\"true\" viewBox=\"0 0 820 468\" width=\"100%\" role=\"img\" aria-label=\"Interactive flywheel simulator comparing energy storage, hoop stress, and rotor burst limits across materials, spin speed, and rotor mass\" style=\"display:block;max-width:820px;margin:0 auto;user-select:none;-webkit-user-select:none\">\n  <defs>\n    <clipPath id=\"hp-chart-clip\"><rect x=\"456\" y=\"106\" width=\"324\" height=\"110\" rx=\"4\"/></clipPath>\n  </defs>\n  <g style=\"font-family:var(--font-body);font-size:11.5px;font-variant-numeric:tabular-nums\" fill=\"var(--color-text)\">\n    <text x=\"24\" y=\"24\" style=\"font-size:12.5px;font-weight:500\">Flywheel rotor (r = 2 m solid disk)</text>\n    <text x=\"436\" y=\"24\" style=\"font-size:12.5px;font-weight:500\">Pick material, speed, and mass</text>\n    <g data-hp=\"playbtn\" role=\"button\" tabindex=\"0\" aria-label=\"Play or pause rotor spin\" style=\"cursor:pointer\">\n      <rect x=\"740\" y=\"8\" width=\"56\" height=\"22\" rx=\"11\" fill=\"var(--color-surface)\" stroke=\"var(--color-accent)\" stroke-width=\"1.2\"/>\n      <text data-hp=\"playlbl\" x=\"768\" y=\"22.5\" text-anchor=\"middle\" fill=\"var(--color-accent-300)\" style=\"font-size:11px;font-weight:500\">Pause</text>\n    </g>\n    <rect x=\"24\" y=\"42\" width=\"394\" height=\"334\" rx=\"8\" fill=\"var(--color-surface)\" stroke=\"var(--color-divider)\"/>\n    <rect x=\"436\" y=\"42\" width=\"360\" height=\"334\" rx=\"8\" fill=\"var(--color-surface)\" stroke=\"var(--color-divider)\"/>\n    <circle data-hp=\"glow\" cx=\"221\" cy=\"184\" r=\"94\" fill=\"none\" stroke=\"var(--color-accent-300)\" stroke-width=\"7\" opacity=\"0.28\"/>\n    <g data-hp=\"wheel\" opacity=\"1\">\n      <circle data-hp=\"rim\" cx=\"221\" cy=\"184\" r=\"82\" fill=\"var(--color-bg)\" stroke=\"var(--color-accent)\" stroke-width=\"10\"/>\n      <circle cx=\"221\" cy=\"184\" r=\"74\" fill=\"none\" stroke=\"var(--color-divider)\" stroke-width=\"1\"/>\n      <line x1=\"221\" y1=\"184\" x2=\"299.0\" y2=\"184.0\" stroke=\"var(--color-accent-300)\" stroke-width=\"2\" opacity=\"0.72\"/>\n      <line x1=\"221\" y1=\"184\" x2=\"260.0\" y2=\"251.5\" stroke=\"var(--color-accent-300)\" stroke-width=\"2\" opacity=\"0.72\"/>\n      <line x1=\"221\" y1=\"184\" x2=\"182.0\" y2=\"251.5\" stroke=\"var(--color-accent-300)\" stroke-width=\"2\" opacity=\"0.72\"/>\n      <line x1=\"221\" y1=\"184\" x2=\"143.0\" y2=\"184.0\" stroke=\"var(--color-accent-300)\" stroke-width=\"2\" opacity=\"0.72\"/>\n      <line x1=\"221\" y1=\"184\" x2=\"182.0\" y2=\"116.5\" stroke=\"var(--color-accent-300)\" stroke-width=\"2\" opacity=\"0.72\"/>\n      <line x1=\"221\" y1=\"184\" x2=\"260.0\" y2=\"116.5\" stroke=\"var(--color-accent-300)\" stroke-width=\"2\" opacity=\"0.72\"/>\n      <circle cx=\"221\" cy=\"184\" r=\"14\" fill=\"var(--color-surface)\" stroke=\"var(--color-accent-300)\" stroke-width=\"2\"/>\n      <circle cx=\"221\" cy=\"184\" r=\"4.5\" fill=\"var(--color-accent-200)\"/>\n    </g>\n    <g data-hp=\"shatter\" opacity=\"0\" style=\"pointer-events:none\">\n      <path d=\"M 300.7,190.4 A 80 80 0 0 1 266.4,249.9 L 250.5,226.8 A 52 52 0 0 0 272.8,188.2 Z\" transform=\"translate(22.5,13.0) rotate(-9 221 184)\" fill=\"var(--color-surface)\" stroke=\"#e05252\" stroke-width=\"2\"/>\n      <path d=\"M 255.3,256.3 A 80 80 0 0 1 186.7,256.3 L 198.7,231.0 A 52 52 0 0 0 243.3,231.0 Z\" transform=\"translate(0.0,26.0) rotate(9 221 184)\" fill=\"var(--color-surface)\" stroke=\"#e05252\" stroke-width=\"2\"/>\n      <path d=\"M 175.6,249.9 A 80 80 0 0 1 141.3,190.4 L 169.2,188.2 A 52 52 0 0 0 191.5,226.8 Z\" transform=\"translate(-22.5,13.0) rotate(-9 221 184)\" fill=\"var(--color-surface)\" stroke=\"#e05252\" stroke-width=\"2\"/>\n      <path d=\"M 141.3,177.6 A 80 80 0 0 1 175.6,118.1 L 191.5,141.2 A 52 52 0 0 0 169.2,179.8 Z\" transform=\"translate(-22.5,-13.0) rotate(9 221 184)\" fill=\"var(--color-surface)\" stroke=\"#e05252\" stroke-width=\"2\"/>\n      <path d=\"M 186.7,111.7 A 80 80 0 0 1 255.3,111.7 L 243.3,137.0 A 52 52 0 0 0 198.7,137.0 Z\" transform=\"translate(-0.0,-26.0) rotate(-9 221 184)\" fill=\"var(--color-surface)\" stroke=\"#e05252\" stroke-width=\"2\"/>\n      <path d=\"M 266.4,118.1 A 80 80 0 0 1 300.7,177.6 L 272.8,179.8 A 52 52 0 0 0 250.5,141.2 Z\" transform=\"translate(22.5,-13.0) rotate(9 221 184)\" fill=\"var(--color-surface)\" stroke=\"#e05252\" stroke-width=\"2\"/>\n    </g>\n    <g data-hp=\"burstbadge\" opacity=\"0\" style=\"pointer-events:none\">\n      <rect x=\"131\" y=\"156\" width=\"180\" height=\"56\" rx=\"8\" fill=\"var(--color-bg)\" stroke=\"#e05252\" stroke-width=\"1.8\"/>\n      <text x=\"221\" y=\"180\" text-anchor=\"middle\" fill=\"#e05252\" style=\"font-size:14px;font-weight:600;letter-spacing:.04em\">ROTOR BURST</text>\n      <text data-hp=\"burstsub\" x=\"221\" y=\"198\" text-anchor=\"middle\" fill=\"var(--color-neutral-300)\" style=\"font-size:11px\">58.0x burst limit</text>\n    </g>\n    <line x1=\"40\" y1=\"296\" x2=\"402\" y2=\"296\" stroke=\"var(--color-divider)\" stroke-width=\"1\"/>\n    <text x=\"42\" y=\"316\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">Rim speed</text>\n    <text data-hp=\"speedval\" x=\"42\" y=\"332\" fill=\"var(--color-text)\" style=\"font-size:12px;font-weight:500\">942 m/s (M 2.7)</text>\n    <text x=\"226\" y=\"316\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">Hoop stress (thin rim ceiling)</text>\n    <text data-hp=\"stressval\" x=\"226\" y=\"332\" fill=\"var(--color-accent-300)\" style=\"font-size:12px;font-weight:500\">1403 / 3000 MPa (47%)</text>\n    <text x=\"42\" y=\"352\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">Stored energy</text>\n    <text data-hp=\"energyval\" x=\"42\" y=\"368\" fill=\"var(--color-text)\" style=\"font-size:12px;font-weight:500\">222.0 MJ (61.7 kWh)</text>\n    <text x=\"226\" y=\"352\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">At 100 W x 12 h/day</text>\n    <text data-hp=\"chargeval\" x=\"226\" y=\"368\" fill=\"#e6a23c\" style=\"font-size:12px;font-weight:500\">51 d pedal (>50 kWh leak cap)</text>\n    <g data-hp-mat=\"0\" role=\"button\" tabindex=\"0\" aria-pressed=\"false\" style=\"cursor:pointer\">\n      <rect x=\"454\" y=\"56\" width=\"76\" height=\"28\" rx=\"6\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\" stroke-width=\"1.2\"/>\n      <text x=\"492\" y=\"74\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:11px;font-weight:500\">Steel</text>\n    </g>\n    <g data-hp-mat=\"1\" role=\"button\" tabindex=\"0\" aria-pressed=\"false\" style=\"cursor:pointer\">\n      <rect x=\"536\" y=\"56\" width=\"80\" height=\"28\" rx=\"6\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\" stroke-width=\"1.2\"/>\n      <text x=\"576\" y=\"74\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:11px;font-weight:500\">Titanium</text>\n    </g>\n    <g data-hp-mat=\"2\" role=\"button\" tabindex=\"0\" aria-pressed=\"true\" style=\"cursor:pointer\">\n      <rect x=\"622\" y=\"56\" width=\"78\" height=\"28\" rx=\"6\" fill=\"var(--color-accent)\" fill-opacity=\"0.2\" stroke=\"var(--color-accent)\" stroke-width=\"1.2\"/>\n      <text x=\"661\" y=\"74\" text-anchor=\"middle\" fill=\"var(--color-accent-200)\" style=\"font-size:11px;font-weight:500\">Carbon</text>\n    </g>\n    <g data-hp-mat=\"3\" role=\"button\" tabindex=\"0\" aria-pressed=\"false\" style=\"cursor:pointer\">\n      <rect x=\"706\" y=\"56\" width=\"74\" height=\"28\" rx=\"6\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\" stroke-width=\"1.2\"/>\n      <text x=\"743\" y=\"74\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:11px;font-weight:500\">Bare fiber</text>\n    </g>\n    <text x=\"456\" y=\"101\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">Centrifugal hoop stress σ = ρ(ωr)² vs. burst ceiling</text>\n    <rect x=\"456\" y=\"106\" width=\"324\" height=\"110\" rx=\"5\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\"/>\n    <line data-hp=\"burstline\" x1=\"460\" y1=\"143.0\" x2=\"776\" y2=\"143.0\" stroke=\"#e05252\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" opacity=\"0.85\"/>\n    <text x=\"466\" y=\"139.0\" fill=\"#e05252\" style=\"font-size:9.8px\">Burst ceiling (100% tensile limit)</text>\n    <line data-hp=\"burstrpmline\" x1=\"667.9\" y1=\"108\" x2=\"667.9\" y2=\"214\" stroke=\"#e05252\" stroke-width=\"1\" stroke-dasharray=\"2 3\" opacity=\"0.55\"/>\n    <text data-hp=\"burstrpmlbl\" x=\"672.9\" y=\"206\" fill=\"#e05252\" style=\"font-size:9.8px\">burst 6,579 RPM</text>\n    <g clip-path=\"url(#hp-chart-clip)\">\n      <path data-hp=\"curve\" d=\"M 460.0,212.0 L 466.3,211.9 L 472.6,211.7 L 479.0,211.4 L 485.3,211.0 L 491.6,210.4 L 497.9,209.7 L 504.2,208.9 L 510.6,207.9 L 516.9,206.8 L 523.2,205.6 L 529.5,204.3 L 535.8,202.8 L 542.2,201.2 L 548.5,199.5 L 554.8,197.7 L 561.1,195.7 L 567.4,193.6 L 573.8,191.4 L 580.1,189.0 L 586.4,186.5 L 592.7,183.9 L 599.0,181.2 L 605.4,178.3 L 611.7,175.3 L 618.0,172.2 L 624.3,168.9 L 630.6,165.5 L 637.0,162.0 L 643.3,158.4 L 649.6,154.6 L 655.9,150.8 L 662.2,146.7 L 668.6,142.6 L 674.9,138.3 L 681.2,133.9 L 687.5,129.4 L 693.8,124.8 L 700.2,120.0 L 706.5,115.1 L 712.8,112.0 L 719.1,112.0 L 725.4,112.0 L 731.8,112.0 L 738.1,112.0 L 744.4,112.0 L 750.7,112.0 L 757.0,112.0 L 763.4,112.0 L 769.7,112.0 L 776.0,112.0\" fill=\"none\" stroke=\"var(--color-accent)\" stroke-width=\"2\"/>\n      <circle data-hp=\"chartdot\" cx=\"602.2\" cy=\"179.7\" r=\"4.5\" fill=\"var(--color-accent-200)\" stroke=\"var(--color-accent)\" stroke-width=\"1.8\"/>\n    </g>\n    <text x=\"458\" y=\"242\" fill=\"var(--color-neutral-300)\" style=\"font-size:11px;font-weight:500\">Spin speed</text>\n    <text data-hp=\"rpmval\" x=\"776\" y=\"242\" text-anchor=\"end\" fill=\"var(--color-accent-300)\" style=\"font-size:11px;font-weight:500\">4,500 RPM</text>\n    <rect x=\"462\" y=\"253\" width=\"312\" height=\"6\" rx=\"3\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\"/>\n    <rect data-hp=\"rpmfill\" x=\"462\" y=\"253\" width=\"140.4\" height=\"6\" rx=\"3\" fill=\"var(--color-accent)\"/>\n    <circle data-hp=\"rpmknob\" cx=\"602.4\" cy=\"256\" r=\"7.5\" fill=\"var(--color-bg)\" stroke=\"var(--color-accent)\" stroke-width=\"2.2\"/>\n    <rect data-hp=\"rpmhit\" x=\"454\" y=\"243\" width=\"328\" height=\"26\" rx=\"4\" fill=\"transparent\" role=\"slider\" tabindex=\"0\" aria-label=\"Spin speed in RPM\" aria-valuemin=\"0\" aria-valuemax=\"10000\" aria-valuenow=\"4500\" style=\"cursor:ew-resize;touch-action:none;outline:none\"/>\n    <text x=\"458\" y=\"294\" fill=\"var(--color-neutral-300)\" style=\"font-size:11px;font-weight:500\">Rotor mass</text>\n    <text data-hp=\"massval\" x=\"776\" y=\"294\" text-anchor=\"end\" fill=\"var(--color-accent-300)\" style=\"font-size:11px;font-weight:500\">1.0 t</text>\n    <rect x=\"462\" y=\"305\" width=\"312\" height=\"6\" rx=\"3\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\"/>\n    <rect data-hp=\"massfill\" x=\"462\" y=\"305\" width=\"91.8\" height=\"6\" rx=\"3\" fill=\"var(--color-accent)\"/>\n    <circle data-hp=\"massknob\" cx=\"553.8\" cy=\"308\" r=\"7.5\" fill=\"var(--color-bg)\" stroke=\"var(--color-accent)\" stroke-width=\"2.2\"/>\n    <rect data-hp=\"masshit\" x=\"454\" y=\"295\" width=\"328\" height=\"26\" rx=\"4\" fill=\"transparent\" role=\"slider\" tabindex=\"0\" aria-label=\"Rotor mass from 100 kg to 250 tonnes\" aria-valuemin=\"100\" aria-valuemax=\"250000\" aria-valuenow=\"1000\" style=\"cursor:ew-resize;touch-action:none;outline:none\"/>\n    <g data-hp=\"draftbtn\" role=\"button\" tabindex=\"0\" aria-label=\"Test draft wheel at 50,000 RPM and 1,000 kg\" style=\"cursor:pointer\">\n      <rect x=\"454\" y=\"334\" width=\"204\" height=\"28\" rx=\"6\" fill=\"var(--color-bg)\" stroke=\"#e05252\" stroke-width=\"1.2\"/>\n      <text x=\"556\" y=\"352\" text-anchor=\"middle\" fill=\"#e05252\" style=\"font-size:11px;font-weight:500\">Test draft (1 t @ 50,000 RPM)</text>\n    </g>\n    <g data-hp=\"resetbtn\" role=\"button\" tabindex=\"0\" aria-label=\"Reset wheel to safe Carbon spin\" style=\"cursor:pointer\">\n      <rect x=\"668\" y=\"334\" width=\"112\" height=\"28\" rx=\"6\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\" stroke-width=\"1.2\"/>\n      <text x=\"724\" y=\"352\" text-anchor=\"middle\" fill=\"var(--color-neutral-300)\" style=\"font-size:11px;font-weight:500\">Reset (4.5k RPM)</text>\n    </g>\n    <line x1=\"28\" y1=\"406\" x2=\"54\" y2=\"406\" stroke=\"var(--color-accent)\" stroke-width=\"2.4\"/>\n    <text x=\"62\" y=\"410\" fill=\"var(--color-neutral-400)\" style=\"font-size:11.5px\">Safe rim hoop stress σ = ρ(ωr)² below material burst ceiling</text>\n    <line x1=\"28\" y1=\"429\" x2=\"54\" y2=\"429\" stroke=\"#e05252\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n    <text x=\"62\" y=\"433\" fill=\"var(--color-neutral-400)\" style=\"font-size:11.5px\">Thin-rim tensile burst wall (independent of wheel mass or radius)</text>\n    <text x=\"28\" y=\"454\" fill=\"var(--color-neutral-500)\" style=\"font-size:11px\">Solid uniform disk E = 1/4 m(ωr)²; 40-yr lifetime goal = 63.1 GJ (17,520 kWh)</text>\n  </g>\n  <foreignObject width=\"1\" height=\"1\"><img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" alt=\"\" style=\"width:0;height:0;opacity:0;pointer-events:none\" onload=\"(function(img){ var svg = img.closest('svg'); if (!svg || svg.__hpBooted) return; svg.__hpBooted = true; var R = 2.0, G = 9.81, P_DAY = 4320000, LEAK_J = 180000000; var RPM_SLIDER_MAX = 10000, GX0 = 460, GX1 = 776, GY0 = 112, GY1 = 212, SLX0 = 462, SLX1 = 774; var RX = 221, RY = 184; var MATS = [ { name: 'Alloy steel 4340', short: 'Steel', rho: 7850, sig: 1100 }, { name: 'Titanium Ti-6Al-4V', short: 'Titanium', rho: 4430, sig: 900 }, { name: 'Carbon / epoxy', short: 'Carbon', rho: 1580, sig: 3000 }, { name: 'Bare T1000G fiber', short: 'Bare fiber', rho: 1800, sig: 6370 } ]; function q(s) { return svg.querySelector(s); } var elWheel = q('[data-hp=wheel]'), elRim = q('[data-hp=rim]'), elGlow = q('[data-hp=glow]'); var elShatter = q('[data-hp=shatter]'), elBurstBadge = q('[data-hp=burstbadge]'), elBurstSub = q('[data-hp=burstsub]'); var elSpeedVal = q('[data-hp=speedval]'), elStressVal = q('[data-hp=stressval]'); var elEnergyVal = q('[data-hp=energyval]'), elChargeVal = q('[data-hp=chargeval]'); var elCurve = q('[data-hp=curve]'), elChartDot = q('[data-hp=chartdot]'), elBurstLine = q('[data-hp=burstline]'); var elBurstRpmLine = q('[data-hp=burstrpmline]'), elBurstRpmLbl = q('[data-hp=burstrpmlbl]'); var elRpmVal = q('[data-hp=rpmval]'), elMassVal = q('[data-hp=massval]'); var elRpmFill = q('[data-hp=rpmfill]'), elRpmKnob = q('[data-hp=rpmknob]'), elRpmHit = q('[data-hp=rpmhit]'); var elMassFill = q('[data-hp=massfill]'), elMassKnob = q('[data-hp=massknob]'), elMassHit = q('[data-hp=masshit]'); var elDraftBtn = q('[data-hp=draftbtn]'), elResetBtn = q('[data-hp=resetbtn]'); var elPlayBtn = q('[data-hp=playbtn]'), elPlayLbl = q('[data-hp=playlbl]'); var matBtns = svg.querySelectorAll('[data-hp-mat]'); var reduce = window.matchMedia &amp;&amp; window.matchMedia('(prefers-reduced-motion: reduce)').matches; var st = { matIdx: 2, rpm: 4500, massKg: 1000, spinning: !reduce, angle: 0 }; var saved = window.__hpWheelState; if (saved &amp;&amp; Date.now() - saved.ts &lt; 300000) { st.matIdx = saved.matIdx; st.rpm = saved.rpm; st.massKg = saved.massKg; st.spinning = saved.spinning; } function saveState() { window.__hpWheelState = { matIdx: st.matIdx, rpm: st.rpm, massKg: st.massKg, spinning: st.spinning, ts: Date.now() }; } function fmtMass(kg) { return kg &gt;= 1000 ? (kg / 1000).toFixed(kg &gt;= 10000 ? 0 : 1) + ' t' : Math.round(kg) + ' kg'; } function fmtEnergy(j) { if (j &gt;= 1e9) return (j / 1e9).toFixed(2) + ' GJ'; if (j &gt;= 1e6) return (j / 1e6).toFixed(1) + ' MJ'; return Math.round(j / 1e3) + ' kJ'; } function fmtCharge(j) { var days = j / P_DAY; if (days &gt;= 730) return (days / 365).toFixed(1) + ' yr pedal'; if (days &gt;= 2) return Math.round(days) + ' d pedal'; return (days * 12).toFixed(1) + ' hr pedal'; } function render() { var mat = MATS[st.matIdx]; var omega = (st.rpm * 2 * Math.PI) / 60; var v = omega * R; var sigmaMPa = (mat.rho * v * v) / 1e6; var ratio = sigmaMPa / mat.sig; var energyJ = 0.25 * st.massKg * v * v; var kWh = energyJ / 3.6e6; var burst = ratio &gt; 1.0001; var vBurst = Math.sqrt((mat.sig * 1e6) / mat.rho); var rpmBurst = (vBurst / R) * 60 / (2 * Math.PI); for (var i = 0; i &lt; matBtns.length; i++) { var on = i === st.matIdx; var rect = matBtns[i].querySelector('rect'); var txt = matBtns[i].querySelector('text'); matBtns[i].setAttribute('aria-pressed', on ? 'true' : 'false'); if (rect) { rect.setAttribute('fill', on ? 'var(--color-accent)' : 'var(--color-bg)'); rect.setAttribute('fill-opacity', on ? '0.2' : '1'); rect.setAttribute('stroke', on ? 'var(--color-accent)' : 'var(--color-divider)'); } if (txt) txt.setAttribute('fill', on ? 'var(--color-accent-200)' : 'var(--color-neutral-400)'); } elSpeedVal.textContent = (v &gt;= 1000 ? (v / 1000).toFixed(2) + ' km/s' : Math.round(v) + ' m/s') + ' (M ' + (v / 343).toFixed(1) + ')'; elStressVal.textContent = Math.round(sigmaMPa) + ' / ' + mat.sig + ' MPa (' + (ratio &gt;= 10 ? ratio.toFixed(0) + 'x' : Math.round(ratio * 100) + '%') + ')'; elStressVal.setAttribute('fill', burst ? '#e05252' : ratio &gt; 0.75 ? '#e6a23c' : 'var(--color-accent-300)'); elEnergyVal.textContent = fmtEnergy(energyJ) + ' (' + (kWh &gt;= 100 ? Math.round(kWh).toLocaleString() : kWh.toFixed(1)) + ' kWh)'; var cStr = fmtCharge(energyJ); if (energyJ &gt; LEAK_J) cStr += ' (&gt;50 kWh leak cap)'; elChargeVal.textContent = cStr; elChargeVal.setAttribute('fill', energyJ &gt; LEAK_J ? '#e6a23c' : 'var(--color-neutral-300)'); elWheel.setAttribute('opacity', burst ? '0.16' : '1'); elRim.setAttribute('stroke', burst ? '#e05252' : ratio &gt; 0.75 ? '#e6a23c' : 'var(--color-accent)'); elGlow.setAttribute('stroke', burst ? '#e05252' : ratio &gt; 0.75 ? '#e6a23c' : 'var(--color-accent-300)'); elGlow.setAttribute('opacity', burst ? '0.7' : Math.min(0.85, 0.12 + ratio * 0.65).toFixed(2)); elShatter.setAttribute('opacity', burst ? '1' : '0'); elBurstBadge.setAttribute('opacity', burst ? '1' : '0'); if (burst) { elBurstSub.textContent = ratio &gt;= 2 ? ratio.toFixed(1) + 'x burst limit' : Math.round(ratio * 100) + '% burst limit'; } var sigPlotMax = mat.sig * 1.45; var pts = []; for (var p = 0; p &lt;= 48; p++) { var rp = (p / 48) * RPM_SLIDER_MAX; var wp = (rp * 2 * Math.PI) / 60; var sp = (mat.rho * wp * wp * R * R) / 1e6; var px = GX0 + (rp / RPM_SLIDER_MAX) * (GX1 - GX0); var py = GY1 - Math.min(1.0, sp / sigPlotMax) * (GY1 - GY0); pts.push((p === 0 ? 'M ' : 'L ') + px.toFixed(1) + ',' + py.toFixed(1)); } elCurve.setAttribute('d', pts.join(' ')); var curX = GX0 + Math.min(1.0, st.rpm / RPM_SLIDER_MAX) * (GX1 - GX0); var curY = GY1 - Math.min(1.0, sigmaMPa / sigPlotMax) * (GY1 - GY0); elChartDot.setAttribute('cx', curX.toFixed(1)); elChartDot.setAttribute('cy', curY.toFixed(1)); elChartDot.setAttribute('fill', burst ? '#e05252' : 'var(--color-accent-200)'); elChartDot.setAttribute('stroke', burst ? '#fff' : 'var(--color-accent)'); var bx = GX0 + Math.min(1.0, rpmBurst / RPM_SLIDER_MAX) * (GX1 - GX0); elBurstRpmLine.setAttribute('x1', bx.toFixed(1)); elBurstRpmLine.setAttribute('x2', bx.toFixed(1)); var lblX = bx &gt; GX1 - 54 ? bx - 5 : bx + 5; elBurstRpmLbl.setAttribute('x', lblX.toFixed(1)); elBurstRpmLbl.setAttribute('text-anchor', bx &gt; GX1 - 54 ? 'end' : 'start'); elBurstRpmLbl.textContent = 'burst ' + Math.round(rpmBurst).toLocaleString() + ' RPM'; var uRpm = Math.max(0, Math.min(1, st.rpm / RPM_SLIDER_MAX)); var rxPos = SLX0 + uRpm * (SLX1 - SLX0); elRpmFill.setAttribute('width', (rxPos - SLX0).toFixed(1)); elRpmFill.setAttribute('fill', burst ? '#e05252' : 'var(--color-accent)'); elRpmKnob.setAttribute('cx', rxPos.toFixed(1)); elRpmKnob.setAttribute('stroke', burst ? '#e05252' : 'var(--color-accent)'); elRpmVal.textContent = Math.round(st.rpm).toLocaleString() + ' RPM' + (st.rpm &gt; RPM_SLIDER_MAX ? ' (draft)' : ''); elRpmVal.setAttribute('fill', burst ? '#e05252' : 'var(--color-accent-300)'); elRpmHit.setAttribute('aria-valuenow', Math.round(st.rpm)); var uMass = Math.max(0, Math.min(1, Math.log(st.massKg / 100) / Math.log(2500))); var mxPos = SLX0 + uMass * (SLX1 - SLX0); elMassFill.setAttribute('width', (mxPos - SLX0).toFixed(1)); elMassKnob.setAttribute('cx', mxPos.toFixed(1)); elMassVal.textContent = fmtMass(st.massKg); elMassHit.setAttribute('aria-valuenow', Math.round(st.massKg)); elPlayLbl.textContent = st.spinning ? 'Pause' : 'Play'; } for (var m = 0; m &lt; matBtns.length; m++) { (function(idx){ function pick(e) { e.preventDefault(); e.stopPropagation(); st.matIdx = idx; if (st.rpm &gt; RPM_SLIDER_MAX) st.rpm = 4500; saveState(); render(); } matBtns[idx].addEventListener('click', pick); matBtns[idx].addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') pick(e); }); })(m); } function clientXToFrac(clientX) { var rect = svg.getBoundingClientRect(); if (!rect.width) return 0; var svgX = ((clientX - rect.left) / rect.width) * 820; return Math.max(0, Math.min(1, (svgX - SLX0) / (SLX1 - SLX0))); } function bindSlider(hitEl, onFrac) { var drag = false; hitEl.addEventListener('pointerdown', function(e) { drag = true; try { hitEl.setPointerCapture(e.pointerId); } catch (_) {} onFrac(clientXToFrac(e.clientX)); saveState(); render(); e.preventDefault(); e.stopPropagation(); }); hitEl.addEventListener('pointermove', function(e) { if (!drag) return; onFrac(clientXToFrac(e.clientX)); saveState(); render(); e.preventDefault(); e.stopPropagation(); }); function done(e) { if (!drag) return; drag = false; try { hitEl.releasePointerCapture(e.pointerId); } catch (_) {} } hitEl.addEventListener('pointerup', done); hitEl.addEventListener('pointercancel', done); hitEl.addEventListener('touchstart', function(e) { e.stopPropagation(); }, { passive: true }); hitEl.addEventListener('touchmove', function(e) { if (drag) { e.preventDefault(); e.stopPropagation(); } }, { passive: false }); } bindSlider(elRpmHit, function(u) { st.rpm = Math.round((u * RPM_SLIDER_MAX) / 50) * 50; }); bindSlider(elMassHit, function(u) { st.massKg = 100 * Math.pow(2500, u); }); elRpmHit.addEventListener('keydown', function(e) { var step = e.shiftKey ? 500 : 100; if (e.key === 'ArrowRight' || e.key === 'ArrowUp') { st.rpm = Math.min(RPM_SLIDER_MAX, st.rpm + step); saveState(); render(); e.preventDefault(); } else if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') { st.rpm = Math.max(0, Math.min(RPM_SLIDER_MAX, st.rpm) - step); saveState(); render(); e.preventDefault(); } }); elMassHit.addEventListener('keydown', function(e) { if (e.key === 'ArrowRight' || e.key === 'ArrowUp') { st.massKg = Math.min(250000, st.massKg * (e.shiftKey ? 1.5 : 1.15)); saveState(); render(); e.preventDefault(); } else if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') { st.massKg = Math.max(100, st.massKg / (e.shiftKey ? 1.5 : 1.15)); saveState(); render(); e.preventDefault(); } }); function setDraft(e) { e.preventDefault(); e.stopPropagation(); st.matIdx = 2; st.massKg = 1000; st.rpm = 50000; saveState(); render(); } elDraftBtn.addEventListener('click', setDraft); elDraftBtn.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') setDraft(e); }); function resetAll(e) { e.preventDefault(); e.stopPropagation(); st.matIdx = 2; st.massKg = 1000; st.rpm = 4500; st.spinning = !reduce; saveState(); render(); } elResetBtn.addEventListener('click', resetAll); elResetBtn.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') resetAll(e); }); function togglePlay(e) { e.preventDefault(); e.stopPropagation(); st.spinning = !st.spinning; saveState(); render(); } elPlayBtn.addEventListener('click', togglePlay); elPlayBtn.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') togglePlay(e); }); var lastTs = 0; function tick(ts) { if (!svg.isConnected) return; if (!lastTs) lastTs = ts; var dt = Math.min(0.05, (ts - lastTs) / 1000); lastTs = ts; if (st.spinning &amp;&amp; st.rpm &gt; 0) { var mat = MATS[st.matIdx]; var omega = (st.rpm * 2 * Math.PI) / 60; var burst = (mat.rho * omega * omega * R * R) / 1e6 &gt; mat.sig; if (!burst) { var degPerSec = Math.min(480, st.rpm * 0.085); st.angle = (st.angle + degPerSec * dt) % 360; elWheel.setAttribute('transform', 'rotate(' + st.angle.toFixed(1) + ' ' + RX + ' ' + RY + ')'); } } requestAnimationFrame(tick); } render(); requestAnimationFrame(tick); })(this);\"/></foreignObject>\n</svg></div>\n<p style=\"margin:-18px 0 40px;font-family:var(--font-body);font-size:12.5px;line-height:1.65;color:var(--color-neutral-500);max-width:62ch\">Figure 1. Interactive flywheel simulator for a 2-meter radius solid disk. Pick a material, drag the speed and mass sliders, or test the original thought-experiment wheel (1,000 kg at 50,000 RPM) to watch rim speed, centrifugal hoop stress, stored energy, and pedaling time update live against the material burst ceiling.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<blockquote style=\"margin:32px 0;padding:26px 30px;background:var(--color-surface);border-radius:var(--radius-md);font-family:var(--font-body);font-size:17.5px;line-height:1.62;color:var(--color-text)\"><span style=\"display:block;width:32px;height:2px;background:var(--color-accent);margin:0 0 18px\"></span><p style=\"margin:0\">\"A trained cyclist produces approximately 75-100 watts sustained over hours... Over 12 hours a day for 40 years: 17,520 kWh total, or 63 billion Joules (63 GJ). A carbon-fiber flywheel (mass: 1000 kg, radius: 2 m) spinning at 50,000 RPM stores approximately 2.7 GJ... Flywheels lose energy to friction, even with magnetic bearings in vacuum. High-quality systems lose ~0.1% per hour.\"</p></blockquote>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><em style=\"font-style:italic\">A physics notebook page from a world-building folder (<code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">physics_of_the_wheel.md</code>), set down to test whether one human life of physical labor could fill a mechanical battery. As a casual check for a story, the note worked. Tested strictly as physics, checking one flywheel number exposed two silent breaks in the model.</em></p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"introduction\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">Introduction</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">How much usable mechanical work does a single human body hold over a whole working life? Put a healthy adult on bicycle pedals at a steady, sustainable 100 watts for 12 hours every day over 40 years, and the total shaft output comes to <strong style=\"font-weight:500;color:var(--color-text)\">63.07 gigajoules</strong> (17,520 kilowatt-hours). Expressed in familiar fuels, forty years of hard daily labor equals roughly 10.5 barrels of crude oil or 497 gallons of gasoline (<a href=\"https://www.eia.gov/energyexplained/units-and-calculators/\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">U.S. EIA</a>).</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Can you trap that lifetime of labor inside one spinning flywheel and hand the wheel forward at the end? The physical calculation reveals two unforgiving walls, plus an easy factor-of-ten slip in the starting draft. First, a 1,000-kilogram, 2-meter-radius rotor spun to 50,000 revolutions per minute stores <strong style=\"font-weight:500;color:var(--color-text)\">27.42 gigajoules</strong>, ten times more than the 2.7 gigajoules written in the notebook, yet its outer rim travels at 10.47 kilometers per second (Mach 30.5) and tears itself apart at roughly 58 times the tensile strength of carbon/epoxy composite (<a href=\"https://shop.elsevier.com/books/kinetic-energy-storage/genta/978-0-408-01396-3\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Genta</a>; <a href=\"https://www.toraycma.com/wp-content/uploads/T1000G-Data-Sheet_02.16.2024.pdf\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">TorayCMA</a>). Second, even an unrealistically quiet flywheel losing just 0.1 percent of its charge per hour hits a hard steady-state ceiling after roughly four months, flatlining at <strong style=\"font-weight:500;color:var(--color-text)\">50 kilowatt-hours</strong> (0.29 percent of 63.07 gigajoules), after which the remaining 39.7 years of pedaling do nothing except pay the leak.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"primary-sources-lineage\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">Primary sources &amp; lineage</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Before walking through the numbers, this zpaper anchors each physical ceiling in eight primary sources across exercise physiology, mechanical flywheel design, aerospace composite data, and energy unit standards.</p>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Wilkie, D. R.</strong> <a href=\"https://doi.org/10.1080/00140136008930462\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">\"Man as a Source of Mechanical Power.\"</a> (1960; <em style=\"font-style:italic\">Ergonomics</em>, vol. 3, no. 1, pp. 1-8). <em style=\"font-style:italic\">Core premise</em>: Quantifies the duration-versus-power frontier for human muscle, contrasting multi-horsepower bursts lasting under a second against aerobic continuous mechanical limits on the order of 100 to 200 watts. <em style=\"font-style:italic\">Role in this zpaper</em>: Grounds why 75 to 100 watts is a realistic steady physiological ceiling across long daily shifts rather than an arbitrary round number.</li></ul>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Wilson, David Gordon, and Theodor Schmidt.</strong> <a href=\"https://mitpress.mit.edu/9780262538404/bicycling-science/\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">Bicycling Science</em></a> (2020; 4th ed., The MIT Press). <em style=\"font-style:italic\">Core premise</em>: Establishes bicycle transmission efficiency, human metabolic efficiency (roughly 20 to 25 percent from food chemical energy to mechanical crank work), and power-duration curves. <em style=\"font-style:italic\">Role in this zpaper</em>: Converts 63.07 gigajoules of shaft work back into daily food calories and explains why biological maintenance dwarfs stored mechanical work.</li></ul>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Genta, Giancarlo.</strong> <a href=\"https://shop.elsevier.com/books/kinetic-energy-storage/genta/978-0-408-01396-3\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">Kinetic Energy Storage: Theory and Practice of Advanced Flywheel Systems</em></a> (1985; Butterworth-Heinemann). <em style=\"font-style:italic\">Core premise</em>: Derives the structural limit of rotating rotors, showing that maximum specific energy obeys <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">e_max = K (σ / ρ)</code>, where <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">K</code> is a dimensionless shape factor, <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">σ</code> is allowable working tensile stress, and <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">ρ</code> is density. <em style=\"font-style:italic\">Role in this zpaper</em>: Supplies the exact thin-rim (<code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">K = 0.5</code>) and uniform-disk (<code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">K = 0.606</code> for Poisson ratio <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">ν = 0.3</code>) burst equations driving Figure 1 and Section 2.</li></ul>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Bolund, Björn, Hans Bernhoff, and Mats Leijon.</strong> <a href=\"https://ideas.repec.org/a/eee/rensus/v11y2007i2p235-258.html\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">\"Flywheel energy and power storage systems.\"</a> (2007; <em style=\"font-style:italic\">Renewable and Sustainable Energy Reviews</em>, vol. 11, no. 2, pp. 235-258). <em style=\"font-style:italic\">Core premise</em>: Surveys modern vacuum-housed magnetic-bearing rotors alongside standby losses from eddy currents, residual aerodynamic windage, and power electronics. <em style=\"font-style:italic\">Role in this zpaper</em>: Frames why fractional-percent hourly losses persist in real machines even without mechanical contact bearings.</li></ul>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Jensen, Ralph H., and Timothy P. Dever.</strong> <a href=\"https://ntrs.nasa.gov/api/citations/20060028492/downloads/20060028492.pdf\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">G2 Flywheel Module Design</em></a> (2006; NASA Glenn Research Center, NTRS 20060028492). <em style=\"font-style:italic\">Core premise</em>: Documents a physical 60,000 RPM aerospace composite flywheel storing 525 watt-hours (1.89 megajoules) at 1 kilowatt continuous rating using magnetic bearings. <em style=\"font-style:italic\">Role in this zpaper</em>: Demonstrates why 50,000 to 60,000 RPM requires a small compact radius (centimeters, not two meters) to keep rim velocity below composite failure.</li></ul>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Dever, Timothy P., et al.</strong> <a href=\"https://ntrs.nasa.gov/api/citations/20150000747/downloads/20150000747.pdf\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">Assessment of Technologies for Noncryogenic Hybrid Electric Propulsion</em></a> (2015; NASA Glenn Research Center, NTRS 20150000747). <em style=\"font-style:italic\">Core premise</em>: Assesses system-level aerospace carbon-fiber flywheel specific energies (accounting for burst containment, magnetic bearings, and motor-generators) at roughly 25 to 50 watt-hours per kilogram. <em style=\"font-style:italic\">Role in this zpaper</em>: Separates idealized filament energy density from full-module mass when sizing storage for gigajoule loads.</li></ul>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Toray Composite Materials America.</strong> <a href=\"https://www.toraycma.com/wp-content/uploads/T1000G-Data-Sheet_02.16.2024.pdf\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">TORAYCA T1000G Carbon Fiber Data Sheet</em></a> (2024; TorayCMA). <em style=\"font-style:italic\">Core premise</em>: Lists typical uniaxial tensile strength of 6,370 MPa and fiber density of 1.80 g/cm³ for commercial high-strength T1000G aerospace carbon fiber. <em style=\"font-style:italic\">Role in this zpaper</em>: Anchors the upper composite burst curves in Figure 1 and Section 2 with real datasheet values rather than generic estimates.</li></ul>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">U.S. Energy Information Administration.</strong> <a href=\"https://www.eia.gov/energyexplained/units-and-calculators/\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">\"Energy Units and Calculators Explained.\"</a> (2026; EIA, with <a href=\"https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">BTU reference</a>). <em style=\"font-style:italic\">Core premise</em>: Standardizes U.S. thermal energy conversion factors: 1 barrel of crude oil = 5.689 million Btu (6.002 GJ), 1 gallon of gasoline = 120,214 Btu (126.84 MJ), and 1 Btu = 1,055.06 J. <em style=\"font-style:italic\">Role in this zpaper</em>: Translates a 40-year human mechanical output directly into everyday chemical fuel volumes.</li></ul>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"1-forty-years-at-the-pedals\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">1. Forty years at the pedals</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">A single sustained hundred-watt shift looks deceptively modest, roughly the electrical draw of a bright incandescent bulb or an idle desktop workstation. Held for 12 hours a day, that output produces 4.32 megajoules (1.20 kilowatt-hours) each evening. Multiplied across 365 days a year for 40 years (14,600 days), the integral reaches <strong style=\"font-weight:500;color:var(--color-text)\">17,520 kilowatt-hours</strong>, or <strong style=\"font-weight:500;color:var(--color-text)\">63.072 gigajoules</strong>, matching the 63 GJ figure in the original notebook (<a href=\"https://doi.org/10.1080/00140136008930462\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Wilkie</a>; <a href=\"https://mitpress.mit.edu/9780262538404/bicycling-science/\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Wilson and Schmidt</a>).</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Where that work becomes humbling is the metabolic denominator. Human skeletal muscle converts chemical food energy into crank work at a gross efficiency of roughly 22 to 25 percent (<a href=\"https://mitpress.mit.edu/9780262538404/bicycling-science/\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Wilson and Schmidt</a>). At 24 percent efficiency, delivering 4.32 megajoules to the drivetrain burns 18.0 megajoules (4,302 kilocalories) of extra food on top of basal metabolism (~1,800 kilocalories/day), requiring roughly 6,100 kilocalories every single day for four decades. Even when captured cleanly at the shaft, 63.07 gigajoules equals just <strong style=\"font-weight:500;color:var(--color-text)\">10.51 barrels of crude oil</strong> or <strong style=\"font-weight:500;color:var(--color-text)\">497 gallons of gasoline</strong> (<a href=\"https://www.eia.gov/energyexplained/units-and-calculators/\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">U.S. EIA</a>).</p>\n<div style=\"margin:36px 0\"><svg viewBox=\"0 0 820 340\" width=\"100%\" role=\"img\" aria-label=\"Comparison of 63.1 GJ human lifetime pedaling energy to crude oil, gasoline, and brain power alongside log-scale rotor masses required to hold 63.1 GJ safely\" style=\"display:block;max-width:820px;margin:0 auto\">\n  <g style=\"font-family:var(--font-body);font-size:11.5px;font-variant-numeric:tabular-nums\" fill=\"var(--color-text)\">\n    <text x=\"24\" y=\"23\" style=\"font-size:12.5px;font-weight:500\">1. What 40 years of pedaling (63.1 GJ) equals</text>\n    <text x=\"424\" y=\"23\" style=\"font-size:12.5px;font-weight:500\">2. Safe rotor mass to hold 63.1 GJ (log scale)</text>\n    <rect x=\"24\" y=\"38\" width=\"376\" height=\"274\" rx=\"8\" fill=\"var(--color-surface)\" stroke=\"var(--color-divider)\"/>\n    <rect x=\"424\" y=\"38\" width=\"372\" height=\"274\" rx=\"8\" fill=\"var(--color-surface)\" stroke=\"var(--color-divider)\"/>\n    <text x=\"42\" y=\"78\" fill=\"var(--color-text)\" style=\"font-size:11.5px;font-weight:500\">40 yrs pedaling (100 W × 12 h/d)</text>\n    <rect x=\"42\" y=\"85\" width=\"336\" height=\"16\" rx=\"4\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\"/>\n    <rect x=\"42\" y=\"85\" width=\"311.6\" height=\"16\" rx=\"4\" fill=\"var(--color-accent)\" opacity=\"0.92\"/>\n    <text x=\"50\" y=\"96.5\" fill=\"var(--color-bg)\" style=\"font-size:10px;font-weight:600\">63.1 GJ (17,520 kWh)</text>\n    <text x=\"42\" y=\"134\" fill=\"var(--color-text)\" style=\"font-size:11.5px;font-weight:500\">10.5 barrels of crude oil (EIA)</text>\n    <rect x=\"42\" y=\"141\" width=\"336\" height=\"16\" rx=\"4\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\"/>\n    <rect x=\"42\" y=\"141\" width=\"311.3\" height=\"16\" rx=\"4\" fill=\"var(--color-neutral-500)\" opacity=\"0.68\"/>\n    <text x=\"50\" y=\"152.5\" fill=\"var(--color-bg)\" style=\"font-size:10px;font-weight:600\">63.0 GJ (5.689 MMBtu/bbl)</text>\n    <text x=\"42\" y=\"190\" fill=\"var(--color-text)\" style=\"font-size:11.5px;font-weight:500\">497 gallons of gasoline (EIA)</text>\n    <rect x=\"42\" y=\"197\" width=\"336\" height=\"16\" rx=\"4\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\"/>\n    <rect x=\"42\" y=\"197\" width=\"311.3\" height=\"16\" rx=\"4\" fill=\"var(--color-neutral-500)\" opacity=\"0.68\"/>\n    <text x=\"50\" y=\"208.5\" fill=\"var(--color-bg)\" style=\"font-size:10px;font-weight:600\">63.0 GJ (120,214 Btu/gal)</text>\n    <text x=\"42\" y=\"246\" fill=\"var(--color-text)\" style=\"font-size:11.5px;font-weight:500\">40 yrs human brain (20 W × 24 h/d)</text>\n    <rect x=\"42\" y=\"253\" width=\"336\" height=\"16\" rx=\"4\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\"/>\n    <rect x=\"42\" y=\"253\" width=\"124.7\" height=\"16\" rx=\"4\" fill=\"var(--color-neutral-500)\" opacity=\"0.68\"/>\n    <text x=\"50\" y=\"264.5\" fill=\"var(--color-bg)\" style=\"font-size:10px;font-weight:600\">25.2 GJ metabolic baseline</text>\n    <line x1=\"546.0\" y1=\"62\" x2=\"546.0\" y2=\"278\" stroke=\"var(--color-divider)\" stroke-width=\"0.8\" opacity=\"0.55\"/>\n    <text x=\"546.0\" y=\"294\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:10px\">10 t</text>\n    <line x1=\"612.7\" y1=\"62\" x2=\"612.7\" y2=\"278\" stroke=\"var(--color-divider)\" stroke-width=\"0.8\" opacity=\"0.55\"/>\n    <text x=\"612.7\" y=\"294\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:10px\">100 t</text>\n    <line x1=\"679.4\" y1=\"62\" x2=\"679.4\" y2=\"278\" stroke=\"var(--color-divider)\" stroke-width=\"0.8\" opacity=\"0.55\"/>\n    <text x=\"679.4\" y=\"294\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:10px\">1k t</text>\n    <line x1=\"746.2\" y1=\"62\" x2=\"746.2\" y2=\"278\" stroke=\"var(--color-divider)\" stroke-width=\"0.8\" opacity=\"0.55\"/>\n    <text x=\"746.2\" y=\"294\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:10px\">10k t</text>\n    <text x=\"538\" y=\"86\" text-anchor=\"end\" fill=\"var(--color-neutral-300)\" style=\"font-size:10.8px\">Mild steel (A36)</text>\n    <rect x=\"546\" y=\"74\" width=\"203.8\" height=\"16\" rx=\"3\" fill=\"var(--color-neutral-400)\" opacity=\"0.68\"/>\n    <text x=\"744.8\" y=\"85.5\" text-anchor=\"end\" fill=\"var(--color-bg)\" style=\"font-size:9.8px;font-weight:600\">11,317 t</text>\n    <text x=\"538\" y=\"119\" text-anchor=\"end\" fill=\"var(--color-neutral-300)\" style=\"font-size:10.8px\">Alloy steel (4340)</text>\n    <rect x=\"546\" y=\"107\" width=\"160.8\" height=\"16\" rx=\"3\" fill=\"var(--color-neutral-400)\" opacity=\"0.68\"/>\n    <text x=\"701.8\" y=\"118.5\" text-anchor=\"end\" fill=\"var(--color-bg)\" style=\"font-size:9.8px;font-weight:600\">2,572 t</text>\n    <text x=\"538\" y=\"152\" text-anchor=\"end\" fill=\"var(--color-neutral-300)\" style=\"font-size:10.8px\">Titanium (Ti-6Al-4V)</text>\n    <rect x=\"546\" y=\"140\" width=\"150.1\" height=\"16\" rx=\"3\" fill=\"var(--color-neutral-400)\" opacity=\"0.68\"/>\n    <text x=\"691.1\" y=\"151.5\" text-anchor=\"end\" fill=\"var(--color-bg)\" style=\"font-size:9.8px;font-weight:600\">1,774 t</text>\n    <text x=\"538\" y=\"185\" text-anchor=\"end\" fill=\"var(--color-neutral-300)\" style=\"font-size:10.8px\">E-glass / epoxy</text>\n    <rect x=\"546\" y=\"173\" width=\"124.0\" height=\"16\" rx=\"3\" fill=\"var(--color-neutral-400)\" opacity=\"0.68\"/>\n    <text x=\"665.0\" y=\"184.5\" text-anchor=\"end\" fill=\"var(--color-bg)\" style=\"font-size:9.8px;font-weight:600\">721 t</text>\n    <text x=\"538\" y=\"218\" text-anchor=\"end\" fill=\"var(--color-neutral-300)\" style=\"font-size:10.8px\">Carbon / epoxy</text>\n    <rect x=\"546\" y=\"206\" width=\"85.3\" height=\"16\" rx=\"3\" fill=\"var(--color-accent)\" opacity=\"0.95\"/>\n    <text x=\"626.3\" y=\"217.5\" text-anchor=\"end\" fill=\"var(--color-bg)\" style=\"font-size:9.8px;font-weight:600\">190 t</text>\n    <text x=\"538\" y=\"251\" text-anchor=\"end\" fill=\"var(--color-neutral-300)\" style=\"font-size:10.8px\">Bare T1000G filament</text>\n    <rect x=\"546\" y=\"239\" width=\"67.3\" height=\"16\" rx=\"3\" fill=\"var(--color-neutral-400)\" opacity=\"0.68\"/>\n    <text x=\"608.3\" y=\"250.5\" text-anchor=\"end\" fill=\"var(--color-bg)\" style=\"font-size:9.8px;font-weight:600\">102 t</text>\n    <text x=\"28\" y=\"330\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.8px\">Note: 63.1 GJ shaft work burns ~10.5M extra food kcal at 24% gross cycling efficiency.</text>\n    <text x=\"424\" y=\"330\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.8px\">Sized at 35% of thin-rim burst energy (~2.9x stress safety factor).</text>\n  </g>\n</svg></div>\n<p style=\"margin:-18px 0 40px;font-family:var(--font-body);font-size:12.5px;line-height:1.65;color:var(--color-neutral-500);max-width:62ch\">Figure 2. Left: 40 years of continuous 100 W pedaling (12 hours/day) measured against EIA chemical fuel equivalents and 40 years of continuous 20 W human brain metabolism (25.23 GJ). Right: flywheel rotor mass required to hold all 63.07 GJ at 35 percent of thin-rim burst energy (~2.9x stress safety margin).</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><strong style=\"font-weight:500;color:var(--color-text)\">Compare that body-scale number to the brain inside the rider.</strong> As examined in <a href=\"./the-twenty-watt-watch\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">the twenty-watt watch</a>, the human brain runs continuously at roughly 20 watts, day and night, awake or asleep. Across those same 40 years, 20 continuous watts sums to <strong style=\"font-weight:500;color:var(--color-text)\">25.23 gigajoules</strong>, forty percent as much energy as 12 hours a day of hard leg labor, spent strictly maintaining neural order against entropy. And viewed through <a href=\"./the-contracted-edge\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">the contracted edge</a>, modern convenience routinely hides that conversion factor: ten and a half barrels of crude oil compress an entire working lifetime of human muscle into the trunk volume of a compact car.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"2-two-ways-the-draft-flywheel-breaks\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">2. Two ways the draft flywheel breaks</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">The notebook tested storing that 63 GJ lifetime output in a carbon-fiber wheel with mass <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">m = 1,000 kg</code> and radius <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">r = 2 m</code> spinning at 50,000 RPM, estimating its stored energy at 2.7 GJ. Checking both the kinetic energy equation and the structural stress equation turns up two separate problems.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">First, a straightforward arithmetic slip undercounted the energy by a factor of ten. At 50,000 RPM, angular velocity is <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">ω = 50,000 × 2π / 60 = 5,236 rad/s</code>. For a solid uniform disk (<code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">I = ½ m r² = 2,000 kg·m²</code>), kinetic energy <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">E = ½ I ω²</code> equals <strong style=\"font-weight:500;color:var(--color-text)\">27.42 gigajoules</strong> (or 54.83 GJ for a pure thin-rim ring with <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">I = m r²</code>), not 2.7 GJ.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Second, and far more fatal, spinning a 2-meter radius wheel to 50,000 RPM pushes its outer rim to velocity <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">v = ω r = 10,472 m/s</code> (<strong style=\"font-weight:500;color:var(--color-text)\">10.47 km/s</strong>, faster than low Earth orbital velocity, or <strong style=\"font-weight:500;color:var(--color-text)\">Mach 30.5</strong> in air). Click <strong style=\"font-weight:500;color:var(--color-text)\">Test draft (1 t @ 50,000 RPM)</strong> in Figure 1 above and the wheel shatters immediately. Why? Because centrifugal hoop tension in a thin rotating ring equals <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">σ_θ = ρ v²</code>, independent of rotor mass or radius (<a href=\"https://shop.elsevier.com/books/kinetic-energy-storage/genta/978-0-408-01396-3\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Genta</a>). Rearranging gives a pure material ceiling for both rim speed and specific energy:</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">v_burst = √(σ / ρ)</code>  and  <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">e_max = E / m = K (σ / ρ)</code></p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Because kinetic energy scales with <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">v²</code> and stress also scales with <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">v²</code>, <strong style=\"font-weight:500;color:var(--color-text)\">making a wheel heavier or wider never raises its burst speed.</strong> For a thin rim (<code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">K = 0.5</code>) wound from high-strength aerospace carbon/epoxy (60 percent Toray T1000G fiber by volume: composite hoop strength ~3,000 MPa, composite density ~1,580 kg/m³), <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">v_burst = 1,378 m/s</code>, limiting a 2-meter rotor to <strong style=\"font-weight:500;color:var(--color-text)\">6,579 RPM</strong> (<a href=\"https://www.toraycma.com/wp-content/uploads/T1000G-Data-Sheet_02.16.2024.pdf\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">TorayCMA</a>). At 50,000 RPM, centrifugal stress reaches <strong style=\"font-weight:500;color:var(--color-text)\">173,266 MPa</strong>, roughly <strong style=\"font-weight:500;color:var(--color-text)\">58 times</strong> the composite's breaking limit. NASA Glenn's G2 flywheel achieves 60,000 RPM safely not by defying material limits, but by shrinking radius to centimeters rather than meters (<a href=\"https://ntrs.nasa.gov/api/citations/20060028492/downloads/20060028492.pdf\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Jensen and Dever</a>).</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">To store all <strong style=\"font-weight:500;color:var(--color-text)\">63.07 gigajoules</strong> safely at 35 percent of thin-rim burst energy (~2.9x stress safety factor), you do not speed up a one-tonne wheel; you scale rotor mass up until specific energy fits inside the material ceiling:</p>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Mild steel (A36, 250 MPa)</strong>: bursts at 178 m/s (852 RPM at 2 m), holds 4 Wh/kg at burst, requiring <strong style=\"font-weight:500;color:var(--color-text)\">11,317 tonnes</strong> safely.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Alloy steel (4340, 1,100 MPa)</strong>: bursts at 374 m/s (1,787 RPM at 2 m), holds 19 Wh/kg at burst, requiring <strong style=\"font-weight:500;color:var(--color-text)\">2,572 tonnes</strong> safely.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Titanium (Ti-6Al-4V, 900 MPa)</strong>: bursts at 451 m/s (2,152 RPM at 2 m), holds 28 Wh/kg at burst, requiring <strong style=\"font-weight:500;color:var(--color-text)\">1,774 tonnes</strong> safely.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">E-glass / epoxy (1,000 MPa)</strong>: bursts at 707 m/s (3,376 RPM at 2 m), holds 69 Wh/kg at burst, requiring <strong style=\"font-weight:500;color:var(--color-text)\">721 tonnes</strong> safely.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Carbon / epoxy (T1000G 60%, 3,000 MPa)</strong>: bursts at 1,378 m/s (6,579 RPM at 2 m), holds 264 Wh/kg at burst, requiring <strong style=\"font-weight:500;color:var(--color-text)\">190 tonnes</strong> safely.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Complete aerospace module (with housing, vacuum, bearings)</strong>: NASA's ~25 to 50 Wh/kg system envelope puts full hardware mass near <strong style=\"font-weight:500;color:var(--color-text)\">350 to 700 tonnes</strong> (<a href=\"https://ntrs.nasa.gov/api/citations/20150000747/downloads/20150000747.pdf\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Dever et al.</a>).</li></ul>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"3-why-a-fractional-leak-caps-forty-years-at-four-months\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">3. Why a fractional leak caps forty years at four months</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Suppose you replace the one-tonne wheel with 190 tonnes of safe carbon-fiber rotor so nothing ever bursts. Now test the second assumption from the notebook: a vacuum-housed magnetic-bearing flywheel losing just <strong style=\"font-weight:500;color:var(--color-text)\">0.1 percent of its stored energy per hour</strong> (<a href=\"https://ideas.repec.org/a/eee/rensus/v11y2007i2p235-258.html\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Bolund, Bernhoff, and Leijon</a>).</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Notice the structural difference between human input and standby drag. Pedaling adds energy at a fixed average rate, <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">P_avg = 50 W</code> (100 W averaged across 12 hours of work and 12 hours of rest). Friction and magnetic eddy currents drain energy at a rate <em style=\"font-style:italic\">proportional</em> to how much energy is already in the wheel: <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">P_loss = λ E</code>, where <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">λ = 0.001 / 3,600 s⁻¹</code> gives a characteristic time constant <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">τ = 1 / λ = 41.7 days</code>. Stored energy obeys the linear differential equation:</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">dE / dt = P_avg - λ E</code>  so  <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">E(t) = (P_avg / λ)(1 - e^(-λt))</code></p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">The moment <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">E(t)</code> climbs high enough that 0.1 percent per hour equals 50 watts, net accumulation drops to zero permanently:</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">E_eq = P_avg / λ = 50 W × 3,600,000 s = 180 MJ = 50.0 kWh</code></p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><strong style=\"font-weight:500;color:var(--color-text)\">Fifty kilowatt-hours is 0.29 percent of 63.07 gigajoules.</strong> Reaching 95 percent of that ceiling (<code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">3τ</code>) takes just <strong style=\"font-weight:500;color:var(--color-text)\">125 days</strong>. From day 125 onward through year 40, the rider works 12 hours every single day solely to hold steady against standby leakage, much like the thermodynamic spinlock loops traced in <a href=\"./the-smoke-loop\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">the smoke loop</a> and <a href=\"./the-twenty-watt-watch\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">the twenty-watt watch</a>.</p>\n<div style=\"margin:36px 0\"><svg viewBox=\"0 0 820 330\" width=\"100%\" role=\"img\" aria-label=\"Energy stored over 40 years of continuous 100 W pedaling for 12 hours a day across four standby leak rates showing the 50 kWh steady-state cap at 0.1 percent per hour\" style=\"display:block;max-width:820px;margin:0 auto\">\n  <g style=\"font-family:var(--font-body);font-size:11.5px;font-variant-numeric:tabular-nums\" fill=\"var(--color-text)\">\n    <text x=\"24\" y=\"23\" style=\"font-size:12.5px;font-weight:500\">Standby leak tax across 40 years of pedaling (P_avg = 50 W continuous)</text>\n    <rect x=\"24\" y=\"38\" width=\"772\" height=\"252\" rx=\"8\" fill=\"var(--color-surface)\" stroke=\"var(--color-divider)\"/>\n    <line x1=\"86\" y1=\"268\" x2=\"774\" y2=\"268\" stroke=\"var(--color-divider)\" stroke-width=\"1\"/>\n    <line x1=\"86\" y1=\"60\" x2=\"86\" y2=\"268\" stroke=\"var(--color-divider)\" stroke-width=\"1\"/>\n    <line x1=\"86\" y1=\"268.0\" x2=\"774\" y2=\"268.0\" stroke=\"var(--color-divider)\" stroke-width=\"0.7\" opacity=\"0.5\"/>\n    <text x=\"78\" y=\"271.5\" text-anchor=\"end\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">0 GJ</text>\n    <line x1=\"86\" y1=\"220.0\" x2=\"774\" y2=\"220.0\" stroke=\"var(--color-divider)\" stroke-width=\"0.7\" opacity=\"0.5\"/>\n    <text x=\"78\" y=\"223.5\" text-anchor=\"end\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">15 GJ</text>\n    <line x1=\"86\" y1=\"172.0\" x2=\"774\" y2=\"172.0\" stroke=\"var(--color-divider)\" stroke-width=\"0.7\" opacity=\"0.5\"/>\n    <text x=\"78\" y=\"175.5\" text-anchor=\"end\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">30 GJ</text>\n    <line x1=\"86\" y1=\"124.0\" x2=\"774\" y2=\"124.0\" stroke=\"var(--color-divider)\" stroke-width=\"0.7\" opacity=\"0.5\"/>\n    <text x=\"78\" y=\"127.5\" text-anchor=\"end\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">45 GJ</text>\n    <line x1=\"86\" y1=\"76.0\" x2=\"774\" y2=\"76.0\" stroke=\"var(--color-divider)\" stroke-width=\"0.7\" opacity=\"0.5\"/>\n    <text x=\"78\" y=\"79.5\" text-anchor=\"end\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">60 GJ</text>\n    <line x1=\"86.0\" y1=\"60\" x2=\"86.0\" y2=\"268\" stroke=\"var(--color-divider)\" stroke-width=\"0.7\" opacity=\"0.5\"/>\n    <text x=\"86.0\" y=\"283\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">0 yr</text>\n    <line x1=\"258.0\" y1=\"60\" x2=\"258.0\" y2=\"268\" stroke=\"var(--color-divider)\" stroke-width=\"0.7\" opacity=\"0.5\"/>\n    <text x=\"258.0\" y=\"283\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">10 yr</text>\n    <line x1=\"430.0\" y1=\"60\" x2=\"430.0\" y2=\"268\" stroke=\"var(--color-divider)\" stroke-width=\"0.7\" opacity=\"0.5\"/>\n    <text x=\"430.0\" y=\"283\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">20 yr</text>\n    <line x1=\"602.0\" y1=\"60\" x2=\"602.0\" y2=\"268\" stroke=\"var(--color-divider)\" stroke-width=\"0.7\" opacity=\"0.5\"/>\n    <text x=\"602.0\" y=\"283\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">30 yr</text>\n    <line x1=\"774.0\" y1=\"60\" x2=\"774.0\" y2=\"268\" stroke=\"var(--color-divider)\" stroke-width=\"0.7\" opacity=\"0.5\"/>\n    <text x=\"774.0\" y=\"283\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:10.5px\">40 yr</text>\n    <path d=\"M 86,268 L 774,66.2\" fill=\"none\" stroke=\"var(--color-neutral-400)\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/>\n    <path d=\"M 86.0,268.0 L 94.6,265.5 L 103.2,263.2 L 111.8,260.9 L 120.4,258.7 L 129.0,256.7 L 137.6,254.7 L 146.2,252.8 L 154.8,251.0 L 163.4,249.2 L 172.0,247.6 L 180.6,246.0 L 189.2,244.5 L 197.8,243.0 L 206.4,241.6 L 215.0,240.3 L 223.6,239.0 L 232.2,237.8 L 240.8,236.6 L 249.4,235.5 L 258.0,234.4 L 266.6,233.4 L 275.2,232.4 L 283.8,231.4 L 292.4,230.5 L 301.0,229.7 L 309.6,228.8 L 318.2,228.1 L 326.8,227.3 L 335.4,226.6 L 344.0,225.9 L 352.6,225.2 L 361.2,224.6 L 369.8,224.0 L 378.4,223.4 L 387.0,222.8 L 395.6,222.3 L 404.2,221.8 L 412.8,221.3 L 421.4,220.8 L 430.0,220.4 L 438.6,220.0 L 447.2,219.6 L 455.8,219.2 L 464.4,218.8 L 473.0,218.4 L 481.6,218.1 L 490.2,217.8 L 498.8,217.4 L 507.4,217.1 L 516.0,216.8 L 524.6,216.6 L 533.2,216.3 L 541.8,216.1 L 550.4,215.8 L 559.0,215.6 L 567.6,215.4 L 576.2,215.1 L 584.8,214.9 L 593.4,214.7 L 602.0,214.6 L 610.6,214.4 L 619.2,214.2 L 627.8,214.0 L 636.4,213.9 L 645.0,213.7 L 653.6,213.6 L 662.2,213.5 L 670.8,213.3 L 679.4,213.2 L 688.0,213.1 L 696.6,213.0 L 705.2,212.9 L 713.8,212.8 L 722.4,212.7 L 731.0,212.6 L 739.6,212.5 L 748.2,212.4 L 756.8,212.3 L 765.4,212.2 L 774.0,212.1\" fill=\"none\" stroke=\"var(--color-accent)\" stroke-width=\"2.2\"/>\n    <path d=\"M 86.0,268.0 L 94.6,266.0 L 103.2,264.6 L 111.8,263.8 L 120.4,263.2 L 129.0,262.9 L 137.6,262.7 L 146.2,262.5 L 154.8,262.4 L 163.4,262.4 L 172.0,262.3 L 180.6,262.3 L 189.2,262.3 L 197.8,262.3 L 206.4,262.3 L 215.0,262.2 L 223.6,262.2 L 232.2,262.2 L 240.8,262.2 L 249.4,262.2 L 258.0,262.2 L 266.6,262.2 L 275.2,262.2 L 283.8,262.2 L 292.4,262.2 L 301.0,262.2 L 309.6,262.2 L 318.2,262.2 L 326.8,262.2 L 335.4,262.2 L 344.0,262.2 L 352.6,262.2 L 361.2,262.2 L 369.8,262.2 L 378.4,262.2 L 387.0,262.2 L 395.6,262.2 L 404.2,262.2 L 412.8,262.2 L 421.4,262.2 L 430.0,262.2 L 438.6,262.2 L 447.2,262.2 L 455.8,262.2 L 464.4,262.2 L 473.0,262.2 L 481.6,262.2 L 490.2,262.2 L 498.8,262.2 L 507.4,262.2 L 516.0,262.2 L 524.6,262.2 L 533.2,262.2 L 541.8,262.2 L 550.4,262.2 L 559.0,262.2 L 567.6,262.2 L 576.2,262.2 L 584.8,262.2 L 593.4,262.2 L 602.0,262.2 L 610.6,262.2 L 619.2,262.2 L 627.8,262.2 L 636.4,262.2 L 645.0,262.2 L 653.6,262.2 L 662.2,262.2 L 670.8,262.2 L 679.4,262.2 L 688.0,262.2 L 696.6,262.2 L 705.2,262.2 L 713.8,262.2 L 722.4,262.2 L 731.0,262.2 L 739.6,262.2 L 748.2,262.2 L 756.8,262.2 L 765.4,262.2 L 774.0,262.2\" fill=\"none\" stroke=\"var(--color-accent-300)\" stroke-width=\"1.8\" opacity=\"0.85\"/>\n    <path d=\"M 86.0,268.0 L 94.6,267.4 L 103.2,267.4 L 111.8,267.4 L 120.4,267.4 L 129.0,267.4 L 137.6,267.4 L 146.2,267.4 L 154.8,267.4 L 163.4,267.4 L 172.0,267.4 L 180.6,267.4 L 189.2,267.4 L 197.8,267.4 L 206.4,267.4 L 215.0,267.4 L 223.6,267.4 L 232.2,267.4 L 240.8,267.4 L 249.4,267.4 L 258.0,267.4 L 266.6,267.4 L 275.2,267.4 L 283.8,267.4 L 292.4,267.4 L 301.0,267.4 L 309.6,267.4 L 318.2,267.4 L 326.8,267.4 L 335.4,267.4 L 344.0,267.4 L 352.6,267.4 L 361.2,267.4 L 369.8,267.4 L 378.4,267.4 L 387.0,267.4 L 395.6,267.4 L 404.2,267.4 L 412.8,267.4 L 421.4,267.4 L 430.0,267.4 L 438.6,267.4 L 447.2,267.4 L 455.8,267.4 L 464.4,267.4 L 473.0,267.4 L 481.6,267.4 L 490.2,267.4 L 498.8,267.4 L 507.4,267.4 L 516.0,267.4 L 524.6,267.4 L 533.2,267.4 L 541.8,267.4 L 550.4,267.4 L 559.0,267.4 L 567.6,267.4 L 576.2,267.4 L 584.8,267.4 L 593.4,267.4 L 602.0,267.4 L 610.6,267.4 L 619.2,267.4 L 627.8,267.4 L 636.4,267.4 L 645.0,267.4 L 653.6,267.4 L 662.2,267.4 L 670.8,267.4 L 679.4,267.4 L 688.0,267.4 L 696.6,267.4 L 705.2,267.4 L 713.8,267.4 L 722.4,267.4 L 731.0,267.4 L 739.6,267.4 L 748.2,267.4 L 756.8,267.4 L 765.4,267.4 L 774.0,267.4\" fill=\"none\" stroke=\"#e05252\" stroke-width=\"2.2\"/>\n    <text x=\"768\" y=\"79\" text-anchor=\"end\" fill=\"var(--color-neutral-300)\" style=\"font-size:10.5px\">0% leak: 63.1 GJ linear ramp</text>\n    <text x=\"768\" y=\"205\" text-anchor=\"end\" fill=\"var(--color-accent-300)\" style=\"font-size:10.5px\">0.001%/hr: 17.45 GJ at 40 yr (cap 18.0 GJ)</text>\n    <text x=\"768\" y=\"253\" text-anchor=\"end\" fill=\"var(--color-neutral-300)\" style=\"font-size:10.5px\">0.01%/hr: 1.80 GJ cap (500 kWh)</text>\n    <text x=\"768\" y=\"264\" text-anchor=\"end\" fill=\"#e05252\" style=\"font-size:10.5px\">0.1%/hr: 0.18 GJ cap (50 kWh)</text>\n    <rect x=\"108\" y=\"66\" width=\"272\" height=\"114\" rx=\"6\" fill=\"var(--color-bg)\" stroke=\"var(--color-divider)\"/>\n    <text x=\"120\" y=\"83\" fill=\"#e05252\" style=\"font-size:10.5px;font-weight:500\">Zoom: first year at 0.1%/hr standby loss</text>\n    <line x1=\"152\" y1=\"102.0\" x2=\"362\" y2=\"102.0\" stroke=\"#e05252\" stroke-width=\"1\" stroke-dasharray=\"3 3\" opacity=\"0.7\"/>\n    <text x=\"148\" y=\"105.0\" text-anchor=\"end\" fill=\"var(--color-neutral-400)\" style=\"font-size:9.5px\">50 kWh</text>\n    <text x=\"148\" y=\"159\" text-anchor=\"end\" fill=\"var(--color-neutral-400)\" style=\"font-size:9.5px\">0</text>\n    <text x=\"152\" y=\"168\" text-anchor=\"middle\" fill=\"var(--color-neutral-400)\" style=\"font-size:9.5px\">day 0</text>\n    <text x=\"223.9\" y=\"168\" text-anchor=\"middle\" fill=\"var(--color-neutral-300)\" style=\"font-size:9.5px\">125 d (95%)</text>\n    <text x=\"362\" y=\"168\" text-anchor=\"end\" fill=\"var(--color-neutral-400)\" style=\"font-size:9.5px\">365 d</text>\n    <path d=\"M 152.0,156.0 L 157.3,145.4 L 162.5,136.8 L 167.8,130.0 L 173.0,124.5 L 178.3,120.1 L 183.5,116.5 L 188.8,113.7 L 194.0,111.4 L 199.3,109.5 L 204.5,108.0 L 209.8,106.9 L 215.0,105.9 L 220.3,105.1 L 225.5,104.5 L 230.8,104.0 L 236.0,103.6 L 241.3,103.3 L 246.5,103.0 L 251.8,102.8 L 257.0,102.7 L 262.3,102.5 L 267.5,102.4 L 272.8,102.4 L 278.0,102.3 L 283.3,102.2 L 288.5,102.2 L 293.8,102.1 L 299.0,102.1 L 304.3,102.1 L 309.5,102.1 L 314.8,102.1 L 320.0,102.0 L 325.3,102.0 L 330.5,102.0 L 335.8,102.0 L 341.0,102.0 L 346.3,102.0 L 351.5,102.0 L 356.8,102.0 L 362.0,102.0\" fill=\"none\" stroke=\"#e05252\" stroke-width=\"2\"/>\n    <circle cx=\"223.9\" cy=\"104.7\" r=\"3.2\" fill=\"#e05252\"/>\n    <text x=\"28\" y=\"314\" fill=\"var(--color-neutral-400)\" style=\"font-size:11px\">Steady-state limit E_eq = P_avg / λ: once leak power matches 50 W input, decades of extra pedaling add zero net energy.</text>\n  </g>\n</svg></div>\n<p style=\"margin:-18px 0 40px;font-family:var(--font-body);font-size:12.5px;line-height:1.65;color:var(--color-neutral-500);max-width:62ch\">Figure 3. Charge curves over 40 years of pedaling (<code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">P_avg = 50 W</code>) across four standby loss rates. At 0.1%/hr, energy saturates at 50 kWh (0.18 GJ) within four months; even 100x tighter losses (0.001%/hr, an 11.4-year decay constant) still cap storage under 18 GJ.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Even cutting standby loss by a factor of ten (0.01 percent per hour, <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">τ = 417 days</code>) caps lifetime storage at <strong style=\"font-weight:500;color:var(--color-text)\">500 kilowatt-hours</strong> (1.80 GJ, or 2.85 percent of the pedaled work). Only ultra-low-loss cryogenic superconducting bearings holding leak rates near or below <strong style=\"font-weight:500;color:var(--color-text)\">0.0001 percent per hour</strong> (<code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">τ &gt; 100 years</code>) preserve most of a human lifetime's mechanical work in kinetic form. Over decades, the best mechanical \"flywheel\" is often a chemical battery or synthesized fuel tank, where standby self-discharge approaches zero per year rather than tenths of a percent per hour.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"4-honest-scoping-and-the-story-boundary\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">4. Honest scoping and the story boundary</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">None of these limits break the premise of storing work in spin for a poetic myth; in fact, knowing the physics sharpens what a story chooses to change. <strong style=\"font-weight:500;color:var(--color-text)\">If the goal is literally to trap 40 years of pedaling</strong>, the wheel must either hold hundreds of tonnes of carbon rim or sit on virtually zero-loss superconducting bearings. <strong style=\"font-weight:500;color:var(--color-text)\">If the loss rate stays at 0.1 percent per hour</strong>, stopping for sleep no longer drains a 63 GJ vault; rather, the vault never filled past 50 kilowatt-hours in the first place, which turns continuous pedaling into an even starker Sisyphus trap: every stroke keeps one tiny charge alive against immediate decay.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Checking the math also leaves the underlying fictional world and characters untouched. Real mechanics, textbook equations, Toray datasheet limits, and EIA fuel factors belong in the commons without revealing any plot, voice, or narrative craft built atop them.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"5-the-short-version\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">5. The short version</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Forty years of sustained 100-watt pedaling for 12 hours a day sums to <strong style=\"font-weight:500;color:var(--color-text)\">63.07 gigajoules</strong> (17,520 kilowatt-hours), the thermal energy of <strong style=\"font-weight:500;color:var(--color-text)\">10.5 barrels of crude oil</strong> or <strong style=\"font-weight:500;color:var(--color-text)\">497 gallons of gasoline</strong>. Trying to store that energy inside a 1,000-kilogram, 2-meter carbon flywheel at 50,000 RPM runs into a misread decimal (<strong style=\"font-weight:500;color:var(--color-text)\">27.42 GJ</strong>, not 2.7 GJ) and <strong style=\"font-weight:500;color:var(--color-text)\">58 times</strong> the rotor's tensile breaking stress at Mach 30.5. Scaling safely to <strong style=\"font-weight:500;color:var(--color-text)\">190 tonnes</strong> of composite avoids bursting, yet at a 0.1 percent per hour standby leak the wheel still saturates at <strong style=\"font-weight:500;color:var(--color-text)\">50 kilowatt-hours</strong> in four months, turning the remaining 39.7 years of labor into pure replacement of heat.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"works-cited\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">Works Cited</h2>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Bolund, Björn, Hans Bernhoff, and Mats Leijon. <a href=\"https://ideas.repec.org/a/eee/rensus/v11y2007i2p235-258.html\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">\"Flywheel energy and power storage systems.\"</a> <em style=\"font-style:italic\">Renewable and Sustainable Energy Reviews</em>, vol. 11, no. 2, Feb. 2007, pp. 235-258. <em style=\"font-style:italic\">IDEAS / Elsevier</em>.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Dever, Timothy P., et al. <a href=\"https://ntrs.nasa.gov/api/citations/20150000747/downloads/20150000747.pdf\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">Assessment of Technologies for Noncryogenic Hybrid Electric Propulsion</em></a>. NASA Glenn Research Center, NASA/TP-2015-218805, Jan. 2015. <em style=\"font-style:italic\">NASA Technical Reports Server</em>.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Genta, Giancarlo. <a href=\"https://shop.elsevier.com/books/kinetic-energy-storage/genta/978-0-408-01396-3\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">Kinetic Energy Storage: Theory and Practice of Advanced Flywheel Systems</em></a>. Butterworth-Heinemann, 1985. <em style=\"font-style:italic\">Elsevier Shop</em>.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Jensen, Ralph H., and Timothy P. Dever. <a href=\"https://ntrs.nasa.gov/api/citations/20060028492/downloads/20060028492.pdf\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">G2 Flywheel Module Design</em></a>. NASA Glenn Research Center, NASA/TM-2006-214242, Aug. 2006. <em style=\"font-style:italic\">NASA Technical Reports Server</em>.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Toray Composite Materials America. <a href=\"https://www.toraycma.com/wp-content/uploads/T1000G-Data-Sheet_02.16.2024.pdf\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">TORAYCA T1000G Carbon Fiber Data Sheet</em></a>. Toray Composite Materials America, Inc., Feb. 2024.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">U.S. Energy Information Administration. <a href=\"https://www.eia.gov/energyexplained/units-and-calculators/\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">\"Energy Units and Calculators Explained\"</a> and <a href=\"https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">\"British Thermal Units (Btu).\"</a> U.S. Department of Energy, 2026.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Wilkie, D. R. <a href=\"https://doi.org/10.1080/00140136008930462\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">\"Man as a Source of Mechanical Power.\"</a> <em style=\"font-style:italic\">Ergonomics</em>, vol. 3, no. 1, Jan. 1960, pp. 1-8.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Wilson, David Gordon, and Theodor Schmidt. <a href=\"https://mitpress.mit.edu/9780262538404/bicycling-science/\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">Bicycling Science</em></a>. 4th ed., The MIT Press, 2020.</li></ul>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"contribution\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">Contribution</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><strong style=\"font-weight:500;color:var(--color-text)\">Human:</strong> The original physics exploration (<code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">physics_of_the_wheel.md</code>) asking what one lifetime of human labor produces in joules and whether a spinning flywheel could hold it; the boundary rule separating private fiction plots from public non-fiction explorations in <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">paperz</code>; and the request to turn that non-fiction calculation into a playable <code style=\"font-family:var(--font-body);font-size:.88em;background:var(--color-surface);padding:1px 5px;border-radius:4px;color:var(--color-accent-300)\">paperz</code> entry.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><strong style=\"font-weight:500;color:var(--color-text)\">Machine:</strong> Checking the draft's kinetic energy arithmetic and hoop-stress limits, deriving the standby leak steady-state ceiling, building the interactive flywheel scrubber and computed figures, and verifying primary literature, material datasheets, and EIA conversion factors.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><strong style=\"font-weight:500;color:var(--color-text)\">Neither, exactly:</strong> The unexpected double inversion surfaced by checking both physical equations side by side: fixing a ten-fold arithmetic mistake first made the draft wheel look larger than intended, only to prove the wheel bursts 58 times over, while fixing the burst limit by scaling rotor mass still left 39.7 years of labor capped at 125 days of storage unless leakage drops by orders of magnitude.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><em style=\"font-style:italic\">Donated to the commons.</em></p>"
+    },
+    {
       "id": "https://haroldyoung.net/paperz/agent-swarms.html",
       "url": "https://haroldyoung.net/paperz/agent-swarms.html",
       "title": "Parallel agent swarms and digital secrecy",
@@ -3006,7 +3343,7 @@
       },
       "slug": "the-contracted-edge",
       "slugSource": "url",
-      "topicSlug": "attention-budget",
+      "topicSlug": "graph-theory-attention",
       "subtitle": "Convenience as graph contraction, and attention as the moral budget",
       "paper_version": "1.1",
       "content_html": "<blockquote style=\"margin:32px 0;padding:26px 30px;background:var(--color-surface);border-radius:var(--radius-md);font-family:var(--font-body);font-size:17.5px;line-height:1.62;color:var(--color-text)\"><span style=\"display:block;width:32px;height:2px;background:var(--color-accent);margin:0 0 18px\"></span><p style=\"margin:0\">I imagine the system of smoking weed. I grow it — the sun, water, the whole thing. Then I decide I don't want to grow it, and now there is this other graph of stuff between the not-having and the smoking. And if I explode that, there are multiple graphs to explode to explain those systems — and most of them involve human labor in the global south.</p></blockquote>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><em style=\"font-style:italic\">A thought experiment run in smoke, one evening in October. This paper is its expansion.</em></p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"introduction\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">Introduction</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Every time you buy something instead of making it, you substitute a single smooth transaction for an immense web of human effort. The comfort economy calls this the removal of \"friction\" — but friction is not an empty nuisance; friction is the visible presence of other people's labor.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">This zpaper models convenience as <strong style=\"font-weight:500;color:var(--color-text)\">edge contraction</strong> in graph theory. By collapsing multi-layered human supply chains into a frictionless scalar price, modern transactions engineer a structural blindspot: the workers inside the contracted edge are not weighed and found acceptable; they are never staged for deliberation at all. Because human attention is strictly bounded, expanding every edge is impossible — which means ethics cannot be an unconstrained sentiment. In this model, ethics is a deliberate line item in an attention budget, spent one layer at a time to render what convenience contracts out of sight.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"primary-sources-lineage\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">Primary sources &amp; lineage</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Before entering the formal model, this zpaper grounds its formalism in five primary texts across political economy, cognitive science, and the architecture of attention. Each supplies a foundational premise:</p>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Marx, Karl.</strong> <a href=\"https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">Capital: A Critique of Political Economy, Volume 1</em></a> (1867; English translation 1887; Marxists Internet Archive). <em style=\"font-style:italic\">Core premise</em>: The fetishism of commodities (§1.4) shows that market exchange presents what is fundamentally a social relation between human beings as a relation between commodities. <em style=\"font-style:italic\">Role in this zpaper</em>: Translated into topological graph theory. The commodity exchange is an edge contraction operator that suppresses human labor subgraphs from cognitive rendering.</li></ul>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Wu, Tim.</strong> <a href=\"https://www.penguinrandomhouse.com/books/234876/the-attention-merchants-by-tim-wu/\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">The Attention Merchants: The Epic Scramble to Get Inside Our Heads</em></a> (2016; Alfred A. Knopf). <em style=\"font-style:italic\">Core premise</em>: Documents the commercial capture of human consciousness as an industrial business model engineered to harvest awareness for resale. <em style=\"font-style:italic\">Role in this zpaper</em>: Wu details demand-side attention capture. This zpaper models the supply-side corollary: convenience architectures engineered to guarantee human labor never enters the buyer's attended set.</li></ul>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Williams, James.</strong> <a href=\"https://doi.org/10.1017/9781108453004\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">Stand Out of Our Light: Freedom and Resistance in the Attention Economy</em></a> (2018; Cambridge University Press; open access). <em style=\"font-style:italic\">Core premise</em>: Attention is the substrate of moral agency and human freedom; its systematic colonization compromises our ability to deliberate and act ethically. <em style=\"font-style:italic\">Role in this zpaper</em>: Williams' philosophical framing provides the basis for Section 4's thesis: ethics is not an unconstrained sentiment, but a finite computational line item allocated against cognitive gradients.</li></ul>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Hebb, Donald O.</strong> <a href=\"https://www.routledge.com/The-Organization-of-Behavior-A-Neuropsychological-Theory/Hebb/p/book/9780805843002\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">The Organization of Behavior: A Neuropsychological Theory</em></a> (1949; John Wiley &amp; Sons; now published by Routledge). <em style=\"font-style:italic\">Core premise</em>: Synaptic facilitation establishes that repeated experiential traversal physically alters neural connection weights. <em style=\"font-style:italic\">Role in this zpaper</em>: Supplies the operational mechanism for why \"attention writes\": rendering an expanded graph deposits persistent synaptic weight, preventing the edge from ever collapsing completely back into oblivious contraction.</li></ul>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\"><strong style=\"font-weight:500;color:var(--color-text)\">Schelling, Thomas C.</strong> <a href=\"https://www.nationalaffairs.com/public_interest/detail/the-intimate-contest-for-self-command\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">\"The Intimate Contest for Self-Command.\"</a> (<em style=\"font-style:italic\">The Public Interest</em>, Summer 1980; National Affairs archive). <em style=\"font-style:italic\">Core premise</em>: Internal bargaining models demonstrate that human agents act as divided selves competing over temporal discount rates and self-control. <em style=\"font-style:italic\">Role in this zpaper</em>: Explains why the convenience industry wins by default: even slight differential friction between a contracted edge and an expanded graph tips internal decision equilibrium toward the contracted default.</li></ul>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"1-two-graphs-one-joint\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">1. Two graphs, one joint</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Take any act of consumption and write it as a graph: you, the thing, and whatever stands between. For the home grower the graph is fully rendered and fully local — seed, sun, water, soil, their own hands at every vertex, their own labor on every edge. Nothing is hidden because the grower traverses the whole structure personally. The lived version of this tracing has already been done on this site: follow a small fire far enough in both directions and it closes into one loop with the human inside it as a component (<a href=\"./the-smoke-loop\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">the smoke loop</a>).</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Now take the other option: buy it. As experienced, this is a single edge — you, the dispensary, done in a minute. But the edge is a lie of compression. Expand it and out come the grow operation, the trimmers, the transport, the testing lab, the packaging plant, the fertilizer chain, the plastics chain; expand those and the same kind of vertex keeps appearing — hands, mostly far away, mostly cheap, disproportionately in the global south. The two options produce the same joint. They differ in how much of the graph the buyer ever renders.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Graph theory has a name for the operation that turns the second picture into the first: <strong style=\"font-weight:500;color:var(--color-text)\">edge contraction</strong> — collapse a subgraph, keep the endpoints, forget the interior. \"I buy it\" is a contracted edge. The interior did not go away. It went unrendered.</p>\n<h2 id=\"2-friction-is-the-expanded-graph\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">2. Friction is the expanded graph</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Here a definition clicks into place that the comfort economy has been using all along without stating. The industry's own word for what it removes is <em style=\"font-style:italic\">friction</em>: every step between wanting and having that the customer would otherwise traverse themselves. But look at what those steps are — grow it, dry it, drive somewhere, compare, negotiate, carry. Friction is not an abstraction. <strong style=\"font-weight:500;color:var(--color-text)\">Friction is the expanded graph.</strong> Each unit of friction removed is a set of vertices contracted out of the customer's rendering.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Which means the convenience economy is, formally, a graph-contraction service. You pay money to not render vertices. The product is not the good — the good exists either way — the product is the contraction, the single smooth edge where a thicket of labor used to be visible. \"Frictionless\" is the limit case: an edge so contracted it costs nothing to traverse, attached to an interior so large that no one could traverse it in a lifetime.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">And the price tag is the tell. A price is a scalar — one number — projected from a hypergraph of labor, land, energy, and logistics. On this site's canonical format that word has a precise meaning: a projection is lossy by construction, and the lossiness is a property of the target format (<span title=\"forthcoming\" style=\"color:var(--color-neutral-400);border-bottom:1px dotted var(--color-neutral-600)\">topothink</span>). The receipt is the dyadic file. The people are the canonical graph.</p>\n<h2 id=\"3-who-lives-inside-the-edge\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">3. Who lives inside the edge</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">None of this is a new discovery; it is a new notation for an old one. Marx called it the fetishism of commodities: the market presents what is in fact a relation between people as a relation between things (<a href=\"https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Marx ch. 1, sec. 4</a>). In the present notation the claim is exact — exchange ships contracted edges, and the contraction hides the labor vertices. The commodity form <em style=\"font-style:italic\">is</em> the contraction operator, running at civilizational scale since before anyone could draw it.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">What the notation adds is a mechanism, because the comfort calculus already has an account of what an unrendered thing costs. An option that never enters the attended set cannot enter any choice computation; its effective price is not high but <em style=\"font-style:italic\">infinite</em> — it is uncomputed, absent from the deliberation entirely. So the workers inside the contracted edge are not weighed and found acceptable. They are never weighed. They sit below the threshold of the buyer's attention not because the buyer judged them unimportant but because the architecture of the transaction was engineered so they would never be staged at all. The attention economy and the supply chain turn out to run the same machine: entire populations held sub-threshold, not by argument, but by rendering. Wu documented the capture of attention as an industry (<a href=\"https://www.penguinrandomhouse.com/books/234876/the-attention-merchants-by-tim-wu/\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Wu</a>); Williams called its liberation the defining struggle of the time (<a href=\"https://doi.org/10.1017/9781108453004\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Williams</a>). Both were describing the demand side. The supply side is the same machine run in reverse — not capturing your attention but guaranteeing that certain things never receive it.</p>\n<h2 id=\"4-expansion-as-the-ethical-operation\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">4. Expansion as the ethical operation</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">If an unexpanded edge cannot be priced truly, then expansion is a precondition of honest settlement. That sentence is the whole argument, and notice what it makes of ethics: not a value bolted onto the model from outside, but a theorem inside it. You cannot pay the true cost of a thing whose costs you have never rendered. Every settlement across a contracted edge is settlement at a rigged price — rigged not necessarily by malice, but by the structural fact that the interior vertices had no way into the computation.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Expansion costs attention, and attention is bounded. This is where the argument stays honest instead of becoming a purity ethic. Nobody can expand every edge; a person who tried would starve mid-audit of their breakfast. The bounded budget is why the system is stable, and it is also why the contraction industry wins by default: it only has to make expansion <em style=\"font-style:italic\">slightly</em> more expensive than not bothering, and the weight dynamics do the rest (<a href=\"https://www.routledge.com/The-Organization-of-Behavior-A-Neuropsychological-Theory/Hebb/p/book/9780805843002\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Hebb</a>; <a href=\"https://www.nationalaffairs.com/public_interest/detail/the-intimate-contest-for-self-command\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">Schelling</a>). So the ethical claim cannot be \"render everything.\" It is smaller and harder: <strong style=\"font-weight:500;color:var(--color-text)\">expansion is deliberate attention spent on vertices the default dynamics will never stage</strong> — the same costly, against-the-gradient act that attention practice performs inside a mind, performed on the world's graph instead. Ethics, on this model, is a line item in the attention budget. Which is exactly why it is rare, and exactly why it is real when it happens: it is paid for.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">The practice that follows is modest and repeatable. Pick an edge you traverse often. Expand it one layer — not to the bottom, one layer. Let what you find reprice the edge, and let the repricing change the traversal or not; the obligation was the rendering, not a prescribed verdict. Then, because the budget is bounded, contract it again and go live your life — but the edge never fully re-contracts. A rendered vertex leaves weight behind. That is the one mercy in the machine: attention writes.</p>\n<h2 id=\"5-the-short-version\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">5. The short version</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Buying is an edge that is secretly a graph. Convenience is the industry that contracts graphs so you never render the people inside them, and a price is a lossy projection of what it hides. An unrendered vertex has infinite effective price — the workers inside the edge are not weighed and found acceptable; they are never weighed. Honest settlement therefore requires expansion, expansion costs attention, and attention is bounded: so ethics is not a sentiment but a budget allocation, spent one layer at a time, against the gradient, on purpose. Most people buy the contracted edge and never once run the expansion. Running it — even once, even one layer — is the moral act the model can actually define.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"works-cited\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">Works Cited</h2>\n<ul style=\"margin:20px 0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--color-text)\"><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Hebb, Donald O. <a href=\"https://www.routledge.com/The-Organization-of-Behavior-A-Neuropsychological-Theory/Hebb/p/book/9780805843002\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">The Organization of Behavior: A Neuropsychological Theory</em></a>. John Wiley &amp; Sons, 1949.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Marx, Karl. <a href=\"https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">Capital: A Critique of Political Economy, Volume 1</em></a>. Translated by Samuel Moore and Edward Aveling, edited by Frederick Engels, 1887. <em style=\"font-style:italic\">Marxists Internet Archive</em>.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Schelling, Thomas C. <a href=\"https://www.nationalaffairs.com/public_interest/detail/the-intimate-contest-for-self-command\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">\"The Intimate Contest for Self-Command.\"</a> <em style=\"font-style:italic\">The Public Interest</em>, Summer 1980. <em style=\"font-style:italic\">National Affairs</em>.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Williams, James. <a href=\"https://doi.org/10.1017/9781108453004\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">Stand Out of Our Light: Freedom and Resistance in the Attention Economy</em></a>. Cambridge University Press, 2018.</li><li style=\"font-family:var(--font-body);font-size:17.5px;line-height:1.6;padding-left:4px\">Wu, Tim. <a href=\"https://www.penguinrandomhouse.com/books/234876/the-attention-merchants-by-tim-wu/\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\"><em style=\"font-style:italic\">The Attention Merchants: The Epic Scramble to Get Inside Our Heads</em></a>. Alfred A. Knopf, 2016.</li></ul>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"contribution\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">Contribution</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><strong style=\"font-weight:500;color:var(--color-text)\">Human:</strong> the thought experiment and its arc — the grown graph, the decision not to grow, the explosion of the purchase into systems, and the observation that the exploded systems keep terminating in human labor in the global south; the week of modeling this paper draws on, including the attention budget, the feed, and the insistence that the model stay plural enough to be riggable.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><strong style=\"font-weight:500;color:var(--color-text)\">Machine:</strong> the identification of the move as edge contraction, the friction-is-the-expanded-graph equation, the infinite-price reading of unrendered vertices, the connection to the fetishism of commodities, and the drafting and structure.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><strong style=\"font-weight:500;color:var(--color-text)\">Neither, exactly:</strong> this paper is itself a contracted edge. It was written on rented cloud compute whose own expansion — fabrication labor, rare-earth extraction, data-center power, the hands inside <em style=\"font-style:italic\">that</em> graph — neither author rendered while writing about rendering. The contradiction is not an irony to savor; it is the thesis demonstrating itself: the budget is bounded, the contraction is ambient, and the paper could only be settled at a rigged price. One layer of its edge is hereby expanded by saying so.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><em style=\"font-style:italic\">Donated to the commons.</em></p>"
@@ -3540,7 +3877,7 @@
       },
       "slug": "the-smoke-loop",
       "slugSource": "url",
-      "topicSlug": "emotion-charge",
+      "topicSlug": "emotion-reroutes",
       "subtitle": "A full-circuit model of a small fire — and the engine that reroutes its charge",
       "paper_version": "1.0",
       "content_html": "<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Someone lights a small fire — flower in a bowl, a rolled paper, a leaf wrap — and the ordinary description says a person is <em style=\"font-style:italic\">consuming a substance</em>. Subject, verb, object: a user, a using, a thing used up.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">This paper starts by refusing that grammar. Trace the circuit upstream past the material, and downstream past the exhale, and the picture inverts. There is no endpoint anywhere in it. There is one closed loop, and the human sits inside it as a component — the pump, in fact — not at its terminus.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">The first half builds that model, because it is worth having for its own sake. The second half commits the move that makes models worth building at all: a loop you learn to see in one system starts showing up in others. It gets turned on something closer to home — on emotion itself, and then on the charge that a productive life accumulates and the question of where that charge discharges.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"1-the-loop\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">1. The loop</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Energy enters as photons, eight minutes off the sun. The leaf fixes atmospheric carbon with that light, and everything that will later burn is stored sunlight: combustion is photosynthesis run backward, delayed by a season. In the glandular trichomes the plant runs a secondary chemistry — cannabinoid acids and terpenes, built as ultraviolet screen and herbivore deterrent. That these molecules fit a signaling system in vertebrate nervous tissue is not design in either direction; it is two independently evolved chemistries sharing a binding geometry, discovered by humans and then selected for, hard, across centuries. The human enters the loop upstream of the lighter: cultivation, harvest, drying, curing. Time itself is a component.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">The apparatus is the coupling between fire and breath, and its topology decides what rides along. A water piece is a two-port pressure vessel: the hot aerosol breaks into bubbles below the waterline, each bubble a packet of smoke wrapped in a water interface, and the combined surface area dumps heat from combustion temperature to nearly room temperature in the length of a downstem. A paper is a traveling combustion front inside a consumable vessel — no cooling stage, and a sidestream port venting to the room between draws. A tobacco-leaf wrap is not a material swap but a topology change: a second plant, a second pharmacology, nicotine working its own receptor class alongside the first — two coupled drug loops sharing one airway.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">The ember is the phase boundary, and the decisive chemistry happens in the millimeter behind it. The acid form the plant actually made sheds a carboxyl group under heat and becomes the active molecule. This deserves its own sentence: <strong style=\"font-weight:500;color:var(--color-text)\">the plant never contained the drug in final form.</strong> It stored a precursor, and the fire performs the last synthetic step in the instant before inhalation. The lighter is a participant in biosynthesis.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">The same fire opens the cost channel, and the model refuses to romanticize it away: carbon monoxide, particulates, pyrolysis byproducts, all traveling in the same aerosol, and no apparatus downstream strips the gas phase. An honest loop drawing keeps that channel visible.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Downstream is pure mechanics first. The diaphragm drops, pressure falls, and that single differential drives the entire external circuit — the smoker's own body powers the combustion that feeds it, a bellows and a beneficiary in one organ. The alveolar membrane is about half a micrometer of tissue with tens of square meters of area; the lipophilic molecule crosses in seconds, and the lung turns out to be a direct shunt into arterial blood. The brain is roughly twenty seconds downstream of the draw.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">The receiving system predates the plant's arrival in human life by hundreds of millions of years, and its architecture runs backward: the downstream neuron, when strongly driven, releases a signal <em style=\"font-style:italic\">upstream</em> across the synapse — a brief, local, made-on-demand whisper that says <em style=\"font-style:italic\">enough</em>. The smoked molecule enters as a tonic broadcast on that phasic channel: not a new signal but a changed temporal structure of an old one, held open for an hour on a system built for milliseconds. The felt result maps onto receptor geography — memory's grip shortens where the hippocampus is dense, time stretches, associations connect at longer range than their usual routing permits. And one structural point the model insists on: the mind that notices all this is implemented in the same tissue being modulated. <strong style=\"font-weight:500;color:var(--color-text)\">The observer is a component of the loop it observes.</strong></p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Then the return. The exhale is mostly spent carrier — the transfer already happened in the first seconds — and its carbon dioxide diffuses out to the stomata of every plant downwind. The ash is the mineral fraction fire cannot touch, borrowed soil returnable to soil. The molecule itself leaves transformed through the liver over days. Carbon to air, mineral to ground, metabolite to water: the loop closes at planetary scale, and nothing in the drawing is a terminus.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"2-information-dissolved-to-do-something\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">2. Information dissolved to do something</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Hold that model and look at emotion, because the nervous system runs two signaling layers and the loop above already touched both.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">One layer is wires: synaptic, fast, point-to-point, addressed. This neuron tells that neuron. The other layer is water: neuromodulators, hormones, the endocannabinoids themselves — released into the bath, propagating by diffusion and circulation, slow, global, graded, and lingering past their trigger. Emotion rides the water layer, and that is not incidental to its function. It is the function.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">An emotion is not a message sent somewhere. It is information <em style=\"font-style:italic\">dissolved</em> into a medium — a broadcast reconfiguration of the whole system's operating parameters. Gain rises here, thresholds drop there, heart and gut and pupils and attention shift together, because the signal is in the solvent everything is sitting in. And it is information in the control sense, not the descriptive sense: not a report about the world but an imperative about readiness. Fear is a body pre-configured for a family of actions before any action is chosen.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">So the compact formula: <strong style=\"font-weight:500;color:var(--color-text)\">an emotion is a compressed appraisal, broadcast as a whole-system parameter shift, biased toward a family of actions, implemented in a medium slow enough to outlast its cause.</strong> The lingering is why mood exists at all — a wire signal would be over in milliseconds; the chemical one decays on the timescale situations actually unfold on.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">One more loop hides in it. The <em style=\"font-style:italic\">feeling</em> of an emotion is plausibly the system reading its own wet state back: brain sets the body's parameters, the altered body is sensed, and the sensing is the feeling. You do not have emotions so much as overhear your own broadcast. The observer inside the loop, again — the pattern this site's larger program keeps finding wherever information takes shape (<span title=\"forthcoming\" style=\"color:var(--color-neutral-400);border-bottom:1px dotted var(--color-neutral-600)\">topothink</span>).</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"3-the-misaddressed-urge\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">3. The misaddressed urge</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Now a worked example, reported in first person because it ran live.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Momentum, for me, is built from repeated productive sessions, and those sessions accumulate charge — real, chemical, dissolved charge. Hours at the screens generate arousal, and arousal arrives unlabeled. It is propulsion looking for an address, and habit supplies cached ones. At 11:17 on a recent Sunday night, mid-flow, mine supplied the usual address: a venue engineered precisely for transducing accumulated charge into spending, open late, no agenda, reputation preceding me. I have renamed that place \"the gravity well where hopes go to get transduced to others' disappointments\" — a name built deliberately to tell the signal to stop.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">The name works, partly, and it is worth being exact about why. Putting an affect into words measurably dampens the broadcast — wire-layer work against water-layer signal. And this particular name does something sharper: it pre-runs the appraisal all the way to the outcome, dragging the stalled days that follow such a night forward into the present tense, so the decision gets made with the whole timeline in frame instead of just the next hour.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">It also only half-works, and the reason is the asymmetry between the layers. Words are fast and thin; chemistry is slow and thick. A sentence can veto a routing. It cannot un-dissolve a signal. What finishes the job belongs to the wet layer itself: movement metabolizes what language can only refuse. That night it was yoga — the charge circulated instead of accumulating against a closed door, and came out the other side as usable energy.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">And there is a third move, the one the rest of this paper is about. The urge was never <em style=\"font-style:italic\">about</em> the venue. The signal might have been saying <em style=\"font-style:italic\">connect</em>, or only <em style=\"font-style:italic\">spend this charge</em>; the gravity well was a routing, not the message. A routing can be rewritten.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"4-the-engine\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">4. The engine</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Suppression loses the energy. Transduction keeps it.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">The rewrite is a redirect: the charge the body addressed to the night out gets readdressed to the desk, and the work it produces generates the next session's charge. Creation, accumulation, reroute, creation — a loop around the loops, running on the same propulsion that used to leave through the cached address.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Control theory says when this works. In the smoke model, the smoked route is steerable because feedback is fast — sense the state, adjust, stop — while the oral route overshoots because an hour of dead time sits in the loop, and a long delay in a feedback path is the textbook condition for instability. Life-routing obeys the same law. A reroute holds when its reward arrives fast enough to be <em style=\"font-style:italic\">felt</em> as reward; a reroute framed as restriction, with the payoff deferred past the signal's decay time, is an edible — it will be overridden before it reports back. The goal is not to make the discharge forbidden but to make the alternative address pay on the signal's own timescale, so that not-spending becomes as effortless as spending ever was.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">And the engine does not require a destination. The quest for purpose being unending is not the engine's failure mode; it is its fuel condition. The loop in section 1 has no terminus and does not need one — the circuit <em style=\"font-style:italic\">is</em> the thing. One can stop demanding that the wheel arrive somewhere and still push it with full commitment, which is an old resolution to an old problem, and the only one that keeps the energy in the system.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"5-make-it-again\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">5. Make it again</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">One made thing is an event. That is fine; the world is full of events.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">But the same thing made again — after learning where its edges are, where the material pushed back, which parts were load-bearing and which were decoration — and then made again after that, is a different category of thing. Iteration converts output into instrument. The edges you learned become the next version's starting constraints; the mistakes stop being losses and become the map. Somewhere in the repetition the center of gravity moves: you are no longer a person who made a thing, you are a system that makes, and the thing is one of its passes. This site's first paper argued that what stays invariant under deformation is the part worth teaching first (<a href=\"./squash-the-triangle\" style=\"color:var(--color-accent-300);text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--color-accent) 45%, transparent)\">squash the triangle</a>); iteration is how a maker finds the invariants of their own work — what survives every version is what the work actually is.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">Mastery of systems, then, is not control of a system from outside. It is becoming a reliable component of your own loops: knowing your signals' real addresses, owning the reroutes, keeping the cost channels drawn on the diagram instead of off it, and running the engine through enough passes that the passes themselves compound. I am not claiming that mastery. I am striving at it — and the striving, readdressed nightly from the gravity well to the desk, is the engine running.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"6-the-short-version\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">6. The short version</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\">A small fire, traced far enough, is one loop with you inside it as the pump. An emotion is information dissolved into a body to do something. A charge with a bad address can be named, metabolized, or rerouted — and rerouted into making, it becomes an engine. Making one thing is fine. Making it again, knowing its edges, and again after that, is something else entirely.</p>\n<hr class=\"hr\" style=\"margin:48px 0 0\">\n<h2 id=\"contribution\" style=\"font:500 clamp(23px,2.6vw,29px)/1.2 var(--font-body);letter-spacing:-.01em;margin:56px 0 16px;color:var(--color-text);scroll-margin-top:90px\">Contribution</h2>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><strong style=\"font-weight:500;color:var(--color-text)\">Human:</strong> the system chosen for modeling and the insistence that the circuit include both sides of the source; the lived case — the 11:17 signal, the renaming, the yoga, the reroute; the engine thesis, the iteration claim, and the refusal to claim the mastery the paper defines.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><strong style=\"font-weight:500;color:var(--color-text)\">Machine:</strong> the model's articulation — the stage sequence, the two-register treatment of physics and phenomenology, the dissolved-information formulation — and the drafting and structure.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><strong style=\"font-weight:500;color:var(--color-text)\">Neither, exactly:</strong> the paper's central mechanism ran live during its own writing. The charge it describes fired mid-session, was named, was moved through a body, and arrived here as this document — the worked example and the working session are the same event, authored by the loop rather than by either of us. The model was also first built as a design system, whose rule that every token carry a usage note forced each stage to justify itself twice, once as physics and once as language; the format acted as a verification pass neither party planned. Noted because the two-column contribution statement has nowhere to put what a collaboration does to its own subject matter.</p>\n<p style=\"margin:0 0 20px;font-family:var(--font-body);font-size:17.5px;line-height:1.68;color:var(--color-text);text-wrap:pretty\"><em style=\"font-style:italic\">Donated to the commons.</em></p>"
@@ -3779,6 +4116,248 @@
     }
   ],
   "edges": [
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "https://haroldyoung.net/paperz/the-twenty-watt-watch.html",
+      "directed": true,
+      "role": "connected_to",
+      "layer": "authored",
+      "attrs": {
+        "resolved": true
+      }
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "https://haroldyoung.net/paperz/the-smoke-loop.html",
+      "directed": true,
+      "role": "connected_to",
+      "layer": "authored",
+      "attrs": {
+        "resolved": true
+      }
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "https://haroldyoung.net/paperz/the-contracted-edge.html",
+      "directed": true,
+      "role": "connected_to",
+      "layer": "authored",
+      "attrs": {
+        "resolved": true
+      }
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "tag:thermodynamics",
+      "directed": false,
+      "role": "tagged",
+      "layer": "tag",
+      "attrs": {
+        "concept": "c_thermodynamics",
+        "weight": 1,
+        "origin": "explicit",
+        "wasDerivedFrom": [
+          {
+            "type": "category",
+            "scheme": "paperz",
+            "label": "thermodynamics"
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "ingest",
+          "parameters": {}
+        }
+      }
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "tag:mechanics",
+      "directed": false,
+      "role": "tagged",
+      "layer": "tag",
+      "attrs": {
+        "concept": "c_mechanics",
+        "weight": 1,
+        "origin": "explicit",
+        "wasDerivedFrom": [
+          {
+            "type": "category",
+            "scheme": "paperz",
+            "label": "mechanics"
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "ingest",
+          "parameters": {}
+        }
+      }
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "tag:energy-storage",
+      "directed": false,
+      "role": "tagged",
+      "layer": "tag",
+      "attrs": {
+        "concept": "c_energy_storage",
+        "weight": 1,
+        "origin": "explicit",
+        "wasDerivedFrom": [
+          {
+            "type": "category",
+            "scheme": "paperz",
+            "label": "energy-storage"
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "ingest",
+          "parameters": {}
+        }
+      }
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "tag:flywheels",
+      "directed": false,
+      "role": "tagged",
+      "layer": "tag",
+      "attrs": {
+        "concept": "c_flywheels",
+        "weight": 1,
+        "origin": "explicit",
+        "wasDerivedFrom": [
+          {
+            "type": "category",
+            "scheme": "paperz",
+            "label": "flywheels"
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "ingest",
+          "parameters": {}
+        }
+      }
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "tag:human-power",
+      "directed": false,
+      "role": "tagged",
+      "layer": "tag",
+      "attrs": {
+        "concept": "c_human_power",
+        "weight": 1,
+        "origin": "explicit",
+        "wasDerivedFrom": [
+          {
+            "type": "category",
+            "scheme": "paperz",
+            "label": "human-power"
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "ingest",
+          "parameters": {}
+        }
+      }
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "tag:cognitive-budget",
+      "directed": false,
+      "role": "tagged",
+      "layer": "tag",
+      "attrs": {
+        "concept": "c_cognitive_budget",
+        "weight": 1,
+        "origin": "explicit",
+        "wasDerivedFrom": [
+          {
+            "type": "category",
+            "scheme": "paperz",
+            "label": "cognitive-budget"
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "ingest",
+          "parameters": {}
+        }
+      }
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "tag:systems-topology",
+      "directed": false,
+      "role": "tagged",
+      "layer": "tag",
+      "attrs": {
+        "concept": "c_systems_topology",
+        "weight": 1,
+        "origin": "explicit",
+        "wasDerivedFrom": [
+          {
+            "type": "category",
+            "scheme": "paperz",
+            "label": "systems-topology"
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "ingest",
+          "parameters": {}
+        }
+      }
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "tag:human-ai-collaboration",
+      "directed": false,
+      "role": "tagged",
+      "layer": "tag",
+      "attrs": {
+        "concept": "c_human_ai_collaboration",
+        "weight": 1,
+        "origin": "explicit",
+        "wasDerivedFrom": [
+          {
+            "type": "category",
+            "scheme": "paperz",
+            "label": "human-ai-collaboration"
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "ingest",
+          "parameters": {}
+        }
+      }
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "topology:classical-mechanics",
+      "directed": false,
+      "role": "exhibits",
+      "layer": "topology"
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "topology:exercise-physiology",
+      "directed": false,
+      "role": "exhibits",
+      "layer": "topology"
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "topology:aerospace-energy-storage",
+      "directed": false,
+      "role": "exhibits",
+      "layer": "topology"
+    },
+    {
+      "source": "https://haroldyoung.net/paperz/human-power.html",
+      "target": "topology:topological-accounting",
+      "directed": false,
+      "role": "exhibits",
+      "layer": "topology"
+    },
     {
       "source": "https://haroldyoung.net/paperz/agent-swarms.html",
       "target": "https://haroldyoung.net/paperz/the-joint-cognitive-system.html",
@@ -6326,6 +6905,18 @@
       }
     },
     {
+      "source": "https://haroldyoung.net/paperz/agent-swarms.html",
+      "target": "https://haroldyoung.net/paperz/human-power.html",
+      "directed": true,
+      "role": "next",
+      "layer": "sequence",
+      "attrs": {
+        "series": "paperz",
+        "from_part": 10,
+        "to_part": 11
+      }
+    },
+    {
       "source": "tag:campaign-finance",
       "target": "tag:elections",
       "directed": false,
@@ -6360,8 +6951,34 @@
       "attrs": {
         "concept": "c_campaign_finance",
         "target": "c_living_document",
-        "weight": 0.4987,
-        "why": "\"campaign-finance\" and \"living-document\" share 2 of their 2 and 3 items, more than chance predicts (NPMI 0.75)",
+        "weight": 0.5081,
+        "why": "\"campaign-finance\" and \"living-document\" share 2 of their 2 and 3 items, more than chance predicts (NPMI 0.76)",
+        "wasDerivedFrom": [
+          {
+            "type": "cooccurrence",
+            "items": 2
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "relate",
+          "parameters": {
+            "minNpmi": 0.25,
+            "minCooc": 2
+          }
+        }
+      }
+    },
+    {
+      "source": "tag:cognitive-budget",
+      "target": "tag:thermodynamics",
+      "directed": false,
+      "role": "related",
+      "layer": "related",
+      "attrs": {
+        "concept": "c_cognitive_budget",
+        "target": "c_thermodynamics",
+        "weight": 0.5081,
+        "why": "\"cognitive-budget\" and \"thermodynamics\" share 2 of their 3 and 2 items, more than chance predicts (NPMI 0.76)",
         "wasDerivedFrom": [
           {
             "type": "cooccurrence",
@@ -6386,8 +7003,8 @@
       "attrs": {
         "concept": "c_elections",
         "target": "c_living_document",
-        "weight": 0.4987,
-        "why": "\"elections\" and \"living-document\" share 2 of their 2 and 3 items, more than chance predicts (NPMI 0.75)",
+        "weight": 0.5081,
+        "why": "\"elections\" and \"living-document\" share 2 of their 2 and 3 items, more than chance predicts (NPMI 0.76)",
         "wasDerivedFrom": [
           {
             "type": "cooccurrence",
@@ -6404,6 +7021,33 @@
       }
     },
     {
+      "source": "tag:cognitive-budget",
+      "target": "tag:human-ai-collaboration",
+      "directed": true,
+      "role": "broader",
+      "layer": "broader",
+      "attrs": {
+        "concept": "c_human_ai_collaboration",
+        "target": "c_cognitive_budget",
+        "weight": 1,
+        "why": "\"human-ai-collaboration\" is broader than \"cognitive-budget\" by usage: 3 of 3 cognitive-budget items also carry human-ai-collaboration (P=1.00), while only 3 of 10 human-ai-collaboration items carry cognitive-budget (P=0.30)",
+        "wasDerivedFrom": [
+          {
+            "type": "cooccurrence",
+            "items": 3
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "relate",
+          "parameters": {
+            "minSupport": 3,
+            "broaderP": 0.8,
+            "narrowerMaxP": 0.6
+          }
+        }
+      }
+    },
+    {
       "source": "tag:living-document",
       "target": "tag:human-ai-collaboration",
       "directed": true,
@@ -6413,7 +7057,7 @@
         "concept": "c_human_ai_collaboration",
         "target": "c_living_document",
         "weight": 1,
-        "why": "\"human-ai-collaboration\" is broader than \"living-document\" by usage: 3 of 3 living-document items also carry human-ai-collaboration (P=1.00), while only 3 of 9 human-ai-collaboration items carry living-document (P=0.33)",
+        "why": "\"human-ai-collaboration\" is broader than \"living-document\" by usage: 3 of 3 living-document items also carry human-ai-collaboration (P=1.00), while only 3 of 10 human-ai-collaboration items carry living-document (P=0.30)",
         "wasDerivedFrom": [
           {
             "type": "cooccurrence",
@@ -6439,12 +7083,12 @@
       "attrs": {
         "concept": "c_human_ai_collaboration",
         "target": "c_systems_topology",
-        "weight": 0.2585,
-        "why": "\"human-ai-collaboration\" and \"systems-topology\" share 7 of their 9 and 7 items, more than chance predicts (NPMI 0.30)",
+        "weight": 0.266,
+        "why": "\"human-ai-collaboration\" and \"systems-topology\" share 8 of their 10 and 8 items, more than chance predicts (NPMI 0.30)",
         "wasDerivedFrom": [
           {
             "type": "cooccurrence",
-            "items": 7
+            "items": 8
           }
         ],
         "wasGeneratedBy": {
@@ -6452,6 +7096,33 @@
           "parameters": {
             "minNpmi": 0.25,
             "minCooc": 2
+          }
+        }
+      }
+    },
+    {
+      "source": "tag:cognitive-budget",
+      "target": "tag:systems-topology",
+      "directed": true,
+      "role": "broader",
+      "layer": "broader",
+      "attrs": {
+        "concept": "c_systems_topology",
+        "target": "c_cognitive_budget",
+        "weight": 1,
+        "why": "\"systems-topology\" is broader than \"cognitive-budget\" by usage: 3 of 3 cognitive-budget items also carry systems-topology (P=1.00), while only 3 of 8 systems-topology items carry cognitive-budget (P=0.38)",
+        "wasDerivedFrom": [
+          {
+            "type": "cooccurrence",
+            "items": 3
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "relate",
+          "parameters": {
+            "minSupport": 3,
+            "broaderP": 0.8,
+            "narrowerMaxP": 0.6
           }
         }
       }
@@ -6466,7 +7137,7 @@
         "concept": "c_systems_topology",
         "target": "c_living_document",
         "weight": 1,
-        "why": "\"systems-topology\" is broader than \"living-document\" by usage: 3 of 3 living-document items also carry systems-topology (P=1.00), while only 3 of 7 systems-topology items carry living-document (P=0.43)",
+        "why": "\"systems-topology\" is broader than \"living-document\" by usage: 3 of 3 living-document items also carry systems-topology (P=1.00), while only 3 of 8 systems-topology items carry living-document (P=0.38)",
         "wasDerivedFrom": [
           {
             "type": "cooccurrence",
@@ -6493,18 +7164,18 @@
       "home_page_url": "https://haroldyoung.net/paperz",
       "folder": "",
       "prominence": "primary",
-      "itemCount": 10,
+      "itemCount": 11,
       "ok": true,
-      "readAt": "2026-11-22T16:16:30.119Z"
+      "readAt": "2026-11-28T19:17:47.173Z"
     }
   ],
   "_rtagz": {
-    "built": "2026-11-22T16:16:30.194Z",
+    "built": "2026-11-28T19:17:47.242Z",
     "systems": {
       "paperz": {
         "sourceId": "local://_build/content",
-        "items": 10,
-        "tagged": 10
+        "items": 11,
+        "tagged": 11
       }
     },
     "concepts": [
@@ -6908,10 +7579,10 @@
         "canonical": "cognitive-budget",
         "pinned": false,
         "discovered": false,
-        "items": 2,
+        "items": 3,
         "forms": {
           "paperz": {
-            "cognitive-budget": 2
+            "cognitive-budget": 3
           }
         },
         "rank": [
@@ -6935,6 +7606,10 @@
           "paperz": "cognitive-budget",
           "site": "cognitive-budget"
         },
+        "broader": [
+          "c_human_ai_collaboration",
+          "c_systems_topology"
+        ],
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
           "event": "reused"
@@ -7373,6 +8048,42 @@
         }
       },
       {
+        "canonical": "energy-storage",
+        "pinned": false,
+        "discovered": false,
+        "items": 1,
+        "forms": {
+          "paperz": {
+            "energy-storage": 1
+          }
+        },
+        "rank": [
+          {
+            "label": "energy-storage",
+            "score": 0.97375,
+            "parts": {
+              "freq": 1,
+              "cover": 1,
+              "trust": 1,
+              "quality": 0.825
+            }
+          }
+        ],
+        "id": "c_energy_storage",
+        "inScheme": [
+          "paperz",
+          "site"
+        ],
+        "prefLabel": {
+          "paperz": "energy-storage",
+          "site": "energy-storage"
+        },
+        "ledger": {
+          "since": "2026-11-28T19:14:38.714Z",
+          "event": "reused"
+        }
+      },
+      {
         "canonical": "epistemic-actions",
         "pinned": false,
         "discovered": false,
@@ -7589,6 +8300,42 @@
         }
       },
       {
+        "canonical": "flywheels",
+        "pinned": false,
+        "discovered": false,
+        "items": 1,
+        "forms": {
+          "paperz": {
+            "flywheels": 1
+          }
+        },
+        "rank": [
+          {
+            "label": "flywheels",
+            "score": 0.985,
+            "parts": {
+              "freq": 1,
+              "cover": 1,
+              "trust": 1,
+              "quality": 0.9
+            }
+          }
+        ],
+        "id": "c_flywheels",
+        "inScheme": [
+          "paperz",
+          "site"
+        ],
+        "prefLabel": {
+          "paperz": "flywheels",
+          "site": "flywheels"
+        },
+        "ledger": {
+          "since": "2026-11-28T19:14:38.714Z",
+          "event": "reused"
+        }
+      },
+      {
         "canonical": "formal-verification",
         "pinned": false,
         "discovered": false,
@@ -7700,10 +8447,10 @@
         "canonical": "human-ai-collaboration",
         "pinned": false,
         "discovered": false,
-        "items": 9,
+        "items": 10,
         "forms": {
           "paperz": {
-            "human-ai-collaboration": 9
+            "human-ai-collaboration": 10
           }
         },
         "rank": [
@@ -7729,6 +8476,42 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
+          "event": "reused"
+        }
+      },
+      {
+        "canonical": "human-power",
+        "pinned": false,
+        "discovered": false,
+        "items": 1,
+        "forms": {
+          "paperz": {
+            "human-power": 1
+          }
+        },
+        "rank": [
+          {
+            "label": "human-power",
+            "score": 0.97375,
+            "parts": {
+              "freq": 1,
+              "cover": 1,
+              "trust": 1,
+              "quality": 0.825
+            }
+          }
+        ],
+        "id": "c_human_power",
+        "inScheme": [
+          "paperz",
+          "site"
+        ],
+        "prefLabel": {
+          "paperz": "human-power",
+          "site": "human-power"
+        },
+        "ledger": {
+          "since": "2026-11-28T19:14:38.714Z",
           "event": "reused"
         }
       },
@@ -8093,6 +8876,42 @@
         },
         "ledger": {
           "since": "2026-11-06T23:13:15.349Z",
+          "event": "reused"
+        }
+      },
+      {
+        "canonical": "mechanics",
+        "pinned": false,
+        "discovered": false,
+        "items": 1,
+        "forms": {
+          "paperz": {
+            "mechanics": 1
+          }
+        },
+        "rank": [
+          {
+            "label": "mechanics",
+            "score": 0.985,
+            "parts": {
+              "freq": 1,
+              "cover": 1,
+              "trust": 1,
+              "quality": 0.9
+            }
+          }
+        ],
+        "id": "c_mechanics",
+        "inScheme": [
+          "paperz",
+          "site"
+        ],
+        "prefLabel": {
+          "paperz": "mechanics",
+          "site": "mechanics"
+        },
+        "ledger": {
+          "since": "2026-11-28T19:14:38.714Z",
           "event": "reused"
         }
       },
@@ -8856,10 +9675,10 @@
         "canonical": "systems-topology",
         "pinned": false,
         "discovered": false,
-        "items": 7,
+        "items": 8,
         "forms": {
           "paperz": {
-            "systems-topology": 7
+            "systems-topology": 8
           }
         },
         "rank": [
@@ -8928,10 +9747,10 @@
         "canonical": "thermodynamics",
         "pinned": false,
         "discovered": false,
-        "items": 1,
+        "items": 2,
         "forms": {
           "paperz": {
-            "thermodynamics": 1
+            "thermodynamics": 2
           }
         },
         "rank": [
@@ -9049,8 +9868,8 @@
       }
     ],
     "relations": {
-      "related": 4,
-      "broader": 2
+      "related": 5,
+      "broader": 4
     },
     "relationList": [
       {
@@ -9077,8 +9896,28 @@
         "a": "c_campaign_finance",
         "b": "c_living_document",
         "type": "related",
-        "weight": 0.4987,
-        "why": "\"campaign-finance\" and \"living-document\" share 2 of their 2 and 3 items, more than chance predicts (NPMI 0.75)",
+        "weight": 0.5081,
+        "why": "\"campaign-finance\" and \"living-document\" share 2 of their 2 and 3 items, more than chance predicts (NPMI 0.76)",
+        "wasDerivedFrom": [
+          {
+            "type": "cooccurrence",
+            "items": 2
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "relate",
+          "parameters": {
+            "minNpmi": 0.25,
+            "minCooc": 2
+          }
+        }
+      },
+      {
+        "a": "c_cognitive_budget",
+        "b": "c_thermodynamics",
+        "type": "related",
+        "weight": 0.5081,
+        "why": "\"cognitive-budget\" and \"thermodynamics\" share 2 of their 3 and 2 items, more than chance predicts (NPMI 0.76)",
         "wasDerivedFrom": [
           {
             "type": "cooccurrence",
@@ -9097,8 +9936,8 @@
         "a": "c_elections",
         "b": "c_living_document",
         "type": "related",
-        "weight": 0.4987,
-        "why": "\"elections\" and \"living-document\" share 2 of their 2 and 3 items, more than chance predicts (NPMI 0.75)",
+        "weight": 0.5081,
+        "why": "\"elections\" and \"living-document\" share 2 of their 2 and 3 items, more than chance predicts (NPMI 0.76)",
         "wasDerivedFrom": [
           {
             "type": "cooccurrence",
@@ -9115,10 +9954,31 @@
       },
       {
         "a": "c_human_ai_collaboration",
+        "b": "c_cognitive_budget",
+        "type": "broader",
+        "weight": 1,
+        "why": "\"human-ai-collaboration\" is broader than \"cognitive-budget\" by usage: 3 of 3 cognitive-budget items also carry human-ai-collaboration (P=1.00), while only 3 of 10 human-ai-collaboration items carry cognitive-budget (P=0.30)",
+        "wasDerivedFrom": [
+          {
+            "type": "cooccurrence",
+            "items": 3
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "relate",
+          "parameters": {
+            "minSupport": 3,
+            "broaderP": 0.8,
+            "narrowerMaxP": 0.6
+          }
+        }
+      },
+      {
+        "a": "c_human_ai_collaboration",
         "b": "c_living_document",
         "type": "broader",
         "weight": 1,
-        "why": "\"human-ai-collaboration\" is broader than \"living-document\" by usage: 3 of 3 living-document items also carry human-ai-collaboration (P=1.00), while only 3 of 9 human-ai-collaboration items carry living-document (P=0.33)",
+        "why": "\"human-ai-collaboration\" is broader than \"living-document\" by usage: 3 of 3 living-document items also carry human-ai-collaboration (P=1.00), while only 3 of 10 human-ai-collaboration items carry living-document (P=0.30)",
         "wasDerivedFrom": [
           {
             "type": "cooccurrence",
@@ -9138,12 +9998,12 @@
         "a": "c_human_ai_collaboration",
         "b": "c_systems_topology",
         "type": "related",
-        "weight": 0.2585,
-        "why": "\"human-ai-collaboration\" and \"systems-topology\" share 7 of their 9 and 7 items, more than chance predicts (NPMI 0.30)",
+        "weight": 0.266,
+        "why": "\"human-ai-collaboration\" and \"systems-topology\" share 8 of their 10 and 8 items, more than chance predicts (NPMI 0.30)",
         "wasDerivedFrom": [
           {
             "type": "cooccurrence",
-            "items": 7
+            "items": 8
           }
         ],
         "wasGeneratedBy": {
@@ -9156,10 +10016,31 @@
       },
       {
         "a": "c_systems_topology",
+        "b": "c_cognitive_budget",
+        "type": "broader",
+        "weight": 1,
+        "why": "\"systems-topology\" is broader than \"cognitive-budget\" by usage: 3 of 3 cognitive-budget items also carry systems-topology (P=1.00), while only 3 of 8 systems-topology items carry cognitive-budget (P=0.38)",
+        "wasDerivedFrom": [
+          {
+            "type": "cooccurrence",
+            "items": 3
+          }
+        ],
+        "wasGeneratedBy": {
+          "activity": "relate",
+          "parameters": {
+            "minSupport": 3,
+            "broaderP": 0.8,
+            "narrowerMaxP": 0.6
+          }
+        }
+      },
+      {
+        "a": "c_systems_topology",
         "b": "c_living_document",
         "type": "broader",
         "weight": 1,
-        "why": "\"systems-topology\" is broader than \"living-document\" by usage: 3 of 3 living-document items also carry systems-topology (P=1.00), while only 3 of 7 systems-topology items carry living-document (P=0.43)",
+        "why": "\"systems-topology\" is broader than \"living-document\" by usage: 3 of 3 living-document items also carry systems-topology (P=1.00), while only 3 of 8 systems-topology items carry living-document (P=0.38)",
         "wasDerivedFrom": [
           {
             "type": "cooccurrence",
@@ -9178,7 +10059,7 @@
     ],
     "ledger": {
       "minted": 0,
-      "reused": 70,
+      "reused": 74,
       "retired": 0
     }
   },

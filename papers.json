@@ -7,6 +7,24 @@
   },
   "papers": [
     {
+      "slug": "human-power",
+      "title": "Human power and flywheels",
+      "subtitle": "How much energy one body produces in a lifetime, and why a spinning wheel breaks or leaks before it can hold it",
+      "date": "2026-11-28",
+      "version": "1.0",
+      "tags": [
+        "thermodynamics",
+        "mechanics",
+        "energy-storage",
+        "flywheels",
+        "human-power",
+        "cognitive-budget",
+        "systems-topology",
+        "human-ai-collaboration"
+      ],
+      "summary": "Pedaling at 100 watts for 12 hours a day over 40 years produces 63.07 gigajoules (17,520 kWh), roughly equal to 10.5 barrels of crude oil or 497 gallons of gasoline. Storing all of that work inside a spinning flywheel runs into two hard constraints: centrifugal hoop stress depends strictly on material specific strength (which shatters a 1,000 kg, 2 m carbon wheel spun to 50,000 RPM at 58 times its tensile limit), and even a 0.1 percent per hour standby leak caps the steady-state charge at 50 kilowatt-hours within four months."
+    },
+    {
       "slug": "agent-swarms",
       "title": "Parallel agent swarms and digital secrecy",
       "subtitle": "Fourteen minutes to daylight: asymmetric escalation, formal verification, and care-coupled tool design",
